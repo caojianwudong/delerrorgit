@@ -1,0 +1,2379 @@
+// Created by Microsoft (R) C/C++ Compiler Version 12.00.9782.0 (42177579).
+//
+// EDBForEMP.tlh
+//
+// C++ source equivalent of Win32 type library ../../bin/release/EDBForEMP.dll
+// compiler-generated file created 02/25/17 at 10:04:34 - DO NOT EDIT!
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("50a97008-c2ea-4c25-a7ec-7b1e5d3135d3"))
+/* interface */ ISQLConnector;
+struct __declspec(uuid("50a97007-c2ea-4c25-a7ec-7b1e5d3135d3"))
+/* interface */ ISQLRecordset;
+struct __declspec(uuid("50a97005-c2ea-4c25-a7ec-7b1e5d3135d3"))
+/* interface */ ISQLCollection;
+struct __declspec(uuid("50a97004-c2ea-4c25-a7ec-7b1e5d3135d3"))
+/* interface */ ISQLHeaderset;
+struct __declspec(uuid("50a97003-c2ea-4c25-a7ec-7b1e5d3135d3"))
+/* interface */ ISQLHeader;
+struct __declspec(uuid("50a97006-c2ea-4c25-a7ec-7b1e5d3135d3"))
+/* interface */ ISQLTable;
+struct __declspec(uuid("50a97002-c2ea-4c25-a7ec-7b1e5d3135d3"))
+/* interface */ ISQLTransact;
+struct __declspec(uuid("50a97009-c2ea-4c25-a7ec-7b1e5d3135d3"))
+/* interface */ ISQLCommand;
+struct __declspec(uuid("27030006-d0b9-447f-bdbc-36c6c9603d7d"))
+/* interface */ IDataset;
+struct __declspec(uuid("27030005-d0b9-447f-bdbc-36c6c9603d7d"))
+/* interface */ IRecordset;
+struct __declspec(uuid("27030004-d0b9-447f-bdbc-36c6c9603d7d"))
+/* interface */ IRecord;
+struct __declspec(uuid("27030003-d0b9-447f-bdbc-36c6c9603d7d"))
+/* interface */ IRecordHeader;
+struct __declspec(uuid("27030001-d0b9-447f-bdbc-36c6c9603d7d"))
+/* interface */ ISTRComparison;
+struct __declspec(uuid("27030002-d0b9-447f-bdbc-36c6c9603d7d"))
+/* interface */ IRecordField;
+struct __declspec(uuid("471c0001-19e9-454f-95df-c68613bbfaaf"))
+/* interface */ IEMPRewriter;
+struct __declspec(uuid("5dbbb002-5d7e-4c3e-9337-ce7b11f667ae"))
+/* interface */ IUIDManger;
+struct __declspec(uuid("5dbbb001-5d7e-4c3e-9337-ce7b11f667ae"))
+/* interface */ IUIDLayer;
+struct IUIDREF;
+struct __declspec(uuid("5dbbb009-5d7e-4c3e-9337-ce7b11f667ae"))
+/* interface */ IEMPManager;
+struct __declspec(uuid("5dbbb007-5d7e-4c3e-9337-ce7b11f667ae"))
+/* interface */ IEMPNotify;
+struct __declspec(uuid("5dbbb006-5d7e-4c3e-9337-ce7b11f667ae"))
+/* interface */ IEMPLayer;
+struct IEMPRegion;
+struct __declspec(uuid("b97d1007-7f5d-498b-a3cc-d5e15ba4c232"))
+/* interface */ IStyleCollection;
+struct __declspec(uuid("b97d1006-7f5d-498b-a3cc-d5e15ba4c232"))
+/* interface */ IStyleObject;
+struct __declspec(uuid("b97d1001-7f5d-498b-a3cc-d5e15ba4c232"))
+/* interface */ IStyleBasic;
+struct __declspec(uuid("5dbbb005-5d7e-4c3e-9337-ce7b11f667ae"))
+/* interface */ IEMPCamper;
+struct __declspec(uuid("5dbbb008-5d7e-4c3e-9337-ce7b11f667ae"))
+/* interface */ IEMPTransfer;
+struct __declspec(uuid("b97d1003-7f5d-498b-a3cc-d5e15ba4c232"))
+/* interface */ IStylePen;
+struct __declspec(uuid("b97d1002-7f5d-498b-a3cc-d5e15ba4c232"))
+/* interface */ IStyleBrush;
+typedef struct _userHBITMAP * wireHBITMAP;
+struct __declspec(uuid("b97d1004-7f5d-498b-a3cc-d5e15ba4c232"))
+/* interface */ IStyleSymbol;
+struct __declspec(uuid("b97d1005-7f5d-498b-a3cc-d5e15ba4c232"))
+/* interface */ IStyleLabel;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(ISQLConnector, __uuidof(ISQLConnector));
+_COM_SMARTPTR_TYPEDEF(ISQLRecordset, __uuidof(ISQLRecordset));
+_COM_SMARTPTR_TYPEDEF(ISQLCollection, __uuidof(ISQLCollection));
+_COM_SMARTPTR_TYPEDEF(ISQLHeaderset, __uuidof(ISQLHeaderset));
+_COM_SMARTPTR_TYPEDEF(ISQLHeader, __uuidof(ISQLHeader));
+_COM_SMARTPTR_TYPEDEF(ISQLTable, __uuidof(ISQLTable));
+_COM_SMARTPTR_TYPEDEF(ISQLTransact, __uuidof(ISQLTransact));
+_COM_SMARTPTR_TYPEDEF(ISQLCommand, __uuidof(ISQLCommand));
+_COM_SMARTPTR_TYPEDEF(IDataset, __uuidof(IDataset));
+_COM_SMARTPTR_TYPEDEF(IRecordset, __uuidof(IRecordset));
+_COM_SMARTPTR_TYPEDEF(IRecord, __uuidof(IRecord));
+_COM_SMARTPTR_TYPEDEF(IRecordHeader, __uuidof(IRecordHeader));
+_COM_SMARTPTR_TYPEDEF(ISTRComparison, __uuidof(ISTRComparison));
+_COM_SMARTPTR_TYPEDEF(IRecordField, __uuidof(IRecordField));
+_COM_SMARTPTR_TYPEDEF(IEMPRewriter, __uuidof(IEMPRewriter));
+_COM_SMARTPTR_TYPEDEF(IUIDManger, __uuidof(IUIDManger));
+_COM_SMARTPTR_TYPEDEF(IUIDLayer, __uuidof(IUIDLayer));
+_COM_SMARTPTR_TYPEDEF(IEMPManager, __uuidof(IEMPManager));
+_COM_SMARTPTR_TYPEDEF(IEMPNotify, __uuidof(IEMPNotify));
+_COM_SMARTPTR_TYPEDEF(IEMPLayer, __uuidof(IEMPLayer));
+_COM_SMARTPTR_TYPEDEF(IStyleCollection, __uuidof(IStyleCollection));
+_COM_SMARTPTR_TYPEDEF(IStyleObject, __uuidof(IStyleObject));
+_COM_SMARTPTR_TYPEDEF(IStyleBasic, __uuidof(IStyleBasic));
+_COM_SMARTPTR_TYPEDEF(IEMPCamper, __uuidof(IEMPCamper));
+_COM_SMARTPTR_TYPEDEF(IEMPTransfer, __uuidof(IEMPTransfer));
+_COM_SMARTPTR_TYPEDEF(IStylePen, __uuidof(IStylePen));
+_COM_SMARTPTR_TYPEDEF(IStyleBrush, __uuidof(IStyleBrush));
+_COM_SMARTPTR_TYPEDEF(IStyleSymbol, __uuidof(IStyleSymbol));
+_COM_SMARTPTR_TYPEDEF(IStyleLabel, __uuidof(IStyleLabel));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("50a97008-c2ea-4c25-a7ec-7b1e5d3135d3"))
+ISQLConnector : IUnknown
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetIsOpened))
+    VARIANT_BOOL IsOpened;
+    __declspec(property(get=GetCharset,put=PutCharset))
+    _bstr_t Charset;
+    __declspec(property(get=GetCmdText,put=PutCmdText))
+    VARIANT_BOOL CmdText;
+    __declspec(property(get=GetBestName))
+    _bstr_t BestName[];
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    VARIANT_BOOL Open (
+        _bstr_t strURL,
+        _bstr_t strUSR,
+        _bstr_t strPWD );
+    HRESULT Close ( );
+    VARIANT_BOOL Refresh ( );
+    VARIANT_BOOL Exec (
+        _bstr_t strCmdText,
+        unsigned long * pULAffected,
+        struct ISQLRecordset * * pSQLRecordset );
+    ISQLTransactPtr Lock ( );
+    ISQLConnectorPtr Clone ( );
+    VARIANT_BOOL GetIsOpened ( );
+    _bstr_t GetCharset ( );
+    void PutCharset (
+        _bstr_t retval );
+    VARIANT_BOOL GetCmdText ( );
+    void PutCmdText (
+        VARIANT_BOOL retval );
+    _bstr_t GetBestName (
+        _bstr_t strKeywords );
+
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall raw_Open (
+        BSTR strURL,
+        BSTR strUSR,
+        BSTR strPWD,
+        VARIANT_BOOL * retval ) = 0;
+    virtual HRESULT __stdcall raw_Close ( ) = 0;
+    virtual HRESULT __stdcall raw_Refresh (
+        VARIANT_BOOL * retval ) = 0;
+    virtual HRESULT __stdcall raw_Exec (
+        BSTR strCmdText,
+        unsigned long * pULAffected,
+        struct ISQLRecordset * * pSQLRecordset,
+        VARIANT_BOOL * retval ) = 0;
+    virtual HRESULT __stdcall raw_Lock (
+        struct ISQLTransact * * retval ) = 0;
+    virtual HRESULT __stdcall raw_Clone (
+        struct ISQLConnector * * retval ) = 0;
+    virtual HRESULT __stdcall get_IsOpened (
+        VARIANT_BOOL * retval ) = 0;
+    virtual HRESULT __stdcall get_Charset (
+        BSTR * retval ) = 0;
+    virtual HRESULT __stdcall put_Charset (
+        BSTR retval ) = 0;
+    virtual HRESULT __stdcall get_CmdText (
+        VARIANT_BOOL * retval ) = 0;
+    virtual HRESULT __stdcall put_CmdText (
+        VARIANT_BOOL retval ) = 0;
+    virtual HRESULT __stdcall get_BestName (
+        BSTR strKeywords,
+        BSTR * retval ) = 0;
+};
+
+struct __declspec(uuid("50a97007-c2ea-4c25-a7ec-7b1e5d3135d3"))
+ISQLRecordset : IUnknown
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetisEOF))
+    VARIANT_BOOL isEOF;
+    __declspec(property(get=GetCount))
+    unsigned long Count;
+    __declspec(property(get=GetLength))
+    unsigned long Length;
+    __declspec(property(get=GetRowset))
+    ISQLCollectionPtr Rowset[];
+    __declspec(property(get=GetItems))
+    _variant_t Items[][];
+    __declspec(property(get=GetNamedItems))
+    _variant_t NamedItems[][];
+    __declspec(property(get=GetNamedIndex))
+    unsigned long NamedIndex[];
+    __declspec(property(get=GetHeaderset))
+    ISQLHeadersetPtr Headerset;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    VARIANT_BOOL SeekToBegin ( );
+    VARIANT_BOOL SeekToEnd ( );
+    ISQLCollectionPtr Next ( );
+    ISQLCollectionPtr Prev ( );
+    ISQLTablePtr Cache (
+        unsigned long ulStart,
+        unsigned long ulCount );
+    VARIANT_BOOL GetisEOF ( );
+    unsigned long GetCount ( );
+    unsigned long GetLength ( );
+    ISQLCollectionPtr GetRowset (
+        unsigned long ulRow );
+    _variant_t GetItems (
+        unsigned long ulRow,
+        unsigned long strField );
+    _variant_t GetNamedItems (
+        unsigned long ulRow,
+        _bstr_t strField );
+    unsigned long GetNamedIndex (
+        _bstr_t strField );
+    ISQLHeadersetPtr GetHeaderset ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall raw_SeekToBegin (
+        VARIANT_BOOL * retval ) = 0;
+    virtual HRESULT __stdcall raw_SeekToEnd (
+        VARIANT_BOOL * retval ) = 0;
+    virtual HRESULT __stdcall raw_Next (
+        struct ISQLCollection * * retval ) = 0;
+    virtual HRESULT __stdcall raw_Prev (
+        struct ISQLCollection * * retval ) = 0;
+    virtual HRESULT __stdcall raw_Cache (
+        unsigned long ulStart,
+        unsigned long ulCount,
+        struct ISQLTable * * retval ) = 0;
+    virtual HRESULT __stdcall get_isEOF (
+        VARIANT_BOOL * retval ) = 0;
+    virtual HRESULT __stdcall get_Count (
+        unsigned long * retval ) = 0;
+    virtual HRESULT __stdcall get_Length (
+        unsigned long * retval ) = 0;
+    virtual HRESULT __stdcall get_Rowset (
+        unsigned long ulRow,
+        struct ISQLCollection * * retval ) = 0;
+    virtual HRESULT __stdcall get_Items (
+        unsigned long ulRow,
+        unsigned long strField,
+        VARIANT * retval ) = 0;
+    virtual HRESULT __stdcall get_NamedItems (
+        unsigned long ulRow,
+        BSTR strField,
+        VARIANT * retval ) = 0;
+    virtual HRESULT __stdcall get_NamedIndex (
+        BSTR strField,
+        unsigned long * retval ) = 0;
+    virtual HRESULT __stdcall get_Headerset (
+        struct ISQLHeaderset * * retval ) = 0;
+};
+
+struct __declspec(uuid("50a97005-c2ea-4c25-a7ec-7b1e5d3135d3"))
+ISQLCollection : IUnknown
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetIsSupportNamedIndex))
+    VARIANT_BOOL IsSupportNamedIndex;
+    __declspec(property(get=GetLength,put=PutLength))
+    unsigned long Length;
+    __declspec(property(get=GetItems,put=PutItems))
+    _variant_t Items[];
+    __declspec(property(get=GetNamedItems,put=PutNamedItems))
+    _variant_t NamedItems[];
+    __declspec(property(get=GetNamedIndex))
+    unsigned long NamedIndex[];
+    __declspec(property(get=GetHeaderset,put=PutHeaderset))
+    ISQLHeadersetPtr Headerset;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    VARIANT_BOOL GetIsSupportNamedIndex ( );
+    unsigned long GetLength ( );
+    void PutLength (
+        unsigned long retval );
+    _variant_t GetItems (
+        unsigned long ulField );
+    void PutItems (
+        unsigned long ulField,
+        const _variant_t & retval );
+    _variant_t GetNamedItems (
+        _bstr_t strField );
+    void PutNamedItems (
+        _bstr_t strField,
+        const _variant_t & retval );
+    unsigned long GetNamedIndex (
+        _bstr_t strField );
+    ISQLHeadersetPtr GetHeaderset ( );
+    void PutHeaderset (
+        struct ISQLHeaderset * retval );
+    HRESULT Attach (
+        unsigned long ulField,
+        VARIANT * pVariant );
+
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_IsSupportNamedIndex (
+        VARIANT_BOOL * retval ) = 0;
+    virtual HRESULT __stdcall get_Length (
+        unsigned long * retval ) = 0;
+    virtual HRESULT __stdcall put_Length (
+        unsigned long retval ) = 0;
+    virtual HRESULT __stdcall get_Items (
+        unsigned long ulField,
+        VARIANT * retval ) = 0;
+    virtual HRESULT __stdcall put_Items (
+        unsigned long ulField,
+        VARIANT retval ) = 0;
+    virtual HRESULT __stdcall get_NamedItems (
+        BSTR strField,
+        VARIANT * retval ) = 0;
+    virtual HRESULT __stdcall put_NamedItems (
+        BSTR strField,
+        VARIANT retval ) = 0;
+    virtual HRESULT __stdcall get_NamedIndex (
+        BSTR strField,
+        unsigned long * retval ) = 0;
+    virtual HRESULT __stdcall get_Headerset (
+        struct ISQLHeaderset * * retval ) = 0;
+    virtual HRESULT __stdcall put_Headerset (
+        struct ISQLHeaderset * retval ) = 0;
+    virtual HRESULT __stdcall raw_Attach (
+        unsigned long ulField,
+        VARIANT * pVariant ) = 0;
+};
+
+struct __declspec(uuid("50a97004-c2ea-4c25-a7ec-7b1e5d3135d3"))
+ISQLHeaderset : IUnknown
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetIsSupportNamedIndex))
+    VARIANT_BOOL IsSupportNamedIndex;
+    __declspec(property(get=GetLength,put=PutLength))
+    unsigned long Length;
+    __declspec(property(get=GetItems))
+    ISQLHeaderPtr Items[];
+    __declspec(property(get=GetNamedIndex))
+    unsigned long NamedIndex[];
+    __declspec(property(get=GetNamedItems))
+    ISQLHeaderPtr NamedItems[];
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT CreateNamedIndexes ( );
+    VARIANT_BOOL GetIsSupportNamedIndex ( );
+    unsigned long GetLength ( );
+    void PutLength (
+        unsigned long retval );
+    ISQLHeaderPtr GetItems (
+        unsigned long ulField );
+    unsigned long GetNamedIndex (
+        _bstr_t strField );
+    ISQLHeaderPtr GetNamedItems (
+        _bstr_t strField );
+
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall raw_CreateNamedIndexes ( ) = 0;
+    virtual HRESULT __stdcall get_IsSupportNamedIndex (
+        VARIANT_BOOL * retval ) = 0;
+    virtual HRESULT __stdcall get_Length (
+        unsigned long * retval ) = 0;
+    virtual HRESULT __stdcall put_Length (
+        unsigned long retval ) = 0;
+    virtual HRESULT __stdcall get_Items (
+        unsigned long ulField,
+        struct ISQLHeader * * retval ) = 0;
+    virtual HRESULT __stdcall get_NamedIndex (
+        BSTR strField,
+        unsigned long * retval ) = 0;
+    virtual HRESULT __stdcall get_NamedItems (
+        BSTR strField,
+        struct ISQLHeader * * retval ) = 0;
+};
+
+struct __declspec(uuid("50a97003-c2ea-4c25-a7ec-7b1e5d3135d3"))
+ISQLHeader : IUnknown
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetTitle,put=PutTitle))
+    _bstr_t Title;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    _bstr_t GetTitle ( );
+    void PutTitle (
+        _bstr_t retval );
+
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_Title (
+        BSTR * retval ) = 0;
+    virtual HRESULT __stdcall put_Title (
+        BSTR retval ) = 0;
+};
+
+struct __declspec(uuid("50a97006-c2ea-4c25-a7ec-7b1e5d3135d3"))
+ISQLTable : ISQLRecordset
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetCount,put=PutCount))
+    unsigned long Count;
+    __declspec(property(get=GetLength,put=PutLength))
+    unsigned long Length;
+    __declspec(property(get=GetRowset,put=PutRowset))
+    ISQLCollectionPtr Rowset[];
+    __declspec(property(get=GetUnique,put=PutUnique))
+    ISQLCollectionPtr Unique[];
+    __declspec(property(get=GetUniqueIndex))
+    unsigned long UniqueIndex[];
+    __declspec(property(get=GetItems,put=PutItems))
+    _variant_t Items[][];
+    __declspec(property(get=GetNamedItems,put=PutNamedItems))
+    _variant_t NamedItems[][];
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    VARIANT_BOOL CreateUnique (
+        unsigned long ulField,
+        VARIANT_BOOL bNocase );
+    void PutCount (
+        unsigned long retval );
+    unsigned long GetCount ( );
+    void PutLength (
+        unsigned long retval );
+    unsigned long GetLength ( );
+    void PutRowset (
+        unsigned long ulRow,
+        struct ISQLCollection * retval );
+    ISQLCollectionPtr GetRowset (
+        unsigned long ulRow );
+    void PutUnique (
+        const _variant_t & varKey,
+        struct ISQLCollection * retval );
+    ISQLCollectionPtr GetUnique (
+        const _variant_t & varKey );
+    unsigned long GetUniqueIndex (
+        const _variant_t & varIndex );
+    void PutItems (
+        unsigned long ulRow,
+        unsigned long ulField,
+        const _variant_t & retval );
+    _variant_t GetItems (
+        unsigned long ulRow,
+        unsigned long ulField );
+    void PutNamedItems (
+        unsigned long ulRow,
+        _bstr_t strField,
+        const _variant_t & retval );
+    _variant_t GetNamedItems (
+        unsigned long ulRow,
+        _bstr_t strField );
+
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall raw_CreateUnique (
+        unsigned long ulField,
+        VARIANT_BOOL bNocase,
+        VARIANT_BOOL * retval ) = 0;
+    virtual HRESULT __stdcall put_Count (
+        unsigned long retval ) = 0;
+    virtual HRESULT __stdcall get_Count (
+        unsigned long * retval ) = 0;
+    virtual HRESULT __stdcall put_Length (
+        unsigned long retval ) = 0;
+    virtual HRESULT __stdcall get_Length (
+        unsigned long * retval ) = 0;
+    virtual HRESULT __stdcall put_Rowset (
+        unsigned long ulRow,
+        struct ISQLCollection * retval ) = 0;
+    virtual HRESULT __stdcall get_Rowset (
+        unsigned long ulRow,
+        struct ISQLCollection * * retval ) = 0;
+    virtual HRESULT __stdcall put_Unique (
+        VARIANT varKey,
+        struct ISQLCollection * retval ) = 0;
+    virtual HRESULT __stdcall get_Unique (
+        VARIANT varKey,
+        struct ISQLCollection * * retval ) = 0;
+    virtual HRESULT __stdcall get_UniqueIndex (
+        VARIANT varIndex,
+        unsigned long * retval ) = 0;
+    virtual HRESULT __stdcall put_Items (
+        unsigned long ulRow,
+        unsigned long ulField,
+        VARIANT retval ) = 0;
+    virtual HRESULT __stdcall get_Items (
+        unsigned long ulRow,
+        unsigned long ulField,
+        VARIANT * retval ) = 0;
+    virtual HRESULT __stdcall put_NamedItems (
+        unsigned long ulRow,
+        BSTR strField,
+        VARIANT retval ) = 0;
+    virtual HRESULT __stdcall get_NamedItems (
+        unsigned long ulRow,
+        BSTR strField,
+        VARIANT * retval ) = 0;
+};
+
+struct __declspec(uuid("50a97002-c2ea-4c25-a7ec-7b1e5d3135d3"))
+ISQLTransact : IUnknown
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    VARIANT_BOOL Rollback ( );
+    VARIANT_BOOL Commit ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall raw_Rollback (
+        VARIANT_BOOL * retval ) = 0;
+    virtual HRESULT __stdcall raw_Commit (
+        VARIANT_BOOL * retval ) = 0;
+};
+
+struct __declspec(uuid("50a97009-c2ea-4c25-a7ec-7b1e5d3135d3"))
+ISQLCommand : IUnknown
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetQueryIterator))
+    _variant_t QueryIterator;
+    __declspec(property(get=GetNextParameter))
+    _variant_t NextParameter[];
+    __declspec(property(get=GetQueryString,put=PutQueryString))
+    _bstr_t QueryString;
+    __declspec(property(get=GetParameters,put=PutParameters))
+    _variant_t Parameters[];
+    __declspec(property(get=GetNextParameterName))
+    _bstr_t NextParameterName;
+    __declspec(property(put=PutMaxBytes))
+    unsigned long MaxBytes;
+    __declspec(property(get=GetMaxParameters,put=PutMaxParameters))
+    unsigned long MaxParameters;
+    __declspec(property(get=GetCount))
+    unsigned long Count;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    VARIANT_BOOL Excute (
+        struct ISQLConnector * pSQLConnecter,
+        unsigned long * pULAffected,
+        struct ISQLRecordset * * pSQLRecordset );
+    _variant_t Lock ( );
+    _variant_t AddParameters (
+        const _variant_t & varParams );
+    VARIANT_BOOL Commit (
+        const _variant_t & varCursor,
+        _bstr_t strAppend );
+    HRESULT Rollback (
+        const _variant_t & varCursor );
+    HRESULT AppendQueryString (
+        _bstr_t strAppend );
+    HRESULT ClearParmaters ( );
+    _variant_t GetQueryIterator ( );
+    _variant_t GetNextParameter (
+        VARIANT * varPosition );
+    void PutQueryString (
+        _bstr_t retval );
+    _bstr_t GetQueryString ( );
+    void PutParameters (
+        const _variant_t & varIndex,
+        const _variant_t & retval );
+    _variant_t GetParameters (
+        const _variant_t & varIndex );
+    _bstr_t GetNextParameterName ( );
+    void PutMaxBytes (
+        unsigned long _arg1 );
+    void PutMaxParameters (
+        unsigned long retval );
+    unsigned long GetMaxParameters ( );
+    unsigned long GetCount ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall raw_Excute (
+        struct ISQLConnector * pSQLConnecter,
+        unsigned long * pULAffected,
+        struct ISQLRecordset * * pSQLRecordset,
+        VARIANT_BOOL * retval ) = 0;
+    virtual HRESULT __stdcall raw_Lock (
+        VARIANT * retval ) = 0;
+    virtual HRESULT __stdcall raw_AddParameters (
+        VARIANT varParams,
+        VARIANT * retval ) = 0;
+    virtual HRESULT __stdcall raw_Commit (
+        VARIANT varCursor,
+        BSTR strAppend,
+        VARIANT_BOOL * retval ) = 0;
+    virtual HRESULT __stdcall raw_Rollback (
+        VARIANT varCursor ) = 0;
+    virtual HRESULT __stdcall raw_AppendQueryString (
+        BSTR strAppend ) = 0;
+    virtual HRESULT __stdcall raw_ClearParmaters ( ) = 0;
+    virtual HRESULT __stdcall get_QueryIterator (
+        VARIANT * retval ) = 0;
+    virtual HRESULT __stdcall get_NextParameter (
+        VARIANT * varPosition,
+        VARIANT * retval ) = 0;
+    virtual HRESULT __stdcall put_QueryString (
+        BSTR retval ) = 0;
+    virtual HRESULT __stdcall get_QueryString (
+        BSTR * retval ) = 0;
+    virtual HRESULT __stdcall put_Parameters (
+        VARIANT varIndex,
+        VARIANT retval ) = 0;
+    virtual HRESULT __stdcall get_Parameters (
+        VARIANT varIndex,
+        VARIANT * retval ) = 0;
+    virtual HRESULT __stdcall get_NextParameterName (
+        BSTR * retval ) = 0;
+    virtual HRESULT __stdcall put_MaxBytes (
+        unsigned long _arg1 ) = 0;
+    virtual HRESULT __stdcall put_MaxParameters (
+        unsigned long retval ) = 0;
+    virtual HRESULT __stdcall get_MaxParameters (
+        unsigned long * retval ) = 0;
+    virtual HRESULT __stdcall get_Count (
+        unsigned long * retval ) = 0;
+};
+
+struct __declspec(uuid("27030006-d0b9-447f-bdbc-36c6c9603d7d"))
+IDataset : IUnknown
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetComparison,put=PutComparison))
+    ISTRComparisonPtr Comparison;
+    __declspec(property(put=PutStockComparison))
+    long StockComparison;
+    __declspec(property(put=PutNamedExtend))
+    _bstr_t NamedExtend;
+    __declspec(property(get=GetCount))
+    unsigned long Count;
+    __declspec(property(get=GetItem,put=PutItem))
+    IRecordsetPtr Item[];
+    __declspec(property(get=GetNamedItem,put=PutNamedItem))
+    IRecordsetPtr NamedItem[];
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT Remove (
+        unsigned long retval );
+    unsigned long Append (
+        struct IRecordset * pRecordset );
+    HRESULT Load (
+        _bstr_t strFilePath,
+        VARIANT_BOOL * retval );
+    HRESULT Save (
+        _bstr_t strFilePath,
+        VARIANT_BOOL * retval );
+    ISTRComparisonPtr GetComparison ( );
+    void PutComparison (
+        struct ISTRComparison * retval );
+    void PutStockComparison (
+        long _arg1 );
+    void PutNamedExtend (
+        _bstr_t _arg1 );
+    unsigned long GetCount ( );
+    IRecordsetPtr GetItem (
+        unsigned long ulIndex );
+    void PutItem (
+        unsigned long ulIndex,
+        struct IRecordset * retval );
+    IRecordsetPtr GetNamedItem (
+        _bstr_t strIndex );
+    void PutNamedItem (
+        _bstr_t strIndex,
+        struct IRecordset * retval );
+
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall raw_Remove (
+        unsigned long retval ) = 0;
+    virtual HRESULT __stdcall raw_Append (
+        struct IRecordset * pRecordset,
+        unsigned long * retval ) = 0;
+    virtual HRESULT __stdcall raw_Load (
+        BSTR strFilePath,
+        VARIANT_BOOL * retval ) = 0;
+    virtual HRESULT __stdcall raw_Save (
+        BSTR strFilePath,
+        VARIANT_BOOL * retval ) = 0;
+    virtual HRESULT __stdcall get_Comparison (
+        struct ISTRComparison * * retval ) = 0;
+    virtual HRESULT __stdcall put_Comparison (
+        struct ISTRComparison * retval ) = 0;
+    virtual HRESULT __stdcall put_StockComparison (
+        long _arg1 ) = 0;
+    virtual HRESULT __stdcall put_NamedExtend (
+        BSTR _arg1 ) = 0;
+    virtual HRESULT __stdcall get_Count (
+        unsigned long * retval ) = 0;
+    virtual HRESULT __stdcall get_Item (
+        unsigned long ulIndex,
+        struct IRecordset * * retval ) = 0;
+    virtual HRESULT __stdcall put_Item (
+        unsigned long ulIndex,
+        struct IRecordset * retval ) = 0;
+    virtual HRESULT __stdcall get_NamedItem (
+        BSTR strIndex,
+        struct IRecordset * * retval ) = 0;
+    virtual HRESULT __stdcall put_NamedItem (
+        BSTR strIndex,
+        struct IRecordset * retval ) = 0;
+};
+
+struct __declspec(uuid("27030005-d0b9-447f-bdbc-36c6c9603d7d"))
+IRecordset : IUnknown
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetLength))
+    unsigned long Length;
+    __declspec(property(get=GetCount,put=PutCount))
+    unsigned long Count;
+    __declspec(property(get=GetExpand))
+    IRecordPtr Expand;
+    __declspec(property(get=GetHeader,put=PutHeader))
+    IRecordHeaderPtr Header;
+    __declspec(property(get=GetRowset,put=PutRowset))
+    IRecordPtr Rowset[];
+    __declspec(property(get=GetField))
+    IRecordFieldPtr Field[];
+    __declspec(property(get=GetItems,put=PutItems))
+    _variant_t Items[][];
+    __declspec(property(get=GetNamedItems,put=PutNamedItems))
+    _variant_t NamedItems[][];
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    unsigned long GetLength ( );
+    void PutCount (
+        unsigned long retval );
+    unsigned long GetCount ( );
+    IRecordPtr GetExpand ( );
+    void PutHeader (
+        struct IRecordHeader * retval );
+    IRecordHeaderPtr GetHeader ( );
+    IRecordPtr GetRowset (
+        unsigned long ulRow );
+    void PutRowset (
+        unsigned long ulRow,
+        struct IRecord * retval );
+    IRecordFieldPtr GetField (
+        unsigned long ulField );
+    void PutItems (
+        unsigned long ulRow,
+        unsigned long ulField,
+        const _variant_t & retval );
+    _variant_t GetItems (
+        unsigned long ulRow,
+        unsigned long ulField );
+    void PutNamedItems (
+        unsigned long ulRow,
+        _bstr_t strField,
+        const _variant_t & retval );
+    _variant_t GetNamedItems (
+        unsigned long ulRow,
+        _bstr_t strField );
+
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_Length (
+        unsigned long * retval ) = 0;
+    virtual HRESULT __stdcall put_Count (
+        unsigned long retval ) = 0;
+    virtual HRESULT __stdcall get_Count (
+        unsigned long * retval ) = 0;
+    virtual HRESULT __stdcall get_Expand (
+        struct IRecord * * retval ) = 0;
+    virtual HRESULT __stdcall put_Header (
+        struct IRecordHeader * retval ) = 0;
+    virtual HRESULT __stdcall get_Header (
+        struct IRecordHeader * * retval ) = 0;
+    virtual HRESULT __stdcall get_Rowset (
+        unsigned long ulRow,
+        struct IRecord * * retval ) = 0;
+    virtual HRESULT __stdcall put_Rowset (
+        unsigned long ulRow,
+        struct IRecord * retval ) = 0;
+    virtual HRESULT __stdcall get_Field (
+        unsigned long ulField,
+        struct IRecordField * * retval ) = 0;
+    virtual HRESULT __stdcall put_Items (
+        unsigned long ulRow,
+        unsigned long ulField,
+        VARIANT retval ) = 0;
+    virtual HRESULT __stdcall get_Items (
+        unsigned long ulRow,
+        unsigned long ulField,
+        VARIANT * retval ) = 0;
+    virtual HRESULT __stdcall put_NamedItems (
+        unsigned long ulRow,
+        BSTR strField,
+        VARIANT retval ) = 0;
+    virtual HRESULT __stdcall get_NamedItems (
+        unsigned long ulRow,
+        BSTR strField,
+        VARIANT * retval ) = 0;
+};
+
+struct __declspec(uuid("27030004-d0b9-447f-bdbc-36c6c9603d7d"))
+IRecord : IUnknown
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetLength))
+    unsigned long Length;
+    __declspec(property(get=GetItem,put=PutItem))
+    _variant_t Item[];
+    __declspec(property(get=GetNamedItem,put=PutNamedItem))
+    _variant_t NamedItem[];
+    __declspec(property(get=GetValue))
+    _variant_t Value;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    unsigned long GetLength ( );
+    _variant_t GetItem (
+        unsigned long ulField );
+    void PutItem (
+        unsigned long ulField,
+        const _variant_t & retval );
+    _variant_t GetNamedItem (
+        _bstr_t strField );
+    void PutNamedItem (
+        _bstr_t strField,
+        const _variant_t & retval );
+    _variant_t GetValue ( );
+    unsigned long Load (
+        unsigned char * pBuffer,
+        unsigned long nBuffer );
+    unsigned long Save (
+        unsigned char * pBuffer,
+        unsigned long nBuffer );
+    IRecordPtr Clone (
+        struct IRecord * pTarget );
+    long Compare (
+        struct IRecord * pTarget );
+
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_Length (
+        unsigned long * retval ) = 0;
+    virtual HRESULT __stdcall get_Item (
+        unsigned long ulField,
+        VARIANT * retval ) = 0;
+    virtual HRESULT __stdcall put_Item (
+        unsigned long ulField,
+        VARIANT retval ) = 0;
+    virtual HRESULT __stdcall get_NamedItem (
+        BSTR strField,
+        VARIANT * retval ) = 0;
+    virtual HRESULT __stdcall put_NamedItem (
+        BSTR strField,
+        VARIANT retval ) = 0;
+    virtual HRESULT __stdcall get_Value (
+        VARIANT * retval ) = 0;
+    virtual HRESULT __stdcall raw_Load (
+        unsigned char * pBuffer,
+        unsigned long nBuffer,
+        unsigned long * retval ) = 0;
+    virtual HRESULT __stdcall raw_Save (
+        unsigned char * pBuffer,
+        unsigned long nBuffer,
+        unsigned long * retval ) = 0;
+    virtual HRESULT __stdcall raw_Clone (
+        struct IRecord * pTarget,
+        struct IRecord * * retval ) = 0;
+    virtual HRESULT __stdcall raw_Compare (
+        struct IRecord * pTarget,
+        long * retval ) = 0;
+};
+
+struct __declspec(uuid("27030003-d0b9-447f-bdbc-36c6c9603d7d"))
+IRecordHeader : IUnknown
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetComparison,put=PutComparison))
+    ISTRComparisonPtr Comparison;
+    __declspec(property(put=PutStockComparison))
+    long StockComparison;
+    __declspec(property(get=GetLength,put=PutLength))
+    unsigned long Length;
+    __declspec(property(get=GetItem,put=PutItem))
+    IRecordFieldPtr Item[];
+    __declspec(property(get=GetNamedItem,put=PutNamedItem))
+    IRecordFieldPtr NamedItem[];
+    __declspec(property(get=GetExpand))
+    IRecordPtr Expand;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    IRecordHeaderPtr GetFieldInfo ( );
+    HRESULT PutFieldInfo (
+        struct IRecordHeader * retval );
+    IRecordHeaderPtr GetExpandInfo ( );
+    HRESULT PutExpandInfo (
+        struct IRecordHeader * retval );
+    ISTRComparisonPtr GetComparison ( );
+    void PutComparison (
+        struct ISTRComparison * retval );
+    void PutStockComparison (
+        long _arg1 );
+    unsigned long GetLength ( );
+    void PutLength (
+        unsigned long retval );
+    IRecordFieldPtr GetItem (
+        unsigned long ulField );
+    void PutItem (
+        unsigned long ulField,
+        struct IRecordField * retval );
+    IRecordFieldPtr GetNamedItem (
+        _bstr_t strField );
+    void PutNamedItem (
+        _bstr_t strField,
+        struct IRecordField * retval );
+    IRecordPtr GetExpand ( );
+    unsigned long Append (
+        struct IRecordField * pRecordField );
+    unsigned long Find (
+        _bstr_t strField,
+        unsigned long ulStart );
+    HRESULT Remove (
+        unsigned long retval );
+    HRESULT Clear ( );
+    HRESULT Dirty (
+        struct IRecordField * pRecordField );
+    IRecordHeaderPtr Clone (
+        struct IRecordHeader * pTarget );
+
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall raw_GetFieldInfo (
+        struct IRecordHeader * * retval ) = 0;
+    virtual HRESULT __stdcall raw_PutFieldInfo (
+        struct IRecordHeader * retval ) = 0;
+    virtual HRESULT __stdcall raw_GetExpandInfo (
+        struct IRecordHeader * * retval ) = 0;
+    virtual HRESULT __stdcall raw_PutExpandInfo (
+        struct IRecordHeader * retval ) = 0;
+    virtual HRESULT __stdcall get_Comparison (
+        struct ISTRComparison * * retval ) = 0;
+    virtual HRESULT __stdcall put_Comparison (
+        struct ISTRComparison * retval ) = 0;
+    virtual HRESULT __stdcall put_StockComparison (
+        long _arg1 ) = 0;
+    virtual HRESULT __stdcall get_Length (
+        unsigned long * retval ) = 0;
+    virtual HRESULT __stdcall put_Length (
+        unsigned long retval ) = 0;
+    virtual HRESULT __stdcall get_Item (
+        unsigned long ulField,
+        struct IRecordField * * retval ) = 0;
+    virtual HRESULT __stdcall put_Item (
+        unsigned long ulField,
+        struct IRecordField * retval ) = 0;
+    virtual HRESULT __stdcall get_NamedItem (
+        BSTR strField,
+        struct IRecordField * * retval ) = 0;
+    virtual HRESULT __stdcall put_NamedItem (
+        BSTR strField,
+        struct IRecordField * retval ) = 0;
+    virtual HRESULT __stdcall get_Expand (
+        struct IRecord * * retval ) = 0;
+    virtual HRESULT __stdcall raw_Append (
+        struct IRecordField * pRecordField,
+        unsigned long * retval ) = 0;
+    virtual HRESULT __stdcall raw_Find (
+        BSTR strField,
+        unsigned long ulStart,
+        unsigned long * retval ) = 0;
+    virtual HRESULT __stdcall raw_Remove (
+        unsigned long retval ) = 0;
+    virtual HRESULT __stdcall raw_Clear ( ) = 0;
+    virtual HRESULT __stdcall raw_Dirty (
+        struct IRecordField * pRecordField ) = 0;
+    virtual HRESULT __stdcall raw_Clone (
+        struct IRecordHeader * pTarget,
+        struct IRecordHeader * * retval ) = 0;
+};
+
+struct __declspec(uuid("27030001-d0b9-447f-bdbc-36c6c9603d7d"))
+ISTRComparison : IUnknown
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    long Compare (
+        _bstr_t strLeft,
+        _bstr_t strRight );
+
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall raw_Compare (
+        BSTR strLeft,
+        BSTR strRight,
+        long * retval ) = 0;
+};
+
+struct __declspec(uuid("27030002-d0b9-447f-bdbc-36c6c9603d7d"))
+IRecordField : IUnknown
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetParent))
+    IRecordHeaderPtr Parent;
+    __declspec(property(get=GetTitle,put=PutTitle))
+    _bstr_t Title;
+    __declspec(property(get=GetType,put=PutType))
+    unsigned long Type;
+    __declspec(property(get=GetIndexOfArray))
+    unsigned long IndexOfArray;
+    __declspec(property(get=GetValueType))
+    unsigned short ValueType;
+    __declspec(property(get=GetExpand))
+    IRecordPtr Expand;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    IRecordHeaderPtr GetParent ( );
+    _bstr_t GetTitle ( );
+    void PutTitle (
+        _bstr_t retval );
+    unsigned long GetType ( );
+    void PutType (
+        unsigned long retval );
+    unsigned long GetIndexOfArray ( );
+    unsigned short GetValueType ( );
+    IRecordPtr GetExpand ( );
+    IRecordFieldPtr Clone (
+        struct IRecordField * pTarget );
+
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_Parent (
+        struct IRecordHeader * * retval ) = 0;
+    virtual HRESULT __stdcall get_Title (
+        BSTR * retval ) = 0;
+    virtual HRESULT __stdcall put_Title (
+        BSTR retval ) = 0;
+    virtual HRESULT __stdcall get_Type (
+        unsigned long * retval ) = 0;
+    virtual HRESULT __stdcall put_Type (
+        unsigned long retval ) = 0;
+    virtual HRESULT __stdcall get_IndexOfArray (
+        unsigned long * pULIndex ) = 0;
+    virtual HRESULT __stdcall get_ValueType (
+        unsigned short * retval ) = 0;
+    virtual HRESULT __stdcall get_Expand (
+        struct IRecord * * retval ) = 0;
+    virtual HRESULT __stdcall raw_Clone (
+        struct IRecordField * pTarget,
+        struct IRecordField * * retval ) = 0;
+};
+
+struct __declspec(uuid("471c0001-19e9-454f-95df-c68613bbfaaf"))
+IEMPRewriter : IUnknown
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    VARIANT_BOOL Load (
+        _bstr_t strFilePath );
+    IRecordHeaderPtr GetLayerHeader (
+        _bstr_t strLayerName );
+    IRecordsetPtr GetLayer (
+        _bstr_t strLayerName,
+        _bstr_t strUniqueName );
+    VARIANT_BOOL Create (
+        unsigned long ulMesh );
+    VARIANT_BOOL SetLayer (
+        _bstr_t strLayerName,
+        _bstr_t strUniqueName,
+        struct IRecordset * pRecordset );
+    VARIANT_BOOL Save (
+        _bstr_t strFilePath );
+    long EnumLayer (
+        unsigned long ulLayerCount,
+        BSTR * strLayerNames );
+
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall raw_Load (
+        BSTR strFilePath,
+        VARIANT_BOOL * retval ) = 0;
+    virtual HRESULT __stdcall raw_GetLayerHeader (
+        BSTR strLayerName,
+        struct IRecordHeader * * retval ) = 0;
+    virtual HRESULT __stdcall raw_GetLayer (
+        BSTR strLayerName,
+        BSTR strUniqueName,
+        struct IRecordset * * retval ) = 0;
+    virtual HRESULT __stdcall raw_Create (
+        unsigned long ulMesh,
+        VARIANT_BOOL * retval ) = 0;
+    virtual HRESULT __stdcall raw_SetLayer (
+        BSTR strLayerName,
+        BSTR strUniqueName,
+        struct IRecordset * pRecordset,
+        VARIANT_BOOL * retval ) = 0;
+    virtual HRESULT __stdcall raw_Save (
+        BSTR strFilePath,
+        VARIANT_BOOL * retval ) = 0;
+    virtual HRESULT __stdcall raw_EnumLayer (
+        unsigned long ulLayerCount,
+        BSTR * strLayerNames,
+        long * retval ) = 0;
+};
+
+struct __declspec(uuid("5dbbb002-5d7e-4c3e-9337-ce7b11f667ae"))
+IUIDManger : IUnknown
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    VARIANT_BOOL Open (
+        _bstr_t strURL,
+        _bstr_t strUSR,
+        _bstr_t strPWD );
+    HRESULT Attach (
+        struct ISQLConnector * pSQLConnector );
+    ISQLConnectorPtr Detach ( );
+    IUIDLayerPtr Query (
+        _bstr_t strLayerName );
+    HRESULT Register (
+        _bstr_t strLayerName,
+        _bstr_t strTableName );
+
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall raw_Open (
+        BSTR strURL,
+        BSTR strUSR,
+        BSTR strPWD,
+        VARIANT_BOOL * retval ) = 0;
+    virtual HRESULT __stdcall raw_Attach (
+        struct ISQLConnector * pSQLConnector ) = 0;
+    virtual HRESULT __stdcall raw_Detach (
+        struct ISQLConnector * * retval ) = 0;
+    virtual HRESULT __stdcall raw_Query (
+        BSTR strLayerName,
+        struct IUIDLayer * * retval ) = 0;
+    virtual HRESULT __stdcall raw_Register (
+        BSTR strLayerName,
+        BSTR strTableName ) = 0;
+};
+
+struct __declspec(uuid("5dbbb001-5d7e-4c3e-9337-ce7b11f667ae"))
+IUIDLayer : IUnknown
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    VARIANT_BOOL Make (
+        __int64 * pOIDS,
+        long ulCount );
+    long Sync (
+        struct IUIDREF * pOIDS,
+        long ulCount );
+    long Query (
+        struct IUIDREF * pOIDS,
+        long ulCount );
+    long Fetch (
+        long mesh,
+        struct IUIDREF * pOIDS,
+        long ulCount );
+
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall raw_Make (
+        __int64 * pOIDS,
+        long ulCount,
+        VARIANT_BOOL * retval ) = 0;
+    virtual HRESULT __stdcall raw_Sync (
+        struct IUIDREF * pOIDS,
+        long ulCount,
+        long * retval ) = 0;
+    virtual HRESULT __stdcall raw_Query (
+        struct IUIDREF * pOIDS,
+        long ulCount,
+        long * retval ) = 0;
+    virtual HRESULT __stdcall raw_Fetch (
+        long mesh,
+        struct IUIDREF * pOIDS,
+        long ulCount,
+        long * retval ) = 0;
+};
+
+struct IUIDREF
+{
+    __int64 oid;
+    long mesh;
+    long empid;
+    __int64 lcsid;
+    DATE createtime;
+};
+
+struct __declspec(uuid("5dbbb009-5d7e-4c3e-9337-ce7b11f667ae"))
+IEMPManager : IUnknown
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetDBServer,put=PutDBServer))
+    ISQLConnectorPtr DBServer;
+    __declspec(property(get=GetUIDServer,put=PutUIDServer))
+    ISQLConnectorPtr UIDServer;
+    __declspec(property(get=GetUIDManger))
+    IUIDMangerPtr UIDManger;
+    __declspec(property(put=PutNotify))
+    IEMPNotifyPtr Notify;
+    __declspec(property(put=PutThreadCount))
+    long ThreadCount;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    ISQLConnectorPtr GetDBServer ( );
+    void PutDBServer (
+        struct ISQLConnector * retval );
+    ISQLConnectorPtr GetUIDServer ( );
+    void PutUIDServer (
+        struct ISQLConnector * retval );
+    IUIDMangerPtr GetUIDManger ( );
+    void PutNotify (
+        struct IEMPNotify * _arg1 );
+    void PutThreadCount (
+        long _arg1 );
+    VARIANT_BOOL InitDB (
+        _bstr_t strTemplateFilePath,
+        _bstr_t strConfigureFilepath );
+    VARIANT_BOOL CreateDBLayer (
+        _bstr_t strLayerName,
+        _bstr_t strTemplateFilePath,
+        _bstr_t strConfigureFilepath );
+    HRESULT CreateDBLayerByHeader (
+        struct IRecordHeader * retval );
+    IRecordHeaderPtr LoadTemplateHeader (
+        _bstr_t strLayerName,
+        _bstr_t strTemplateFilePath,
+        _bstr_t strConfigureFilepath );
+    HRESULT DropDBLayer (
+        _bstr_t strLayerName );
+    IEMPLayerPtr Register (
+        _bstr_t strLayerName );
+    IEMPLayerPtr Query (
+        _bstr_t strLayerName );
+    VARIANT_BOOL UnRegister (
+        _bstr_t strLayerName );
+    IRecordsetPtr GetDBLayers ( );
+    VARIANT_BOOL * Location (
+        struct IEMPRegion * pEMPRegion );
+    HRESULT DrawOnBitmap (
+        wireHDC hMemdc,
+        unsigned long ulFlags,
+        struct IEMPRegion * pEMPRegion );
+    VARIANT_BOOL SelectByRegion (
+        struct tagRECT * pSelectRect,
+        struct IEMPRegion * pSelectRegion,
+        long selectOP );
+    HRESULT DoCancel ( );
+    IUnknownPtr DoPause ( );
+    VARIANT_BOOL QueryDBBoundary (
+        struct IEMPRegion * pEMPRegion );
+    struct IEMPRegion GetRegionByMesh (
+        long lMeshID,
+        enum MeshLEVEL enumMeshLevel );
+    struct IEMPRegion GetRegionByMeshName (
+        _bstr_t strMeshName );
+
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_DBServer (
+        struct ISQLConnector * * retval ) = 0;
+    virtual HRESULT __stdcall put_DBServer (
+        struct ISQLConnector * retval ) = 0;
+    virtual HRESULT __stdcall get_UIDServer (
+        struct ISQLConnector * * retval ) = 0;
+    virtual HRESULT __stdcall put_UIDServer (
+        struct ISQLConnector * retval ) = 0;
+    virtual HRESULT __stdcall get_UIDManger (
+        struct IUIDManger * * retval ) = 0;
+    virtual HRESULT __stdcall put_Notify (
+        struct IEMPNotify * _arg1 ) = 0;
+    virtual HRESULT __stdcall put_ThreadCount (
+        long _arg1 ) = 0;
+    virtual HRESULT __stdcall raw_InitDB (
+        BSTR strTemplateFilePath,
+        BSTR strConfigureFilepath,
+        VARIANT_BOOL * retval ) = 0;
+    virtual HRESULT __stdcall raw_CreateDBLayer (
+        BSTR strLayerName,
+        BSTR strTemplateFilePath,
+        BSTR strConfigureFilepath,
+        VARIANT_BOOL * retval ) = 0;
+    virtual HRESULT __stdcall raw_CreateDBLayerByHeader (
+        struct IRecordHeader * retval ) = 0;
+    virtual HRESULT __stdcall raw_LoadTemplateHeader (
+        BSTR strLayerName,
+        BSTR strTemplateFilePath,
+        BSTR strConfigureFilepath,
+        struct IRecordHeader * * retval ) = 0;
+    virtual HRESULT __stdcall raw_DropDBLayer (
+        BSTR strLayerName ) = 0;
+    virtual HRESULT __stdcall raw_Register (
+        BSTR strLayerName,
+        struct IEMPLayer * * retval ) = 0;
+    virtual HRESULT __stdcall raw_Query (
+        BSTR strLayerName,
+        struct IEMPLayer * * retval ) = 0;
+    virtual HRESULT __stdcall raw_UnRegister (
+        BSTR strLayerName,
+        VARIANT_BOOL * retval ) = 0;
+    virtual HRESULT __stdcall raw_GetDBLayers (
+        struct IRecordset * * retval ) = 0;
+    virtual HRESULT __stdcall raw_Location (
+        struct IEMPRegion * pEMPRegion,
+        VARIANT_BOOL * * retval ) = 0;
+    virtual HRESULT __stdcall raw_DrawOnBitmap (
+        wireHDC hMemdc,
+        unsigned long ulFlags,
+        struct IEMPRegion * pEMPRegion ) = 0;
+    virtual HRESULT __stdcall raw_SelectByRegion (
+        struct tagRECT * pSelectRect,
+        struct IEMPRegion * pSelectRegion,
+        long selectOP,
+        VARIANT_BOOL * retval ) = 0;
+    virtual HRESULT __stdcall raw_DoCancel ( ) = 0;
+    virtual HRESULT __stdcall raw_DoPause (
+        IUnknown * * retval ) = 0;
+    virtual HRESULT __stdcall raw_QueryDBBoundary (
+        struct IEMPRegion * pEMPRegion,
+        VARIANT_BOOL * retval ) = 0;
+    virtual HRESULT __stdcall raw_GetRegionByMesh (
+        long lMeshID,
+        enum MeshLEVEL enumMeshLevel,
+        struct IEMPRegion * retval ) = 0;
+    virtual HRESULT __stdcall raw_GetRegionByMeshName (
+        BSTR strMeshName,
+        struct IEMPRegion * retval ) = 0;
+};
+
+struct __declspec(uuid("5dbbb007-5d7e-4c3e-9337-ce7b11f667ae"))
+IEMPNotify : IUnknown
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT OnAssign (
+        unsigned long nCount,
+        VARIANT_BOOL bError );
+    HRESULT OnReady (
+        unsigned long iThreads,
+        unsigned long * nCount,
+        __int64 * pOIDS,
+        struct IRecord * * pRecords );
+    HRESULT OnFetch (
+        unsigned long iThreads,
+        unsigned long * nCount,
+        __int64 * pOIDS,
+        struct IRecord * * pRecords );
+    HRESULT OnFlush (
+        unsigned long nError,
+        unsigned long nUndo );
+
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall raw_OnAssign (
+        unsigned long nCount,
+        VARIANT_BOOL bError ) = 0;
+    virtual HRESULT __stdcall raw_OnReady (
+        unsigned long iThreads,
+        unsigned long * nCount,
+        __int64 * pOIDS,
+        struct IRecord * * pRecords ) = 0;
+    virtual HRESULT __stdcall raw_OnFetch (
+        unsigned long iThreads,
+        unsigned long * nCount,
+        __int64 * pOIDS,
+        struct IRecord * * pRecords ) = 0;
+    virtual HRESULT __stdcall raw_OnFlush (
+        unsigned long nError,
+        unsigned long nUndo ) = 0;
+};
+
+struct __declspec(uuid("5dbbb006-5d7e-4c3e-9337-ce7b11f667ae"))
+IEMPLayer : IUnknown
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetMyHeader,put=PutMyHeader))
+    IRecordHeaderPtr MyHeader;
+    __declspec(property(get=GetMemHeader))
+    IRecordHeaderPtr MemHeader;
+    __declspec(property(get=GetUIDLayer))
+    IUIDLayerPtr UIDLayer;
+    __declspec(property(get=GetDBServer))
+    ISQLConnectorPtr DBServer;
+    __declspec(property(get=GetTitle))
+    _bstr_t Title;
+    __declspec(property(get=GetCount))
+    unsigned long Count;
+    __declspec(property(get=GetUnique))
+    _bstr_t Unique;
+    __declspec(property(get=GetStyle))
+    IStyleCollectionPtr Style;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    void PutMyHeader (
+        struct IRecordHeader * retval );
+    IRecordHeaderPtr GetMyHeader ( );
+    IRecordHeaderPtr GetMemHeader ( );
+    IRecordHeaderPtr QueryDBFields ( );
+    VARIANT_BOOL QueryDBBoundary (
+        struct IEMPRegion * pEMPRegion );
+    IUIDLayerPtr GetUIDLayer ( );
+    ISQLConnectorPtr GetDBServer ( );
+    _bstr_t GetTitle ( );
+    unsigned long GetCount ( );
+    _bstr_t GetUnique ( );
+    IStyleCollectionPtr GetStyle ( );
+    IEMPCamperPtr Load (
+        struct IEMPRegion * pEMPRegion,
+        VARIANT_BOOL * bCancle );
+    HRESULT ReloadStyle ( );
+    VARIANT_BOOL * Location (
+        struct IEMPRegion * pEMPRegion );
+    HRESULT DrawOnBitmap (
+        wireHDC hMemdc,
+        unsigned long ulFlags,
+        struct IEMPRegion * pEMPRegion );
+    VARIANT_BOOL SelectByRegion (
+        struct tagRECT * pSelectRect,
+        struct IEMPRegion * pSelectRegion,
+        long selectOP );
+    IRecordPtr Query (
+        __int64 llOID );
+    VARIANT_BOOL Append (
+        __int64 llOID,
+        struct IRecord * pEMPRegion );
+    VARIANT_BOOL Remove (
+        __int64 llOID );
+    HRESULT Modify (
+        __int64 llOID,
+        struct IRecord * pEMPRegion );
+    HRESULT Sync ( );
+    HRESULT Clear ( );
+    void * FindFirst ( );
+    IRecordPtr FindNext (
+        void * * ppPositon,
+        __int64 * pllOID );
+    HRESULT CreatePrimary ( );
+    HRESULT DropPrimary ( );
+    HRESULT CreateTrigger ( );
+    HRESULT DropTrigger ( );
+    HRESULT CreateMainView ( );
+    HRESULT DropMainView ( );
+    HRESULT CreateIndex ( );
+    HRESULT SyncField (
+        struct IRecordHeader * pHeader );
+    HRESULT DropIndex ( );
+    HRESULT CreateTemporaryView (
+        struct ISQLConnector * pSQLConnector );
+    HRESULT DropTemporaryView (
+        struct ISQLConnector * pSQLConnector );
+
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall put_MyHeader (
+        struct IRecordHeader * retval ) = 0;
+    virtual HRESULT __stdcall get_MyHeader (
+        struct IRecordHeader * * retval ) = 0;
+    virtual HRESULT __stdcall get_MemHeader (
+        struct IRecordHeader * * retval ) = 0;
+    virtual HRESULT __stdcall raw_QueryDBFields (
+        struct IRecordHeader * * retval ) = 0;
+    virtual HRESULT __stdcall raw_QueryDBBoundary (
+        struct IEMPRegion * pEMPRegion,
+        VARIANT_BOOL * retval ) = 0;
+    virtual HRESULT __stdcall get_UIDLayer (
+        struct IUIDLayer * * retval ) = 0;
+    virtual HRESULT __stdcall get_DBServer (
+        struct ISQLConnector * * retval ) = 0;
+    virtual HRESULT __stdcall get_Title (
+        BSTR * retval ) = 0;
+    virtual HRESULT __stdcall get_Count (
+        unsigned long * retval ) = 0;
+    virtual HRESULT __stdcall get_Unique (
+        BSTR * retval ) = 0;
+    virtual HRESULT __stdcall get_Style (
+        struct IStyleCollection * * retval ) = 0;
+    virtual HRESULT __stdcall raw_Load (
+        struct IEMPRegion * pEMPRegion,
+        VARIANT_BOOL * bCancle,
+        struct IEMPCamper * * retval ) = 0;
+    virtual HRESULT __stdcall raw_ReloadStyle ( ) = 0;
+    virtual HRESULT __stdcall raw_Location (
+        struct IEMPRegion * pEMPRegion,
+        VARIANT_BOOL * * retval ) = 0;
+    virtual HRESULT __stdcall raw_DrawOnBitmap (
+        wireHDC hMemdc,
+        unsigned long ulFlags,
+        struct IEMPRegion * pEMPRegion ) = 0;
+    virtual HRESULT __stdcall raw_SelectByRegion (
+        struct tagRECT * pSelectRect,
+        struct IEMPRegion * pSelectRegion,
+        long selectOP,
+        VARIANT_BOOL * retval ) = 0;
+    virtual HRESULT __stdcall raw_Query (
+        __int64 llOID,
+        struct IRecord * * retval ) = 0;
+    virtual HRESULT __stdcall raw_Append (
+        __int64 llOID,
+        struct IRecord * pEMPRegion,
+        VARIANT_BOOL * retval ) = 0;
+    virtual HRESULT __stdcall raw_Remove (
+        __int64 llOID,
+        VARIANT_BOOL * retval ) = 0;
+    virtual HRESULT __stdcall raw_Modify (
+        __int64 llOID,
+        struct IRecord * pEMPRegion ) = 0;
+    virtual HRESULT __stdcall raw_Sync ( ) = 0;
+    virtual HRESULT __stdcall raw_Clear ( ) = 0;
+    virtual HRESULT __stdcall raw_FindFirst (
+        void * * retval ) = 0;
+    virtual HRESULT __stdcall raw_FindNext (
+        void * * ppPositon,
+        __int64 * pllOID,
+        struct IRecord * * retval ) = 0;
+    virtual HRESULT __stdcall raw_CreatePrimary ( ) = 0;
+    virtual HRESULT __stdcall raw_DropPrimary ( ) = 0;
+    virtual HRESULT __stdcall raw_CreateTrigger ( ) = 0;
+    virtual HRESULT __stdcall raw_DropTrigger ( ) = 0;
+    virtual HRESULT __stdcall raw_CreateMainView ( ) = 0;
+    virtual HRESULT __stdcall raw_DropMainView ( ) = 0;
+    virtual HRESULT __stdcall raw_CreateIndex ( ) = 0;
+    virtual HRESULT __stdcall raw_SyncField (
+        struct IRecordHeader * pHeader ) = 0;
+    virtual HRESULT __stdcall raw_DropIndex ( ) = 0;
+    virtual HRESULT __stdcall raw_CreateTemporaryView (
+        struct ISQLConnector * pSQLConnector ) = 0;
+    virtual HRESULT __stdcall raw_DropTemporaryView (
+        struct ISQLConnector * pSQLConnector ) = 0;
+};
+
+struct IEMPRegion
+{
+    double minx;
+    double miny;
+    double maxx;
+    double maxy;
+};
+
+struct __declspec(uuid("b97d1007-7f5d-498b-a3cc-d5e15ba4c232"))
+IStyleCollection : IUnknown
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetDefault,put=PutDefault))
+    IStyleObjectPtr Default;
+    __declspec(property(get=GetSelection,put=PutSelection))
+    IStyleObjectPtr Selection;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    void PutDefault (
+        struct IStyleObject * retval );
+    IStyleObjectPtr GetDefault ( );
+    void PutSelection (
+        struct IStyleObject * retval );
+    IStyleObjectPtr GetSelection ( );
+    void PutItem (
+        unsigned long ulIndex,
+        struct IStyleObject * retval );
+    IStyleObjectPtr GetItem (
+        unsigned long ulIndex );
+    void GetCount (
+        unsigned long * ulIndex );
+    HRESULT PutLabelFields (
+        unsigned long * pFields,
+        unsigned long nFields );
+    HRESULT PutStyleFields (
+        unsigned long * pFields,
+        unsigned long nFields );
+    unsigned long Find (
+        struct IRecord * pRecord );
+    unsigned long Insert (
+        struct IRecord * pRecord,
+        struct IStyleObject * pStyleObject );
+    HRESULT Erase (
+        unsigned long ulIndex );
+    HRESULT Clear ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall put_Default (
+        struct IStyleObject * retval ) = 0;
+    virtual HRESULT __stdcall get_Default (
+        struct IStyleObject * * retval ) = 0;
+    virtual HRESULT __stdcall put_Selection (
+        struct IStyleObject * retval ) = 0;
+    virtual HRESULT __stdcall get_Selection (
+        struct IStyleObject * * retval ) = 0;
+    virtual HRESULT __stdcall put_Item (
+        unsigned long ulIndex,
+        struct IStyleObject * retval ) = 0;
+    virtual HRESULT __stdcall get_Item (
+        unsigned long ulIndex,
+        struct IStyleObject * * retval ) = 0;
+    virtual HRESULT __stdcall get_Count (
+        unsigned long * ulIndex ) = 0;
+    virtual HRESULT __stdcall raw_PutLabelFields (
+        unsigned long * pFields,
+        unsigned long nFields ) = 0;
+    virtual HRESULT __stdcall raw_PutStyleFields (
+        unsigned long * pFields,
+        unsigned long nFields ) = 0;
+    virtual HRESULT __stdcall raw_Find (
+        struct IRecord * pRecord,
+        unsigned long * retval ) = 0;
+    virtual HRESULT __stdcall raw_Insert (
+        struct IRecord * pRecord,
+        struct IStyleObject * pStyleObject,
+        unsigned long * retval ) = 0;
+    virtual HRESULT __stdcall raw_Erase (
+        unsigned long ulIndex ) = 0;
+    virtual HRESULT __stdcall raw_Clear ( ) = 0;
+};
+
+struct __declspec(uuid("b97d1006-7f5d-498b-a3cc-d5e15ba4c232"))
+IStyleObject : IUnknown
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetPen,put=PutPen))
+    IStyleBasicPtr Pen;
+    __declspec(property(get=GetSymbol,put=PutSymbol))
+    IStyleBasicPtr Symbol;
+    __declspec(property(get=GetBrush,put=PutBrush))
+    IStyleBasicPtr Brush;
+    __declspec(property(get=GetLabel,put=PutLabel))
+    IStyleBasicPtr Label;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    void PutPen (
+        struct IStyleBasic * retval );
+    IStyleBasicPtr GetPen ( );
+    void PutSymbol (
+        struct IStyleBasic * retval );
+    IStyleBasicPtr GetSymbol ( );
+    void PutBrush (
+        struct IStyleBasic * retval );
+    IStyleBasicPtr GetBrush ( );
+    void PutLabel (
+        struct IStyleBasic * retval );
+    IStyleBasicPtr GetLabel ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall put_Pen (
+        struct IStyleBasic * retval ) = 0;
+    virtual HRESULT __stdcall get_Pen (
+        struct IStyleBasic * * retval ) = 0;
+    virtual HRESULT __stdcall put_Symbol (
+        struct IStyleBasic * retval ) = 0;
+    virtual HRESULT __stdcall get_Symbol (
+        struct IStyleBasic * * retval ) = 0;
+    virtual HRESULT __stdcall put_Brush (
+        struct IStyleBasic * retval ) = 0;
+    virtual HRESULT __stdcall get_Brush (
+        struct IStyleBasic * * retval ) = 0;
+    virtual HRESULT __stdcall put_Label (
+        struct IStyleBasic * retval ) = 0;
+    virtual HRESULT __stdcall get_Label (
+        struct IStyleBasic * * retval ) = 0;
+};
+
+struct __declspec(uuid("b97d1001-7f5d-498b-a3cc-d5e15ba4c232"))
+IStyleBasic : IUnknown
+{};
+
+struct __declspec(uuid("5dbbb005-5d7e-4c3e-9337-ce7b11f667ae"))
+IEMPCamper : IUnknown
+{};
+
+enum MeshLEVEL
+{
+    MESH_Root = 0,
+    MESH_100M = 1,
+    MESH_50M = 2,
+    MESH_25M = 3,
+    MESH_10M = 4,
+    MESH_5000K = 5,
+    MESH_2500K = 6,
+    MESH_1000K = 7,
+    MESH_500K = 8,
+    MESH_250K = 9,
+    MESH_100K = 10,
+    MESH_50K = 11,
+    MESH_25K = 12,
+    MESH_10K = 13,
+    MESH_5000 = 14,
+    MESH_2500 = 15,
+    MESH_1000 = 16
+};
+
+struct __declspec(uuid("5dbbb008-5d7e-4c3e-9337-ce7b11f667ae"))
+IEMPTransfer : IUnknown
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT CreateThreads (
+        unsigned long nThreads );
+    VARIANT_BOOL Open (
+        struct IEMPLayer * pLayer,
+        unsigned long uMaxTaskes,
+        unsigned long uMaxBlocks );
+    VARIANT_BOOL Asyn (
+        struct IEMPNotify * pNofity );
+    unsigned long Read (
+        __int64 * pOIDS,
+        unsigned long ulCount );
+    unsigned long Write (
+        __int64 * pOIDS,
+        struct IRecord * * pRecords,
+        unsigned long ulCount );
+    unsigned long Append (
+        __int64 * pOIDS,
+        struct IRecord * * pRecords,
+        unsigned long ulCount );
+    unsigned long Fetch (
+        __int64 * pOIDS,
+        struct IRecord * * pRecords,
+        unsigned long ulCount );
+    VARIANT_BOOL Flush ( );
+    VARIANT_BOOL Cancel ( );
+    unsigned long UnRead (
+        __int64 * pOIDS,
+        unsigned long ulCount );
+    unsigned long UnWrite (
+        __int64 * pOIDS,
+        struct IRecord * * pRecords,
+        unsigned long ulCount );
+    VARIANT_BOOL SingleRead (
+        __int64 i64OID );
+    VARIANT_BOOL SingleWrite (
+        __int64 i64OID,
+        struct IRecord * pRecord );
+    VARIANT_BOOL SingleAppend (
+        __int64 i64OID,
+        struct IRecord * pRecord );
+    VARIANT_BOOL SingleFetch (
+        __int64 * pI64OID,
+        struct IRecord * * pRecord );
+    VARIANT_BOOL SingleUnRead (
+        __int64 * pI64OID );
+    VARIANT_BOOL SingleUnWrite (
+        __int64 * pI64OID,
+        struct IRecord * * pRecord );
+    HRESULT Close ( );
+    HRESULT DestroyThreads ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall raw_CreateThreads (
+        unsigned long nThreads ) = 0;
+    virtual HRESULT __stdcall raw_Open (
+        struct IEMPLayer * pLayer,
+        unsigned long uMaxTaskes,
+        unsigned long uMaxBlocks,
+        VARIANT_BOOL * retval ) = 0;
+    virtual HRESULT __stdcall raw_Asyn (
+        struct IEMPNotify * pNofity,
+        VARIANT_BOOL * retval ) = 0;
+    virtual HRESULT __stdcall raw_Read (
+        __int64 * pOIDS,
+        unsigned long ulCount,
+        unsigned long * retval ) = 0;
+    virtual HRESULT __stdcall raw_Write (
+        __int64 * pOIDS,
+        struct IRecord * * pRecords,
+        unsigned long ulCount,
+        unsigned long * retval ) = 0;
+    virtual HRESULT __stdcall raw_Append (
+        __int64 * pOIDS,
+        struct IRecord * * pRecords,
+        unsigned long ulCount,
+        unsigned long * retval ) = 0;
+    virtual HRESULT __stdcall raw_Fetch (
+        __int64 * pOIDS,
+        struct IRecord * * pRecords,
+        unsigned long ulCount,
+        unsigned long * retval ) = 0;
+    virtual HRESULT __stdcall raw_Flush (
+        VARIANT_BOOL * retval ) = 0;
+    virtual HRESULT __stdcall raw_Cancel (
+        VARIANT_BOOL * retval ) = 0;
+    virtual HRESULT __stdcall raw_UnRead (
+        __int64 * pOIDS,
+        unsigned long ulCount,
+        unsigned long * retval ) = 0;
+    virtual HRESULT __stdcall raw_UnWrite (
+        __int64 * pOIDS,
+        struct IRecord * * pRecords,
+        unsigned long ulCount,
+        unsigned long * retval ) = 0;
+    virtual HRESULT __stdcall raw_SingleRead (
+        __int64 i64OID,
+        VARIANT_BOOL * retval ) = 0;
+    virtual HRESULT __stdcall raw_SingleWrite (
+        __int64 i64OID,
+        struct IRecord * pRecord,
+        VARIANT_BOOL * retval ) = 0;
+    virtual HRESULT __stdcall raw_SingleAppend (
+        __int64 i64OID,
+        struct IRecord * pRecord,
+        VARIANT_BOOL * retval ) = 0;
+    virtual HRESULT __stdcall raw_SingleFetch (
+        __int64 * pI64OID,
+        struct IRecord * * pRecord,
+        VARIANT_BOOL * retval ) = 0;
+    virtual HRESULT __stdcall raw_SingleUnRead (
+        __int64 * pI64OID,
+        VARIANT_BOOL * retval ) = 0;
+    virtual HRESULT __stdcall raw_SingleUnWrite (
+        __int64 * pI64OID,
+        struct IRecord * * pRecord,
+        VARIANT_BOOL * retval ) = 0;
+    virtual HRESULT __stdcall raw_Close ( ) = 0;
+    virtual HRESULT __stdcall raw_DestroyThreads ( ) = 0;
+};
+
+struct __declspec(uuid("b97d1003-7f5d-498b-a3cc-d5e15ba4c232"))
+IStylePen : IStyleBasic
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetColor))
+    unsigned long Color;
+    __declspec(property(get=GetBrush))
+    IStyleBrushPtr Brush;
+    __declspec(property(get=GetWidth,put=PutWidth))
+    unsigned long Width;
+    __declspec(property(get=GetStyle,put=PutStyle))
+    unsigned long Style;
+    __declspec(property(get=GetShift,put=PutShift))
+    double Shift;
+    __declspec(property(get=GetStartCap,put=PutStartCap))
+    IStyleSymbolPtr StartCap;
+    __declspec(property(get=GetEndCap,put=PutEndCap))
+    IStyleSymbolPtr EndCap;
+    __declspec(property(get=GetMiddleCap,put=PutMiddleCap))
+    IStyleSymbolPtr MiddleCap;
+    __declspec(property(get=GetJoinCap,put=PutJoinCap))
+    IStyleSymbolPtr JoinCap;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT CreateColorPen (
+        unsigned long foreColor );
+    HRESULT CreateBrushPen (
+        struct IStyleBrush * pBrush );
+    HRESULT SetDashStyle (
+        unsigned long * pulDash,
+        unsigned long ulCount );
+    long GetDashStyle (
+        unsigned long * pulDash,
+        unsigned long ulCount );
+    HRESULT SetChildren (
+        struct IStylePen * * pChildren,
+        unsigned long ulCount );
+    long GetChildren (
+        struct IStylePen * * pChildren,
+        unsigned long ulCount );
+    unsigned long GetColor ( );
+    IStyleBrushPtr GetBrush ( );
+    void PutWidth (
+        unsigned long retval );
+    unsigned long GetWidth ( );
+    void PutStyle (
+        unsigned long retval );
+    unsigned long GetStyle ( );
+    void PutShift (
+        double retval );
+    double GetShift ( );
+    void PutStartCap (
+        struct IStyleSymbol * retval );
+    IStyleSymbolPtr GetStartCap ( );
+    void PutEndCap (
+        struct IStyleSymbol * retval );
+    IStyleSymbolPtr GetEndCap ( );
+    void PutMiddleCap (
+        struct IStyleSymbol * retval );
+    IStyleSymbolPtr GetMiddleCap ( );
+    void PutJoinCap (
+        struct IStyleSymbol * retval );
+    IStyleSymbolPtr GetJoinCap ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall raw_CreateColorPen (
+        unsigned long foreColor ) = 0;
+    virtual HRESULT __stdcall raw_CreateBrushPen (
+        struct IStyleBrush * pBrush ) = 0;
+    virtual HRESULT __stdcall raw_SetDashStyle (
+        unsigned long * pulDash,
+        unsigned long ulCount ) = 0;
+    virtual HRESULT __stdcall raw_GetDashStyle (
+        unsigned long * pulDash,
+        unsigned long ulCount,
+        long * retval ) = 0;
+    virtual HRESULT __stdcall raw_SetChildren (
+        struct IStylePen * * pChildren,
+        unsigned long ulCount ) = 0;
+    virtual HRESULT __stdcall raw_GetChildren (
+        struct IStylePen * * pChildren,
+        unsigned long ulCount,
+        long * retval ) = 0;
+    virtual HRESULT __stdcall get_Color (
+        unsigned long * retval ) = 0;
+    virtual HRESULT __stdcall get_Brush (
+        struct IStyleBrush * * retval ) = 0;
+    virtual HRESULT __stdcall put_Width (
+        unsigned long retval ) = 0;
+    virtual HRESULT __stdcall get_Width (
+        unsigned long * retval ) = 0;
+    virtual HRESULT __stdcall put_Style (
+        unsigned long retval ) = 0;
+    virtual HRESULT __stdcall get_Style (
+        unsigned long * retval ) = 0;
+    virtual HRESULT __stdcall put_Shift (
+        double retval ) = 0;
+    virtual HRESULT __stdcall get_Shift (
+        double * retval ) = 0;
+    virtual HRESULT __stdcall put_StartCap (
+        struct IStyleSymbol * retval ) = 0;
+    virtual HRESULT __stdcall get_StartCap (
+        struct IStyleSymbol * * retval ) = 0;
+    virtual HRESULT __stdcall put_EndCap (
+        struct IStyleSymbol * retval ) = 0;
+    virtual HRESULT __stdcall get_EndCap (
+        struct IStyleSymbol * * retval ) = 0;
+    virtual HRESULT __stdcall put_MiddleCap (
+        struct IStyleSymbol * retval ) = 0;
+    virtual HRESULT __stdcall get_MiddleCap (
+        struct IStyleSymbol * * retval ) = 0;
+    virtual HRESULT __stdcall put_JoinCap (
+        struct IStyleSymbol * retval ) = 0;
+    virtual HRESULT __stdcall get_JoinCap (
+        struct IStyleSymbol * * retval ) = 0;
+};
+
+struct __declspec(uuid("b97d1002-7f5d-498b-a3cc-d5e15ba4c232"))
+IStyleBrush : IStyleBasic
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetType))
+    long Type;
+    __declspec(property(get=GetforeColor))
+    unsigned long foreColor;
+    __declspec(property(get=GetbackColor))
+    unsigned long backColor;
+    __declspec(property(get=GethatchType))
+    long hatchType;
+    __declspec(property(get=GetBorder,put=PutBorder))
+    IStylePenPtr Border;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT CreateColorBrush (
+        unsigned long foreColor );
+    HRESULT CreateImageBrush (
+        wireHBITMAP hImage );
+    HRESULT CreateHatchBrush (
+        unsigned long foreColor,
+        unsigned long backColor,
+        long hatchType );
+    long GetType ( );
+    unsigned long GetforeColor ( );
+    unsigned long GetbackColor ( );
+    long GethatchType ( );
+    void GetImage (
+        wireHBITMAP * retval );
+    void PutBorder (
+        struct IStylePen * retval );
+    IStylePenPtr GetBorder ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall raw_CreateColorBrush (
+        unsigned long foreColor ) = 0;
+    virtual HRESULT __stdcall raw_CreateImageBrush (
+        wireHBITMAP hImage ) = 0;
+    virtual HRESULT __stdcall raw_CreateHatchBrush (
+        unsigned long foreColor,
+        unsigned long backColor,
+        long hatchType ) = 0;
+    virtual HRESULT __stdcall get_Type (
+        long * retval ) = 0;
+    virtual HRESULT __stdcall get_foreColor (
+        unsigned long * retval ) = 0;
+    virtual HRESULT __stdcall get_backColor (
+        unsigned long * retval ) = 0;
+    virtual HRESULT __stdcall get_hatchType (
+        long * retval ) = 0;
+    virtual HRESULT __stdcall get_Image (
+        wireHBITMAP * retval ) = 0;
+    virtual HRESULT __stdcall put_Border (
+        struct IStylePen * retval ) = 0;
+    virtual HRESULT __stdcall get_Border (
+        struct IStylePen * * retval ) = 0;
+};
+
+struct __declspec(uuid("b97d1004-7f5d-498b-a3cc-d5e15ba4c232"))
+IStyleSymbol : IStyleBasic
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetBrush,put=PutBrush))
+    IStyleBrushPtr Brush;
+    __declspec(property(get=GetBorder,put=PutBorder))
+    IStylePenPtr Border;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT CreatePolySymbol (
+        struct tagPOINT * lpPoints,
+        unsigned char * lpTypes,
+        unsigned long ulCount );
+    HRESULT CreateGlyphSymbol (
+        wireHFONT hFont,
+        short glyph );
+    HRESULT CreateImageSymbol (
+        wireHBITMAP hImage );
+    unsigned long GetSymbolPoly (
+        struct tagPOINT * lpPoints,
+        unsigned char * lpTypes,
+        unsigned long ulCount );
+    void PutBrush (
+        struct IStyleBrush * retval );
+    IStyleBrushPtr GetBrush ( );
+    void PutBorder (
+        struct IStylePen * retval );
+    IStylePenPtr GetBorder ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall raw_CreatePolySymbol (
+        struct tagPOINT * lpPoints,
+        unsigned char * lpTypes,
+        unsigned long ulCount ) = 0;
+    virtual HRESULT __stdcall raw_CreateGlyphSymbol (
+        wireHFONT hFont,
+        short glyph ) = 0;
+    virtual HRESULT __stdcall raw_CreateImageSymbol (
+        wireHBITMAP hImage ) = 0;
+    virtual HRESULT __stdcall raw_GetSymbolPoly (
+        struct tagPOINT * lpPoints,
+        unsigned char * lpTypes,
+        unsigned long ulCount,
+        unsigned long * retval ) = 0;
+    virtual HRESULT __stdcall put_Brush (
+        struct IStyleBrush * retval ) = 0;
+    virtual HRESULT __stdcall get_Brush (
+        struct IStyleBrush * * retval ) = 0;
+    virtual HRESULT __stdcall put_Border (
+        struct IStylePen * retval ) = 0;
+    virtual HRESULT __stdcall get_Border (
+        struct IStylePen * * retval ) = 0;
+};
+
+struct __declspec(uuid("b97d1005-7f5d-498b-a3cc-d5e15ba4c232"))
+IStyleLabel : IStyleBasic
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetFamily))
+    _bstr_t Family;
+    __declspec(property(get=GetSize))
+    long Size;
+    __declspec(property(get=GetStyle,put=PutStyle))
+    long Style;
+    __declspec(property(get=GetColor,put=PutColor))
+    unsigned long Color;
+    __declspec(property(get=GetBrush,put=PutBrush))
+    IStyleBrushPtr Brush;
+    __declspec(property(get=GetBorder,put=PutBorder))
+    IStylePenPtr Border;
+    __declspec(property(get=GetMargin,put=PutMargin))
+    struct tagRECT Margin;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT CreateLabel (
+        _bstr_t fontFamily,
+        long fontSize );
+    _bstr_t GetFamily ( );
+    long GetSize ( );
+    void PutStyle (
+        long retval );
+    long GetStyle ( );
+    void PutColor (
+        unsigned long retval );
+    unsigned long GetColor ( );
+    void PutBrush (
+        struct IStyleBrush * retval );
+    IStyleBrushPtr GetBrush ( );
+    void PutBorder (
+        struct IStylePen * retval );
+    IStylePenPtr GetBorder ( );
+    void PutMargin (
+        struct tagRECT retval );
+    struct tagRECT GetMargin ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall raw_CreateLabel (
+        BSTR fontFamily,
+        long fontSize ) = 0;
+    virtual HRESULT __stdcall get_Family (
+        BSTR * retval ) = 0;
+    virtual HRESULT __stdcall get_Size (
+        long * retval ) = 0;
+    virtual HRESULT __stdcall put_Style (
+        long retval ) = 0;
+    virtual HRESULT __stdcall get_Style (
+        long * retval ) = 0;
+    virtual HRESULT __stdcall put_Color (
+        unsigned long retval ) = 0;
+    virtual HRESULT __stdcall get_Color (
+        unsigned long * retval ) = 0;
+    virtual HRESULT __stdcall put_Brush (
+        struct IStyleBrush * retval ) = 0;
+    virtual HRESULT __stdcall get_Brush (
+        struct IStyleBrush * * retval ) = 0;
+    virtual HRESULT __stdcall put_Border (
+        struct IStylePen * retval ) = 0;
+    virtual HRESULT __stdcall get_Border (
+        struct IStylePen * * retval ) = 0;
+    virtual HRESULT __stdcall put_Margin (
+        struct tagRECT retval ) = 0;
+    virtual HRESULT __stdcall get_Margin (
+        struct tagRECT * retval ) = 0;
+};
+
+enum EDBLayerInfo
+{
+    LYR_Oid = 0,
+    LYR_Name = 1,
+    LYR_SType = 2,
+    LYR_Major = 3,
+    LYR_Minor = 4,
+    LYR_Shape = 5,
+    LYR_History = 6,
+    LYR_CreateTime = 7
+};
+
+enum EDBFieldInfo
+{
+    FLD_Oid = 0,
+    FLD_Name = 1,
+    FLD_Alias = 2,
+    FLD_Refer = 3,
+    FLD_VType = 4,
+    FLD_IsStatic = 5,
+    FLD_CreateTime = 6,
+    FLD_PQType = 7
+};
+
+enum IStyleEnum
+{
+    STL_Closed = 16384,
+    STL_Intersected = 32768,
+    STL_BrushSolid = 0,
+    STL_BrushTexture = 1,
+    STL_BrushHatch = 2,
+    STL_BrushHatchFirst = 0,
+    STL_BrushHatchLast = 53,
+    STL_PenSolid = 0,
+    STL_PenDash = 1,
+    STL_PenDot = 2,
+    STL_PenDashDot = 3,
+    STL_PenDashDotDot = 4,
+    STL_PenCustom = 5,
+    STL_PenGeometry = 4096,
+    STL_LabelRegular = 0,
+    STL_LabelBold = 1,
+    STL_LabelItalic = 2,
+    STL_LabelUnderline = 4,
+    STL_LabelStrikeout = 8,
+    STL_LabelNoWrap = 16,
+    STL_LabelHotkey = 32,
+    STL_LabelAlignTop = 256,
+    STL_LabelAlignLeft = 512,
+    STL_LabelAlignRight = 1024,
+    STL_LabelAlignBottom = 2048,
+    STL_LabelFixed = 4096,
+    STL_LabelRepeated = 8192
+};
+
+//
+// Wrapper method implementations
+//
+
+#include "EDBForEMP.tli"
+
+#pragma pack(pop)

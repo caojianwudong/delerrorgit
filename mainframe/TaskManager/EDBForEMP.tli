@@ -1,0 +1,2161 @@
+// Created by Microsoft (R) C/C++ Compiler Version 12.00.9782.0 (42177579).
+//
+// EDBForEMP.tli
+//
+// Wrapper implementations for Win32 type library ../../bin/release/EDBForEMP.dll
+// compiler-generated file created 02/25/17 at 10:04:34 - DO NOT EDIT!
+
+#pragma once
+
+//
+// interface ISQLConnector wrapper method implementations
+//
+
+inline VARIANT_BOOL ISQLConnector::Open ( _bstr_t strURL, _bstr_t strUSR, _bstr_t strPWD ) {
+    VARIANT_BOOL _result;
+    HRESULT _hr = raw_Open(strURL, strUSR, strPWD, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT ISQLConnector::Close ( ) {
+    HRESULT _hr = raw_Close();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline VARIANT_BOOL ISQLConnector::Refresh ( ) {
+    VARIANT_BOOL _result;
+    HRESULT _hr = raw_Refresh(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ISQLConnector::Exec ( _bstr_t strCmdText, unsigned long * pULAffected, struct ISQLRecordset * * pSQLRecordset ) {
+    VARIANT_BOOL _result;
+    HRESULT _hr = raw_Exec(strCmdText, pULAffected, pSQLRecordset, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline ISQLTransactPtr ISQLConnector::Lock ( ) {
+    struct ISQLTransact * _result;
+    HRESULT _hr = raw_Lock(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ISQLTransactPtr(_result, false);
+}
+
+inline ISQLConnectorPtr ISQLConnector::Clone ( ) {
+    struct ISQLConnector * _result;
+    HRESULT _hr = raw_Clone(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ISQLConnectorPtr(_result, false);
+}
+
+inline VARIANT_BOOL ISQLConnector::GetIsOpened ( ) {
+    VARIANT_BOOL _result;
+    HRESULT _hr = get_IsOpened(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _bstr_t ISQLConnector::GetCharset ( ) {
+    BSTR _result;
+    HRESULT _hr = get_Charset(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void ISQLConnector::PutCharset ( _bstr_t retval ) {
+    HRESULT _hr = put_Charset(retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL ISQLConnector::GetCmdText ( ) {
+    VARIANT_BOOL _result;
+    HRESULT _hr = get_CmdText(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void ISQLConnector::PutCmdText ( VARIANT_BOOL retval ) {
+    HRESULT _hr = put_CmdText(retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t ISQLConnector::GetBestName ( _bstr_t strKeywords ) {
+    BSTR _result;
+    HRESULT _hr = get_BestName(strKeywords, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+//
+// interface ISQLRecordset wrapper method implementations
+//
+
+inline VARIANT_BOOL ISQLRecordset::SeekToBegin ( ) {
+    VARIANT_BOOL _result;
+    HRESULT _hr = raw_SeekToBegin(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ISQLRecordset::SeekToEnd ( ) {
+    VARIANT_BOOL _result;
+    HRESULT _hr = raw_SeekToEnd(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline ISQLCollectionPtr ISQLRecordset::Next ( ) {
+    struct ISQLCollection * _result;
+    HRESULT _hr = raw_Next(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ISQLCollectionPtr(_result, false);
+}
+
+inline ISQLCollectionPtr ISQLRecordset::Prev ( ) {
+    struct ISQLCollection * _result;
+    HRESULT _hr = raw_Prev(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ISQLCollectionPtr(_result, false);
+}
+
+inline ISQLTablePtr ISQLRecordset::Cache ( unsigned long ulStart, unsigned long ulCount ) {
+    struct ISQLTable * _result;
+    HRESULT _hr = raw_Cache(ulStart, ulCount, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ISQLTablePtr(_result, false);
+}
+
+inline VARIANT_BOOL ISQLRecordset::GetisEOF ( ) {
+    VARIANT_BOOL _result;
+    HRESULT _hr = get_isEOF(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline unsigned long ISQLRecordset::GetCount ( ) {
+    unsigned long _result;
+    HRESULT _hr = get_Count(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline unsigned long ISQLRecordset::GetLength ( ) {
+    unsigned long _result;
+    HRESULT _hr = get_Length(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline ISQLCollectionPtr ISQLRecordset::GetRowset ( unsigned long ulRow ) {
+    struct ISQLCollection * _result;
+    HRESULT _hr = get_Rowset(ulRow, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ISQLCollectionPtr(_result, false);
+}
+
+inline _variant_t ISQLRecordset::GetItems ( unsigned long ulRow, unsigned long strField ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = get_Items(ulRow, strField, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline _variant_t ISQLRecordset::GetNamedItems ( unsigned long ulRow, _bstr_t strField ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = get_NamedItems(ulRow, strField, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline unsigned long ISQLRecordset::GetNamedIndex ( _bstr_t strField ) {
+    unsigned long _result;
+    HRESULT _hr = get_NamedIndex(strField, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline ISQLHeadersetPtr ISQLRecordset::GetHeaderset ( ) {
+    struct ISQLHeaderset * _result;
+    HRESULT _hr = get_Headerset(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ISQLHeadersetPtr(_result, false);
+}
+
+//
+// interface ISQLCollection wrapper method implementations
+//
+
+inline VARIANT_BOOL ISQLCollection::GetIsSupportNamedIndex ( ) {
+    VARIANT_BOOL _result;
+    HRESULT _hr = get_IsSupportNamedIndex(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline unsigned long ISQLCollection::GetLength ( ) {
+    unsigned long _result;
+    HRESULT _hr = get_Length(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void ISQLCollection::PutLength ( unsigned long retval ) {
+    HRESULT _hr = put_Length(retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _variant_t ISQLCollection::GetItems ( unsigned long ulField ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = get_Items(ulField, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline void ISQLCollection::PutItems ( unsigned long ulField, const _variant_t & retval ) {
+    HRESULT _hr = put_Items(ulField, retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _variant_t ISQLCollection::GetNamedItems ( _bstr_t strField ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = get_NamedItems(strField, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline void ISQLCollection::PutNamedItems ( _bstr_t strField, const _variant_t & retval ) {
+    HRESULT _hr = put_NamedItems(strField, retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline unsigned long ISQLCollection::GetNamedIndex ( _bstr_t strField ) {
+    unsigned long _result;
+    HRESULT _hr = get_NamedIndex(strField, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline ISQLHeadersetPtr ISQLCollection::GetHeaderset ( ) {
+    struct ISQLHeaderset * _result;
+    HRESULT _hr = get_Headerset(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ISQLHeadersetPtr(_result, false);
+}
+
+inline void ISQLCollection::PutHeaderset ( struct ISQLHeaderset * retval ) {
+    HRESULT _hr = put_Headerset(retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline HRESULT ISQLCollection::Attach ( unsigned long ulField, VARIANT * pVariant ) {
+    HRESULT _hr = raw_Attach(ulField, pVariant);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface ISQLHeaderset wrapper method implementations
+//
+
+inline HRESULT ISQLHeaderset::CreateNamedIndexes ( ) {
+    HRESULT _hr = raw_CreateNamedIndexes();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline VARIANT_BOOL ISQLHeaderset::GetIsSupportNamedIndex ( ) {
+    VARIANT_BOOL _result;
+    HRESULT _hr = get_IsSupportNamedIndex(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline unsigned long ISQLHeaderset::GetLength ( ) {
+    unsigned long _result;
+    HRESULT _hr = get_Length(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void ISQLHeaderset::PutLength ( unsigned long retval ) {
+    HRESULT _hr = put_Length(retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline ISQLHeaderPtr ISQLHeaderset::GetItems ( unsigned long ulField ) {
+    struct ISQLHeader * _result;
+    HRESULT _hr = get_Items(ulField, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ISQLHeaderPtr(_result, false);
+}
+
+inline unsigned long ISQLHeaderset::GetNamedIndex ( _bstr_t strField ) {
+    unsigned long _result;
+    HRESULT _hr = get_NamedIndex(strField, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline ISQLHeaderPtr ISQLHeaderset::GetNamedItems ( _bstr_t strField ) {
+    struct ISQLHeader * _result;
+    HRESULT _hr = get_NamedItems(strField, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ISQLHeaderPtr(_result, false);
+}
+
+//
+// interface ISQLHeader wrapper method implementations
+//
+
+inline _bstr_t ISQLHeader::GetTitle ( ) {
+    BSTR _result;
+    HRESULT _hr = get_Title(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void ISQLHeader::PutTitle ( _bstr_t retval ) {
+    HRESULT _hr = put_Title(retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface ISQLTable wrapper method implementations
+//
+
+inline VARIANT_BOOL ISQLTable::CreateUnique ( unsigned long ulField, VARIANT_BOOL bNocase ) {
+    VARIANT_BOOL _result;
+    HRESULT _hr = raw_CreateUnique(ulField, bNocase, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void ISQLTable::PutCount ( unsigned long retval ) {
+    HRESULT _hr = put_Count(retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline unsigned long ISQLTable::GetCount ( ) {
+    unsigned long _result;
+    HRESULT _hr = get_Count(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void ISQLTable::PutLength ( unsigned long retval ) {
+    HRESULT _hr = put_Length(retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline unsigned long ISQLTable::GetLength ( ) {
+    unsigned long _result;
+    HRESULT _hr = get_Length(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void ISQLTable::PutRowset ( unsigned long ulRow, struct ISQLCollection * retval ) {
+    HRESULT _hr = put_Rowset(ulRow, retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline ISQLCollectionPtr ISQLTable::GetRowset ( unsigned long ulRow ) {
+    struct ISQLCollection * _result;
+    HRESULT _hr = get_Rowset(ulRow, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ISQLCollectionPtr(_result, false);
+}
+
+inline void ISQLTable::PutUnique ( const _variant_t & varKey, struct ISQLCollection * retval ) {
+    HRESULT _hr = put_Unique(varKey, retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline ISQLCollectionPtr ISQLTable::GetUnique ( const _variant_t & varKey ) {
+    struct ISQLCollection * _result;
+    HRESULT _hr = get_Unique(varKey, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ISQLCollectionPtr(_result, false);
+}
+
+inline unsigned long ISQLTable::GetUniqueIndex ( const _variant_t & varIndex ) {
+    unsigned long _result;
+    HRESULT _hr = get_UniqueIndex(varIndex, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void ISQLTable::PutItems ( unsigned long ulRow, unsigned long ulField, const _variant_t & retval ) {
+    HRESULT _hr = put_Items(ulRow, ulField, retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _variant_t ISQLTable::GetItems ( unsigned long ulRow, unsigned long ulField ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = get_Items(ulRow, ulField, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline void ISQLTable::PutNamedItems ( unsigned long ulRow, _bstr_t strField, const _variant_t & retval ) {
+    HRESULT _hr = put_NamedItems(ulRow, strField, retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _variant_t ISQLTable::GetNamedItems ( unsigned long ulRow, _bstr_t strField ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = get_NamedItems(ulRow, strField, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+//
+// interface ISQLTransact wrapper method implementations
+//
+
+inline VARIANT_BOOL ISQLTransact::Rollback ( ) {
+    VARIANT_BOOL _result;
+    HRESULT _hr = raw_Rollback(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ISQLTransact::Commit ( ) {
+    VARIANT_BOOL _result;
+    HRESULT _hr = raw_Commit(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface ISQLCommand wrapper method implementations
+//
+
+inline VARIANT_BOOL ISQLCommand::Excute ( struct ISQLConnector * pSQLConnecter, unsigned long * pULAffected, struct ISQLRecordset * * pSQLRecordset ) {
+    VARIANT_BOOL _result;
+    HRESULT _hr = raw_Excute(pSQLConnecter, pULAffected, pSQLRecordset, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _variant_t ISQLCommand::Lock ( ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = raw_Lock(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline _variant_t ISQLCommand::AddParameters ( const _variant_t & varParams ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = raw_AddParameters(varParams, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline VARIANT_BOOL ISQLCommand::Commit ( const _variant_t & varCursor, _bstr_t strAppend ) {
+    VARIANT_BOOL _result;
+    HRESULT _hr = raw_Commit(varCursor, strAppend, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT ISQLCommand::Rollback ( const _variant_t & varCursor ) {
+    HRESULT _hr = raw_Rollback(varCursor);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISQLCommand::AppendQueryString ( _bstr_t strAppend ) {
+    HRESULT _hr = raw_AppendQueryString(strAppend);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISQLCommand::ClearParmaters ( ) {
+    HRESULT _hr = raw_ClearParmaters();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline _variant_t ISQLCommand::GetQueryIterator ( ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = get_QueryIterator(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline _variant_t ISQLCommand::GetNextParameter ( VARIANT * varPosition ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = get_NextParameter(varPosition, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline void ISQLCommand::PutQueryString ( _bstr_t retval ) {
+    HRESULT _hr = put_QueryString(retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t ISQLCommand::GetQueryString ( ) {
+    BSTR _result;
+    HRESULT _hr = get_QueryString(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void ISQLCommand::PutParameters ( const _variant_t & varIndex, const _variant_t & retval ) {
+    HRESULT _hr = put_Parameters(varIndex, retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _variant_t ISQLCommand::GetParameters ( const _variant_t & varIndex ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = get_Parameters(varIndex, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline _bstr_t ISQLCommand::GetNextParameterName ( ) {
+    BSTR _result;
+    HRESULT _hr = get_NextParameterName(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void ISQLCommand::PutMaxBytes ( unsigned long _arg1 ) {
+    HRESULT _hr = put_MaxBytes(_arg1);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline void ISQLCommand::PutMaxParameters ( unsigned long retval ) {
+    HRESULT _hr = put_MaxParameters(retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline unsigned long ISQLCommand::GetMaxParameters ( ) {
+    unsigned long _result;
+    HRESULT _hr = get_MaxParameters(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline unsigned long ISQLCommand::GetCount ( ) {
+    unsigned long _result;
+    HRESULT _hr = get_Count(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface IDataset wrapper method implementations
+//
+
+inline HRESULT IDataset::Remove ( unsigned long retval ) {
+    HRESULT _hr = raw_Remove(retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline unsigned long IDataset::Append ( struct IRecordset * pRecordset ) {
+    unsigned long _result;
+    HRESULT _hr = raw_Append(pRecordset, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT IDataset::Load ( _bstr_t strFilePath, VARIANT_BOOL * retval ) {
+    HRESULT _hr = raw_Load(strFilePath, retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IDataset::Save ( _bstr_t strFilePath, VARIANT_BOOL * retval ) {
+    HRESULT _hr = raw_Save(strFilePath, retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline ISTRComparisonPtr IDataset::GetComparison ( ) {
+    struct ISTRComparison * _result;
+    HRESULT _hr = get_Comparison(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ISTRComparisonPtr(_result, false);
+}
+
+inline void IDataset::PutComparison ( struct ISTRComparison * retval ) {
+    HRESULT _hr = put_Comparison(retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline void IDataset::PutStockComparison ( long _arg1 ) {
+    HRESULT _hr = put_StockComparison(_arg1);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline void IDataset::PutNamedExtend ( _bstr_t _arg1 ) {
+    HRESULT _hr = put_NamedExtend(_arg1);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline unsigned long IDataset::GetCount ( ) {
+    unsigned long _result;
+    HRESULT _hr = get_Count(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IRecordsetPtr IDataset::GetItem ( unsigned long ulIndex ) {
+    struct IRecordset * _result;
+    HRESULT _hr = get_Item(ulIndex, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IRecordsetPtr(_result, false);
+}
+
+inline void IDataset::PutItem ( unsigned long ulIndex, struct IRecordset * retval ) {
+    HRESULT _hr = put_Item(ulIndex, retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IRecordsetPtr IDataset::GetNamedItem ( _bstr_t strIndex ) {
+    struct IRecordset * _result;
+    HRESULT _hr = get_NamedItem(strIndex, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IRecordsetPtr(_result, false);
+}
+
+inline void IDataset::PutNamedItem ( _bstr_t strIndex, struct IRecordset * retval ) {
+    HRESULT _hr = put_NamedItem(strIndex, retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface IRecordset wrapper method implementations
+//
+
+inline unsigned long IRecordset::GetLength ( ) {
+    unsigned long _result;
+    HRESULT _hr = get_Length(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IRecordset::PutCount ( unsigned long retval ) {
+    HRESULT _hr = put_Count(retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline unsigned long IRecordset::GetCount ( ) {
+    unsigned long _result;
+    HRESULT _hr = get_Count(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IRecordPtr IRecordset::GetExpand ( ) {
+    struct IRecord * _result;
+    HRESULT _hr = get_Expand(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IRecordPtr(_result, false);
+}
+
+inline void IRecordset::PutHeader ( struct IRecordHeader * retval ) {
+    HRESULT _hr = put_Header(retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IRecordHeaderPtr IRecordset::GetHeader ( ) {
+    struct IRecordHeader * _result;
+    HRESULT _hr = get_Header(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IRecordHeaderPtr(_result, false);
+}
+
+inline IRecordPtr IRecordset::GetRowset ( unsigned long ulRow ) {
+    struct IRecord * _result;
+    HRESULT _hr = get_Rowset(ulRow, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IRecordPtr(_result, false);
+}
+
+inline void IRecordset::PutRowset ( unsigned long ulRow, struct IRecord * retval ) {
+    HRESULT _hr = put_Rowset(ulRow, retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IRecordFieldPtr IRecordset::GetField ( unsigned long ulField ) {
+    struct IRecordField * _result;
+    HRESULT _hr = get_Field(ulField, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IRecordFieldPtr(_result, false);
+}
+
+inline void IRecordset::PutItems ( unsigned long ulRow, unsigned long ulField, const _variant_t & retval ) {
+    HRESULT _hr = put_Items(ulRow, ulField, retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _variant_t IRecordset::GetItems ( unsigned long ulRow, unsigned long ulField ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = get_Items(ulRow, ulField, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline void IRecordset::PutNamedItems ( unsigned long ulRow, _bstr_t strField, const _variant_t & retval ) {
+    HRESULT _hr = put_NamedItems(ulRow, strField, retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _variant_t IRecordset::GetNamedItems ( unsigned long ulRow, _bstr_t strField ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = get_NamedItems(ulRow, strField, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+//
+// interface IRecord wrapper method implementations
+//
+
+inline unsigned long IRecord::GetLength ( ) {
+    unsigned long _result;
+    HRESULT _hr = get_Length(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _variant_t IRecord::GetItem ( unsigned long ulField ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = get_Item(ulField, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline void IRecord::PutItem ( unsigned long ulField, const _variant_t & retval ) {
+    HRESULT _hr = put_Item(ulField, retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _variant_t IRecord::GetNamedItem ( _bstr_t strField ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = get_NamedItem(strField, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline void IRecord::PutNamedItem ( _bstr_t strField, const _variant_t & retval ) {
+    HRESULT _hr = put_NamedItem(strField, retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _variant_t IRecord::GetValue ( ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = get_Value(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline unsigned long IRecord::Load ( unsigned char * pBuffer, unsigned long nBuffer ) {
+    unsigned long _result;
+    HRESULT _hr = raw_Load(pBuffer, nBuffer, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline unsigned long IRecord::Save ( unsigned char * pBuffer, unsigned long nBuffer ) {
+    unsigned long _result;
+    HRESULT _hr = raw_Save(pBuffer, nBuffer, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IRecordPtr IRecord::Clone ( struct IRecord * pTarget ) {
+    struct IRecord * _result;
+    HRESULT _hr = raw_Clone(pTarget, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IRecordPtr(_result, false);
+}
+
+inline long IRecord::Compare ( struct IRecord * pTarget ) {
+    long _result;
+    HRESULT _hr = raw_Compare(pTarget, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface IRecordHeader wrapper method implementations
+//
+
+inline IRecordHeaderPtr IRecordHeader::GetFieldInfo ( ) {
+    struct IRecordHeader * _result;
+    HRESULT _hr = raw_GetFieldInfo(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IRecordHeaderPtr(_result, false);
+}
+
+inline HRESULT IRecordHeader::PutFieldInfo ( struct IRecordHeader * retval ) {
+    HRESULT _hr = raw_PutFieldInfo(retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline IRecordHeaderPtr IRecordHeader::GetExpandInfo ( ) {
+    struct IRecordHeader * _result;
+    HRESULT _hr = raw_GetExpandInfo(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IRecordHeaderPtr(_result, false);
+}
+
+inline HRESULT IRecordHeader::PutExpandInfo ( struct IRecordHeader * retval ) {
+    HRESULT _hr = raw_PutExpandInfo(retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline ISTRComparisonPtr IRecordHeader::GetComparison ( ) {
+    struct ISTRComparison * _result;
+    HRESULT _hr = get_Comparison(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ISTRComparisonPtr(_result, false);
+}
+
+inline void IRecordHeader::PutComparison ( struct ISTRComparison * retval ) {
+    HRESULT _hr = put_Comparison(retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline void IRecordHeader::PutStockComparison ( long _arg1 ) {
+    HRESULT _hr = put_StockComparison(_arg1);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline unsigned long IRecordHeader::GetLength ( ) {
+    unsigned long _result;
+    HRESULT _hr = get_Length(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IRecordHeader::PutLength ( unsigned long retval ) {
+    HRESULT _hr = put_Length(retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IRecordFieldPtr IRecordHeader::GetItem ( unsigned long ulField ) {
+    struct IRecordField * _result;
+    HRESULT _hr = get_Item(ulField, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IRecordFieldPtr(_result, false);
+}
+
+inline void IRecordHeader::PutItem ( unsigned long ulField, struct IRecordField * retval ) {
+    HRESULT _hr = put_Item(ulField, retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IRecordFieldPtr IRecordHeader::GetNamedItem ( _bstr_t strField ) {
+    struct IRecordField * _result;
+    HRESULT _hr = get_NamedItem(strField, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IRecordFieldPtr(_result, false);
+}
+
+inline void IRecordHeader::PutNamedItem ( _bstr_t strField, struct IRecordField * retval ) {
+    HRESULT _hr = put_NamedItem(strField, retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IRecordPtr IRecordHeader::GetExpand ( ) {
+    struct IRecord * _result;
+    HRESULT _hr = get_Expand(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IRecordPtr(_result, false);
+}
+
+inline unsigned long IRecordHeader::Append ( struct IRecordField * pRecordField ) {
+    unsigned long _result;
+    HRESULT _hr = raw_Append(pRecordField, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline unsigned long IRecordHeader::Find ( _bstr_t strField, unsigned long ulStart ) {
+    unsigned long _result;
+    HRESULT _hr = raw_Find(strField, ulStart, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT IRecordHeader::Remove ( unsigned long retval ) {
+    HRESULT _hr = raw_Remove(retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IRecordHeader::Clear ( ) {
+    HRESULT _hr = raw_Clear();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IRecordHeader::Dirty ( struct IRecordField * pRecordField ) {
+    HRESULT _hr = raw_Dirty(pRecordField);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline IRecordHeaderPtr IRecordHeader::Clone ( struct IRecordHeader * pTarget ) {
+    struct IRecordHeader * _result;
+    HRESULT _hr = raw_Clone(pTarget, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IRecordHeaderPtr(_result, false);
+}
+
+//
+// interface ISTRComparison wrapper method implementations
+//
+
+inline long ISTRComparison::Compare ( _bstr_t strLeft, _bstr_t strRight ) {
+    long _result;
+    HRESULT _hr = raw_Compare(strLeft, strRight, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface IRecordField wrapper method implementations
+//
+
+inline IRecordHeaderPtr IRecordField::GetParent ( ) {
+    struct IRecordHeader * _result;
+    HRESULT _hr = get_Parent(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IRecordHeaderPtr(_result, false);
+}
+
+inline _bstr_t IRecordField::GetTitle ( ) {
+    BSTR _result;
+    HRESULT _hr = get_Title(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IRecordField::PutTitle ( _bstr_t retval ) {
+    HRESULT _hr = put_Title(retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline unsigned long IRecordField::GetType ( ) {
+    unsigned long _result;
+    HRESULT _hr = get_Type(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IRecordField::PutType ( unsigned long retval ) {
+    HRESULT _hr = put_Type(retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline unsigned long IRecordField::GetIndexOfArray ( ) {
+    unsigned long _result;
+    HRESULT _hr = get_IndexOfArray(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline unsigned short IRecordField::GetValueType ( ) {
+    unsigned short _result;
+    HRESULT _hr = get_ValueType(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IRecordPtr IRecordField::GetExpand ( ) {
+    struct IRecord * _result;
+    HRESULT _hr = get_Expand(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IRecordPtr(_result, false);
+}
+
+inline IRecordFieldPtr IRecordField::Clone ( struct IRecordField * pTarget ) {
+    struct IRecordField * _result;
+    HRESULT _hr = raw_Clone(pTarget, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IRecordFieldPtr(_result, false);
+}
+
+//
+// interface IEMPRewriter wrapper method implementations
+//
+
+inline VARIANT_BOOL IEMPRewriter::Load ( _bstr_t strFilePath ) {
+    VARIANT_BOOL _result;
+    HRESULT _hr = raw_Load(strFilePath, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IRecordHeaderPtr IEMPRewriter::GetLayerHeader ( _bstr_t strLayerName ) {
+    struct IRecordHeader * _result;
+    HRESULT _hr = raw_GetLayerHeader(strLayerName, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IRecordHeaderPtr(_result, false);
+}
+
+inline IRecordsetPtr IEMPRewriter::GetLayer ( _bstr_t strLayerName, _bstr_t strUniqueName ) {
+    struct IRecordset * _result;
+    HRESULT _hr = raw_GetLayer(strLayerName, strUniqueName, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IRecordsetPtr(_result, false);
+}
+
+inline VARIANT_BOOL IEMPRewriter::Create ( unsigned long ulMesh ) {
+    VARIANT_BOOL _result;
+    HRESULT _hr = raw_Create(ulMesh, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IEMPRewriter::SetLayer ( _bstr_t strLayerName, _bstr_t strUniqueName, struct IRecordset * pRecordset ) {
+    VARIANT_BOOL _result;
+    HRESULT _hr = raw_SetLayer(strLayerName, strUniqueName, pRecordset, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IEMPRewriter::Save ( _bstr_t strFilePath ) {
+    VARIANT_BOOL _result;
+    HRESULT _hr = raw_Save(strFilePath, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline long IEMPRewriter::EnumLayer ( unsigned long ulLayerCount, BSTR * strLayerNames ) {
+    long _result;
+    HRESULT _hr = raw_EnumLayer(ulLayerCount, strLayerNames, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface IUIDManger wrapper method implementations
+//
+
+inline VARIANT_BOOL IUIDManger::Open ( _bstr_t strURL, _bstr_t strUSR, _bstr_t strPWD ) {
+    VARIANT_BOOL _result;
+    HRESULT _hr = raw_Open(strURL, strUSR, strPWD, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT IUIDManger::Attach ( struct ISQLConnector * pSQLConnector ) {
+    HRESULT _hr = raw_Attach(pSQLConnector);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline ISQLConnectorPtr IUIDManger::Detach ( ) {
+    struct ISQLConnector * _result;
+    HRESULT _hr = raw_Detach(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ISQLConnectorPtr(_result, false);
+}
+
+inline IUIDLayerPtr IUIDManger::Query ( _bstr_t strLayerName ) {
+    struct IUIDLayer * _result;
+    HRESULT _hr = raw_Query(strLayerName, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IUIDLayerPtr(_result, false);
+}
+
+inline HRESULT IUIDManger::Register ( _bstr_t strLayerName, _bstr_t strTableName ) {
+    HRESULT _hr = raw_Register(strLayerName, strTableName);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IUIDLayer wrapper method implementations
+//
+
+inline VARIANT_BOOL IUIDLayer::Make ( __int64 * pOIDS, long ulCount ) {
+    VARIANT_BOOL _result;
+    HRESULT _hr = raw_Make(pOIDS, ulCount, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline long IUIDLayer::Sync ( struct IUIDREF * pOIDS, long ulCount ) {
+    long _result;
+    HRESULT _hr = raw_Sync(pOIDS, ulCount, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline long IUIDLayer::Query ( struct IUIDREF * pOIDS, long ulCount ) {
+    long _result;
+    HRESULT _hr = raw_Query(pOIDS, ulCount, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline long IUIDLayer::Fetch ( long mesh, struct IUIDREF * pOIDS, long ulCount ) {
+    long _result;
+    HRESULT _hr = raw_Fetch(mesh, pOIDS, ulCount, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface IEMPManager wrapper method implementations
+//
+
+inline ISQLConnectorPtr IEMPManager::GetDBServer ( ) {
+    struct ISQLConnector * _result;
+    HRESULT _hr = get_DBServer(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ISQLConnectorPtr(_result, false);
+}
+
+inline void IEMPManager::PutDBServer ( struct ISQLConnector * retval ) {
+    HRESULT _hr = put_DBServer(retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline ISQLConnectorPtr IEMPManager::GetUIDServer ( ) {
+    struct ISQLConnector * _result;
+    HRESULT _hr = get_UIDServer(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ISQLConnectorPtr(_result, false);
+}
+
+inline void IEMPManager::PutUIDServer ( struct ISQLConnector * retval ) {
+    HRESULT _hr = put_UIDServer(retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IUIDMangerPtr IEMPManager::GetUIDManger ( ) {
+    struct IUIDManger * _result;
+    HRESULT _hr = get_UIDManger(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IUIDMangerPtr(_result, false);
+}
+
+inline void IEMPManager::PutNotify ( struct IEMPNotify * _arg1 ) {
+    HRESULT _hr = put_Notify(_arg1);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline void IEMPManager::PutThreadCount ( long _arg1 ) {
+    HRESULT _hr = put_ThreadCount(_arg1);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL IEMPManager::InitDB ( _bstr_t strTemplateFilePath, _bstr_t strConfigureFilepath ) {
+    VARIANT_BOOL _result;
+    HRESULT _hr = raw_InitDB(strTemplateFilePath, strConfigureFilepath, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IEMPManager::CreateDBLayer ( _bstr_t strLayerName, _bstr_t strTemplateFilePath, _bstr_t strConfigureFilepath ) {
+    VARIANT_BOOL _result;
+    HRESULT _hr = raw_CreateDBLayer(strLayerName, strTemplateFilePath, strConfigureFilepath, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT IEMPManager::CreateDBLayerByHeader ( struct IRecordHeader * retval ) {
+    HRESULT _hr = raw_CreateDBLayerByHeader(retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline IRecordHeaderPtr IEMPManager::LoadTemplateHeader ( _bstr_t strLayerName, _bstr_t strTemplateFilePath, _bstr_t strConfigureFilepath ) {
+    struct IRecordHeader * _result;
+    HRESULT _hr = raw_LoadTemplateHeader(strLayerName, strTemplateFilePath, strConfigureFilepath, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IRecordHeaderPtr(_result, false);
+}
+
+inline HRESULT IEMPManager::DropDBLayer ( _bstr_t strLayerName ) {
+    HRESULT _hr = raw_DropDBLayer(strLayerName);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline IEMPLayerPtr IEMPManager::Register ( _bstr_t strLayerName ) {
+    struct IEMPLayer * _result;
+    HRESULT _hr = raw_Register(strLayerName, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IEMPLayerPtr(_result, false);
+}
+
+inline IEMPLayerPtr IEMPManager::Query ( _bstr_t strLayerName ) {
+    struct IEMPLayer * _result;
+    HRESULT _hr = raw_Query(strLayerName, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IEMPLayerPtr(_result, false);
+}
+
+inline VARIANT_BOOL IEMPManager::UnRegister ( _bstr_t strLayerName ) {
+    VARIANT_BOOL _result;
+    HRESULT _hr = raw_UnRegister(strLayerName, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IRecordsetPtr IEMPManager::GetDBLayers ( ) {
+    struct IRecordset * _result;
+    HRESULT _hr = raw_GetDBLayers(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IRecordsetPtr(_result, false);
+}
+
+inline VARIANT_BOOL * IEMPManager::Location ( struct IEMPRegion * pEMPRegion ) {
+    VARIANT_BOOL * _result;
+    HRESULT _hr = raw_Location(pEMPRegion, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT IEMPManager::DrawOnBitmap ( wireHDC hMemdc, unsigned long ulFlags, struct IEMPRegion * pEMPRegion ) {
+    HRESULT _hr = raw_DrawOnBitmap(hMemdc, ulFlags, pEMPRegion);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline VARIANT_BOOL IEMPManager::SelectByRegion ( struct tagRECT * pSelectRect, struct IEMPRegion * pSelectRegion, long selectOP ) {
+    VARIANT_BOOL _result;
+    HRESULT _hr = raw_SelectByRegion(pSelectRect, pSelectRegion, selectOP, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT IEMPManager::DoCancel ( ) {
+    HRESULT _hr = raw_DoCancel();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline IUnknownPtr IEMPManager::DoPause ( ) {
+    IUnknown * _result;
+    HRESULT _hr = raw_DoPause(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IUnknownPtr(_result, false);
+}
+
+inline VARIANT_BOOL IEMPManager::QueryDBBoundary ( struct IEMPRegion * pEMPRegion ) {
+    VARIANT_BOOL _result;
+    HRESULT _hr = raw_QueryDBBoundary(pEMPRegion, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline struct IEMPRegion IEMPManager::GetRegionByMesh ( long lMeshID, enum MeshLEVEL enumMeshLevel ) {
+    struct IEMPRegion _result;
+    HRESULT _hr = raw_GetRegionByMesh(lMeshID, enumMeshLevel, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline struct IEMPRegion IEMPManager::GetRegionByMeshName ( _bstr_t strMeshName ) {
+    struct IEMPRegion _result;
+    HRESULT _hr = raw_GetRegionByMeshName(strMeshName, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface IEMPNotify wrapper method implementations
+//
+
+inline HRESULT IEMPNotify::OnAssign ( unsigned long nCount, VARIANT_BOOL bError ) {
+    HRESULT _hr = raw_OnAssign(nCount, bError);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IEMPNotify::OnReady ( unsigned long iThreads, unsigned long * nCount, __int64 * pOIDS, struct IRecord * * pRecords ) {
+    HRESULT _hr = raw_OnReady(iThreads, nCount, pOIDS, pRecords);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IEMPNotify::OnFetch ( unsigned long iThreads, unsigned long * nCount, __int64 * pOIDS, struct IRecord * * pRecords ) {
+    HRESULT _hr = raw_OnFetch(iThreads, nCount, pOIDS, pRecords);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IEMPNotify::OnFlush ( unsigned long nError, unsigned long nUndo ) {
+    HRESULT _hr = raw_OnFlush(nError, nUndo);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IEMPLayer wrapper method implementations
+//
+
+inline void IEMPLayer::PutMyHeader ( struct IRecordHeader * retval ) {
+    HRESULT _hr = put_MyHeader(retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IRecordHeaderPtr IEMPLayer::GetMyHeader ( ) {
+    struct IRecordHeader * _result;
+    HRESULT _hr = get_MyHeader(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IRecordHeaderPtr(_result, false);
+}
+
+inline IRecordHeaderPtr IEMPLayer::GetMemHeader ( ) {
+    struct IRecordHeader * _result;
+    HRESULT _hr = get_MemHeader(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IRecordHeaderPtr(_result, false);
+}
+
+inline IRecordHeaderPtr IEMPLayer::QueryDBFields ( ) {
+    struct IRecordHeader * _result;
+    HRESULT _hr = raw_QueryDBFields(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IRecordHeaderPtr(_result, false);
+}
+
+inline VARIANT_BOOL IEMPLayer::QueryDBBoundary ( struct IEMPRegion * pEMPRegion ) {
+    VARIANT_BOOL _result;
+    HRESULT _hr = raw_QueryDBBoundary(pEMPRegion, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IUIDLayerPtr IEMPLayer::GetUIDLayer ( ) {
+    struct IUIDLayer * _result;
+    HRESULT _hr = get_UIDLayer(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IUIDLayerPtr(_result, false);
+}
+
+inline ISQLConnectorPtr IEMPLayer::GetDBServer ( ) {
+    struct ISQLConnector * _result;
+    HRESULT _hr = get_DBServer(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ISQLConnectorPtr(_result, false);
+}
+
+inline _bstr_t IEMPLayer::GetTitle ( ) {
+    BSTR _result;
+    HRESULT _hr = get_Title(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline unsigned long IEMPLayer::GetCount ( ) {
+    unsigned long _result;
+    HRESULT _hr = get_Count(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _bstr_t IEMPLayer::GetUnique ( ) {
+    BSTR _result;
+    HRESULT _hr = get_Unique(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline IStyleCollectionPtr IEMPLayer::GetStyle ( ) {
+    struct IStyleCollection * _result;
+    HRESULT _hr = get_Style(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStyleCollectionPtr(_result, false);
+}
+
+inline IEMPCamperPtr IEMPLayer::Load ( struct IEMPRegion * pEMPRegion, VARIANT_BOOL * bCancle ) {
+    struct IEMPCamper * _result;
+    HRESULT _hr = raw_Load(pEMPRegion, bCancle, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IEMPCamperPtr(_result, false);
+}
+
+inline HRESULT IEMPLayer::ReloadStyle ( ) {
+    HRESULT _hr = raw_ReloadStyle();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline VARIANT_BOOL * IEMPLayer::Location ( struct IEMPRegion * pEMPRegion ) {
+    VARIANT_BOOL * _result;
+    HRESULT _hr = raw_Location(pEMPRegion, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT IEMPLayer::DrawOnBitmap ( wireHDC hMemdc, unsigned long ulFlags, struct IEMPRegion * pEMPRegion ) {
+    HRESULT _hr = raw_DrawOnBitmap(hMemdc, ulFlags, pEMPRegion);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline VARIANT_BOOL IEMPLayer::SelectByRegion ( struct tagRECT * pSelectRect, struct IEMPRegion * pSelectRegion, long selectOP ) {
+    VARIANT_BOOL _result;
+    HRESULT _hr = raw_SelectByRegion(pSelectRect, pSelectRegion, selectOP, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IRecordPtr IEMPLayer::Query ( __int64 llOID ) {
+    struct IRecord * _result;
+    HRESULT _hr = raw_Query(llOID, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IRecordPtr(_result, false);
+}
+
+inline VARIANT_BOOL IEMPLayer::Append ( __int64 llOID, struct IRecord * pEMPRegion ) {
+    VARIANT_BOOL _result;
+    HRESULT _hr = raw_Append(llOID, pEMPRegion, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IEMPLayer::Remove ( __int64 llOID ) {
+    VARIANT_BOOL _result;
+    HRESULT _hr = raw_Remove(llOID, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT IEMPLayer::Modify ( __int64 llOID, struct IRecord * pEMPRegion ) {
+    HRESULT _hr = raw_Modify(llOID, pEMPRegion);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IEMPLayer::Sync ( ) {
+    HRESULT _hr = raw_Sync();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IEMPLayer::Clear ( ) {
+    HRESULT _hr = raw_Clear();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline void * IEMPLayer::FindFirst ( ) {
+    void * _result;
+    HRESULT _hr = raw_FindFirst(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IRecordPtr IEMPLayer::FindNext ( void * * ppPositon, __int64 * pllOID ) {
+    struct IRecord * _result;
+    HRESULT _hr = raw_FindNext(ppPositon, pllOID, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IRecordPtr(_result, false);
+}
+
+inline HRESULT IEMPLayer::CreatePrimary ( ) {
+    HRESULT _hr = raw_CreatePrimary();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IEMPLayer::DropPrimary ( ) {
+    HRESULT _hr = raw_DropPrimary();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IEMPLayer::CreateTrigger ( ) {
+    HRESULT _hr = raw_CreateTrigger();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IEMPLayer::DropTrigger ( ) {
+    HRESULT _hr = raw_DropTrigger();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IEMPLayer::CreateMainView ( ) {
+    HRESULT _hr = raw_CreateMainView();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IEMPLayer::DropMainView ( ) {
+    HRESULT _hr = raw_DropMainView();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IEMPLayer::CreateIndex ( ) {
+    HRESULT _hr = raw_CreateIndex();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IEMPLayer::SyncField ( struct IRecordHeader * pHeader ) {
+    HRESULT _hr = raw_SyncField(pHeader);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IEMPLayer::DropIndex ( ) {
+    HRESULT _hr = raw_DropIndex();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IEMPLayer::CreateTemporaryView ( struct ISQLConnector * pSQLConnector ) {
+    HRESULT _hr = raw_CreateTemporaryView(pSQLConnector);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IEMPLayer::DropTemporaryView ( struct ISQLConnector * pSQLConnector ) {
+    HRESULT _hr = raw_DropTemporaryView(pSQLConnector);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IStyleCollection wrapper method implementations
+//
+
+inline void IStyleCollection::PutDefault ( struct IStyleObject * retval ) {
+    HRESULT _hr = put_Default(retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IStyleObjectPtr IStyleCollection::GetDefault ( ) {
+    struct IStyleObject * _result;
+    HRESULT _hr = get_Default(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStyleObjectPtr(_result, false);
+}
+
+inline void IStyleCollection::PutSelection ( struct IStyleObject * retval ) {
+    HRESULT _hr = put_Selection(retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IStyleObjectPtr IStyleCollection::GetSelection ( ) {
+    struct IStyleObject * _result;
+    HRESULT _hr = get_Selection(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStyleObjectPtr(_result, false);
+}
+
+inline void IStyleCollection::PutItem ( unsigned long ulIndex, struct IStyleObject * retval ) {
+    HRESULT _hr = put_Item(ulIndex, retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IStyleObjectPtr IStyleCollection::GetItem ( unsigned long ulIndex ) {
+    struct IStyleObject * _result;
+    HRESULT _hr = get_Item(ulIndex, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStyleObjectPtr(_result, false);
+}
+
+inline void IStyleCollection::GetCount ( unsigned long * ulIndex ) {
+    HRESULT _hr = get_Count(ulIndex);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline HRESULT IStyleCollection::PutLabelFields ( unsigned long * pFields, unsigned long nFields ) {
+    HRESULT _hr = raw_PutLabelFields(pFields, nFields);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IStyleCollection::PutStyleFields ( unsigned long * pFields, unsigned long nFields ) {
+    HRESULT _hr = raw_PutStyleFields(pFields, nFields);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline unsigned long IStyleCollection::Find ( struct IRecord * pRecord ) {
+    unsigned long _result;
+    HRESULT _hr = raw_Find(pRecord, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline unsigned long IStyleCollection::Insert ( struct IRecord * pRecord, struct IStyleObject * pStyleObject ) {
+    unsigned long _result;
+    HRESULT _hr = raw_Insert(pRecord, pStyleObject, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT IStyleCollection::Erase ( unsigned long ulIndex ) {
+    HRESULT _hr = raw_Erase(ulIndex);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IStyleCollection::Clear ( ) {
+    HRESULT _hr = raw_Clear();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IStyleObject wrapper method implementations
+//
+
+inline void IStyleObject::PutPen ( struct IStyleBasic * retval ) {
+    HRESULT _hr = put_Pen(retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IStyleBasicPtr IStyleObject::GetPen ( ) {
+    struct IStyleBasic * _result;
+    HRESULT _hr = get_Pen(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStyleBasicPtr(_result, false);
+}
+
+inline void IStyleObject::PutSymbol ( struct IStyleBasic * retval ) {
+    HRESULT _hr = put_Symbol(retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IStyleBasicPtr IStyleObject::GetSymbol ( ) {
+    struct IStyleBasic * _result;
+    HRESULT _hr = get_Symbol(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStyleBasicPtr(_result, false);
+}
+
+inline void IStyleObject::PutBrush ( struct IStyleBasic * retval ) {
+    HRESULT _hr = put_Brush(retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IStyleBasicPtr IStyleObject::GetBrush ( ) {
+    struct IStyleBasic * _result;
+    HRESULT _hr = get_Brush(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStyleBasicPtr(_result, false);
+}
+
+inline void IStyleObject::PutLabel ( struct IStyleBasic * retval ) {
+    HRESULT _hr = put_Label(retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IStyleBasicPtr IStyleObject::GetLabel ( ) {
+    struct IStyleBasic * _result;
+    HRESULT _hr = get_Label(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStyleBasicPtr(_result, false);
+}
+
+//
+// interface IEMPTransfer wrapper method implementations
+//
+
+inline HRESULT IEMPTransfer::CreateThreads ( unsigned long nThreads ) {
+    HRESULT _hr = raw_CreateThreads(nThreads);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline VARIANT_BOOL IEMPTransfer::Open ( struct IEMPLayer * pLayer, unsigned long uMaxTaskes, unsigned long uMaxBlocks ) {
+    VARIANT_BOOL _result;
+    HRESULT _hr = raw_Open(pLayer, uMaxTaskes, uMaxBlocks, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IEMPTransfer::Asyn ( struct IEMPNotify * pNofity ) {
+    VARIANT_BOOL _result;
+    HRESULT _hr = raw_Asyn(pNofity, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline unsigned long IEMPTransfer::Read ( __int64 * pOIDS, unsigned long ulCount ) {
+    unsigned long _result;
+    HRESULT _hr = raw_Read(pOIDS, ulCount, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline unsigned long IEMPTransfer::Write ( __int64 * pOIDS, struct IRecord * * pRecords, unsigned long ulCount ) {
+    unsigned long _result;
+    HRESULT _hr = raw_Write(pOIDS, pRecords, ulCount, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline unsigned long IEMPTransfer::Append ( __int64 * pOIDS, struct IRecord * * pRecords, unsigned long ulCount ) {
+    unsigned long _result;
+    HRESULT _hr = raw_Append(pOIDS, pRecords, ulCount, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline unsigned long IEMPTransfer::Fetch ( __int64 * pOIDS, struct IRecord * * pRecords, unsigned long ulCount ) {
+    unsigned long _result;
+    HRESULT _hr = raw_Fetch(pOIDS, pRecords, ulCount, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IEMPTransfer::Flush ( ) {
+    VARIANT_BOOL _result;
+    HRESULT _hr = raw_Flush(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IEMPTransfer::Cancel ( ) {
+    VARIANT_BOOL _result;
+    HRESULT _hr = raw_Cancel(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline unsigned long IEMPTransfer::UnRead ( __int64 * pOIDS, unsigned long ulCount ) {
+    unsigned long _result;
+    HRESULT _hr = raw_UnRead(pOIDS, ulCount, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline unsigned long IEMPTransfer::UnWrite ( __int64 * pOIDS, struct IRecord * * pRecords, unsigned long ulCount ) {
+    unsigned long _result;
+    HRESULT _hr = raw_UnWrite(pOIDS, pRecords, ulCount, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IEMPTransfer::SingleRead ( __int64 i64OID ) {
+    VARIANT_BOOL _result;
+    HRESULT _hr = raw_SingleRead(i64OID, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IEMPTransfer::SingleWrite ( __int64 i64OID, struct IRecord * pRecord ) {
+    VARIANT_BOOL _result;
+    HRESULT _hr = raw_SingleWrite(i64OID, pRecord, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IEMPTransfer::SingleAppend ( __int64 i64OID, struct IRecord * pRecord ) {
+    VARIANT_BOOL _result;
+    HRESULT _hr = raw_SingleAppend(i64OID, pRecord, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IEMPTransfer::SingleFetch ( __int64 * pI64OID, struct IRecord * * pRecord ) {
+    VARIANT_BOOL _result;
+    HRESULT _hr = raw_SingleFetch(pI64OID, pRecord, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IEMPTransfer::SingleUnRead ( __int64 * pI64OID ) {
+    VARIANT_BOOL _result;
+    HRESULT _hr = raw_SingleUnRead(pI64OID, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL IEMPTransfer::SingleUnWrite ( __int64 * pI64OID, struct IRecord * * pRecord ) {
+    VARIANT_BOOL _result;
+    HRESULT _hr = raw_SingleUnWrite(pI64OID, pRecord, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT IEMPTransfer::Close ( ) {
+    HRESULT _hr = raw_Close();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IEMPTransfer::DestroyThreads ( ) {
+    HRESULT _hr = raw_DestroyThreads();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IStylePen wrapper method implementations
+//
+
+inline HRESULT IStylePen::CreateColorPen ( unsigned long foreColor ) {
+    HRESULT _hr = raw_CreateColorPen(foreColor);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IStylePen::CreateBrushPen ( struct IStyleBrush * pBrush ) {
+    HRESULT _hr = raw_CreateBrushPen(pBrush);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IStylePen::SetDashStyle ( unsigned long * pulDash, unsigned long ulCount ) {
+    HRESULT _hr = raw_SetDashStyle(pulDash, ulCount);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline long IStylePen::GetDashStyle ( unsigned long * pulDash, unsigned long ulCount ) {
+    long _result;
+    HRESULT _hr = raw_GetDashStyle(pulDash, ulCount, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT IStylePen::SetChildren ( struct IStylePen * * pChildren, unsigned long ulCount ) {
+    HRESULT _hr = raw_SetChildren(pChildren, ulCount);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline long IStylePen::GetChildren ( struct IStylePen * * pChildren, unsigned long ulCount ) {
+    long _result;
+    HRESULT _hr = raw_GetChildren(pChildren, ulCount, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline unsigned long IStylePen::GetColor ( ) {
+    unsigned long _result;
+    HRESULT _hr = get_Color(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IStyleBrushPtr IStylePen::GetBrush ( ) {
+    struct IStyleBrush * _result;
+    HRESULT _hr = get_Brush(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStyleBrushPtr(_result, false);
+}
+
+inline void IStylePen::PutWidth ( unsigned long retval ) {
+    HRESULT _hr = put_Width(retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline unsigned long IStylePen::GetWidth ( ) {
+    unsigned long _result;
+    HRESULT _hr = get_Width(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStylePen::PutStyle ( unsigned long retval ) {
+    HRESULT _hr = put_Style(retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline unsigned long IStylePen::GetStyle ( ) {
+    unsigned long _result;
+    HRESULT _hr = get_Style(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStylePen::PutShift ( double retval ) {
+    HRESULT _hr = put_Shift(retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline double IStylePen::GetShift ( ) {
+    double _result;
+    HRESULT _hr = get_Shift(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStylePen::PutStartCap ( struct IStyleSymbol * retval ) {
+    HRESULT _hr = put_StartCap(retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IStyleSymbolPtr IStylePen::GetStartCap ( ) {
+    struct IStyleSymbol * _result;
+    HRESULT _hr = get_StartCap(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStyleSymbolPtr(_result, false);
+}
+
+inline void IStylePen::PutEndCap ( struct IStyleSymbol * retval ) {
+    HRESULT _hr = put_EndCap(retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IStyleSymbolPtr IStylePen::GetEndCap ( ) {
+    struct IStyleSymbol * _result;
+    HRESULT _hr = get_EndCap(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStyleSymbolPtr(_result, false);
+}
+
+inline void IStylePen::PutMiddleCap ( struct IStyleSymbol * retval ) {
+    HRESULT _hr = put_MiddleCap(retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IStyleSymbolPtr IStylePen::GetMiddleCap ( ) {
+    struct IStyleSymbol * _result;
+    HRESULT _hr = get_MiddleCap(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStyleSymbolPtr(_result, false);
+}
+
+inline void IStylePen::PutJoinCap ( struct IStyleSymbol * retval ) {
+    HRESULT _hr = put_JoinCap(retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IStyleSymbolPtr IStylePen::GetJoinCap ( ) {
+    struct IStyleSymbol * _result;
+    HRESULT _hr = get_JoinCap(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStyleSymbolPtr(_result, false);
+}
+
+//
+// interface IStyleBrush wrapper method implementations
+//
+
+inline HRESULT IStyleBrush::CreateColorBrush ( unsigned long foreColor ) {
+    HRESULT _hr = raw_CreateColorBrush(foreColor);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IStyleBrush::CreateImageBrush ( wireHBITMAP hImage ) {
+    HRESULT _hr = raw_CreateImageBrush(hImage);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IStyleBrush::CreateHatchBrush ( unsigned long foreColor, unsigned long backColor, long hatchType ) {
+    HRESULT _hr = raw_CreateHatchBrush(foreColor, backColor, hatchType);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline long IStyleBrush::GetType ( ) {
+    long _result;
+    HRESULT _hr = get_Type(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline unsigned long IStyleBrush::GetforeColor ( ) {
+    unsigned long _result;
+    HRESULT _hr = get_foreColor(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline unsigned long IStyleBrush::GetbackColor ( ) {
+    unsigned long _result;
+    HRESULT _hr = get_backColor(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline long IStyleBrush::GethatchType ( ) {
+    long _result;
+    HRESULT _hr = get_hatchType(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStyleBrush::GetImage ( wireHBITMAP * retval ) {
+    HRESULT _hr = get_Image(retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline void IStyleBrush::PutBorder ( struct IStylePen * retval ) {
+    HRESULT _hr = put_Border(retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IStylePenPtr IStyleBrush::GetBorder ( ) {
+    struct IStylePen * _result;
+    HRESULT _hr = get_Border(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStylePenPtr(_result, false);
+}
+
+//
+// interface IStyleSymbol wrapper method implementations
+//
+
+inline HRESULT IStyleSymbol::CreatePolySymbol ( struct tagPOINT * lpPoints, unsigned char * lpTypes, unsigned long ulCount ) {
+    HRESULT _hr = raw_CreatePolySymbol(lpPoints, lpTypes, ulCount);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IStyleSymbol::CreateGlyphSymbol ( wireHFONT hFont, short glyph ) {
+    HRESULT _hr = raw_CreateGlyphSymbol(hFont, glyph);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IStyleSymbol::CreateImageSymbol ( wireHBITMAP hImage ) {
+    HRESULT _hr = raw_CreateImageSymbol(hImage);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline unsigned long IStyleSymbol::GetSymbolPoly ( struct tagPOINT * lpPoints, unsigned char * lpTypes, unsigned long ulCount ) {
+    unsigned long _result;
+    HRESULT _hr = raw_GetSymbolPoly(lpPoints, lpTypes, ulCount, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStyleSymbol::PutBrush ( struct IStyleBrush * retval ) {
+    HRESULT _hr = put_Brush(retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IStyleBrushPtr IStyleSymbol::GetBrush ( ) {
+    struct IStyleBrush * _result;
+    HRESULT _hr = get_Brush(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStyleBrushPtr(_result, false);
+}
+
+inline void IStyleSymbol::PutBorder ( struct IStylePen * retval ) {
+    HRESULT _hr = put_Border(retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IStylePenPtr IStyleSymbol::GetBorder ( ) {
+    struct IStylePen * _result;
+    HRESULT _hr = get_Border(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStylePenPtr(_result, false);
+}
+
+//
+// interface IStyleLabel wrapper method implementations
+//
+
+inline HRESULT IStyleLabel::CreateLabel ( _bstr_t fontFamily, long fontSize ) {
+    HRESULT _hr = raw_CreateLabel(fontFamily, fontSize);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline _bstr_t IStyleLabel::GetFamily ( ) {
+    BSTR _result;
+    HRESULT _hr = get_Family(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline long IStyleLabel::GetSize ( ) {
+    long _result;
+    HRESULT _hr = get_Size(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStyleLabel::PutStyle ( long retval ) {
+    HRESULT _hr = put_Style(retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline long IStyleLabel::GetStyle ( ) {
+    long _result;
+    HRESULT _hr = get_Style(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStyleLabel::PutColor ( unsigned long retval ) {
+    HRESULT _hr = put_Color(retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline unsigned long IStyleLabel::GetColor ( ) {
+    unsigned long _result;
+    HRESULT _hr = get_Color(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void IStyleLabel::PutBrush ( struct IStyleBrush * retval ) {
+    HRESULT _hr = put_Brush(retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IStyleBrushPtr IStyleLabel::GetBrush ( ) {
+    struct IStyleBrush * _result;
+    HRESULT _hr = get_Brush(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStyleBrushPtr(_result, false);
+}
+
+inline void IStyleLabel::PutBorder ( struct IStylePen * retval ) {
+    HRESULT _hr = put_Border(retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline IStylePenPtr IStyleLabel::GetBorder ( ) {
+    struct IStylePen * _result;
+    HRESULT _hr = get_Border(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStylePenPtr(_result, false);
+}
+
+inline void IStyleLabel::PutMargin ( struct tagRECT retval ) {
+    HRESULT _hr = put_Margin(retval);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline struct tagRECT IStyleLabel::GetMargin ( ) {
+    struct tagRECT _result;
+    HRESULT _hr = get_Margin(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}

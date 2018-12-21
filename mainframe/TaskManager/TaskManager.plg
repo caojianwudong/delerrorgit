@@ -1,0 +1,70 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: TaskManager - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"..\..\..\..\0000object\debug\TaskManager/TaskManager.res" /d "_DEBUG" /d "_AFXDLL" "F:\Tools\postgres_tools\338 UpdateBlockState_postgres\01CODE\mainframe\TaskManager\TaskManager.rc"" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP198E.tmp" with contents
+[
+ole32.lib comsupp.lib ..\..\lib\libmysql.lib ..\..\lib\db_manager.lib ..\..\lib\FieldSded.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"..\..\..\..\0000object\debug\TaskManager/TaskManager.pdb" /debug /machine:I386 /def:".\TaskManager.def" /out:"..\..\bin\debug\TaskManager.dll" /implib:"..\..\..\..\0000object\debug\TaskManager/TaskManager.lib" /pdbtype:sept 
+"\Tools\postgres_tools\0000object\debug\TaskManager\CConvertTool.obj"
+"\Tools\postgres_tools\0000object\debug\TaskManager\CQCTask.obj"
+"\Tools\postgres_tools\0000object\debug\TaskManager\CTask.obj"
+"\Tools\postgres_tools\0000object\debug\TaskManager\CTaskBatch.obj"
+"\Tools\postgres_tools\0000object\debug\TaskManager\CTaskBlock.obj"
+"\Tools\postgres_tools\0000object\debug\TaskManager\CTaskBlockDetail.obj"
+"\Tools\postgres_tools\0000object\debug\TaskManager\CTaskChangeRoadTime.obj"
+"\Tools\postgres_tools\0000object\debug\TaskManager\CTaskCommon.obj"
+"\Tools\postgres_tools\0000object\debug\TaskManager\CTaskLinkAttach.obj"
+"\Tools\postgres_tools\0000object\debug\TaskManager\CTaskLinkFieldData.obj"
+"\Tools\postgres_tools\0000object\debug\TaskManager\CTaskLinkItemSet.obj"
+"\Tools\postgres_tools\0000object\debug\TaskManager\CTaskManager.obj"
+"\Tools\postgres_tools\0000object\debug\TaskManager\StdAfx.obj"
+"\Tools\postgres_tools\0000object\debug\TaskManager\TaskManager.obj"
+"\Tools\postgres_tools\0000object\debug\TaskManager\TaskManager.res"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP198E.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP1B82.bat" with contents
+[
+@echo off
+copy ..\..\..\..\0000object\debug\TaskManager\TaskManager.lib  ..\..\lib\
+copy ctaskmanager.h   ..\..\include\taskmanager
+copy ctask.h   ..\..\include\taskmanager
+copy CTaskLinkAttach.h ..\..\include\taskmanager
+copy CTaskLinkFieldData.h ..\..\include\taskmanager
+copy task_definition.h  ..\..\include\taskmanager
+copy CQCTask.h  ..\..\include\taskmanager
+copy CTaskCommon.h  ..\..\include\taskmanager
+copy CTaskLinkItemSet.h  ..\..\include\taskmanager
+copy CTaskBlock.h  ..\..\include\taskmanager
+copy CTaskBatch.h  ..\..\include\taskmanager
+copy CTaskBlockDetail.h  ..\..\include\taskmanager
+]
+Creating command line "C:\Users\ADMINI~1\AppData\Local\Temp\RSP1B82.bat"
+
+已复制         1 个文件。
+已复制         1 个文件。
+已复制         1 个文件。
+已复制         1 个文件。
+已复制         1 个文件。
+已复制         1 个文件。
+已复制         1 个文件。
+已复制         1 个文件。
+已复制         1 个文件。
+已复制         1 个文件。
+已复制         1 个文件。
+已复制         1 个文件。
+
+
+
+<h3>Results</h3>
+TaskManager.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

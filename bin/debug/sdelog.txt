@@ -1,0 +1,2142 @@
+2018-1-10 15:13:29		SDE create		time:2184
+2018-2-3 16:18:13	SDE create	time:422
+2018-2-3 16:18:51	SDE create	time:390
+2018-2-3 16:19:34	SDE create	time:359
+2018-2-3 16:21:46	SDE create	time:374
+2018-2-3 16:23:14	Load(oid)	time:171	total:1	layername:Road
+2018-2-3 16:23:14	memory release	time:0
+2018-2-3 16:23:14	Load(oid)	time:32	total:2	layername:Junction
+2018-2-3 16:23:14	memory release	time:0
+2018-2-3 16:23:59	SDE release	time:15
+2018-2-3 16:24:1	SDE create	time:234
+2018-2-3 16:24:1	SDE release	time:0
+2018-2-3 16:24:11	SDE create	time:390
+2018-2-3 16:24:17	Load(oid)	time:172	total:1	layername:Road
+2018-2-3 16:24:17	memory release	time:0
+2018-2-3 16:24:17	Load(oid)	time:31	total:2	layername:Junction
+2018-2-3 16:24:17	memory release	time:0
+2018-2-3 16:26:51	SDE create	time:437
+2018-2-3 16:26:57	Load(oid)	time:188	total:1	layername:Road
+2018-2-3 16:26:57	memory release	time:0
+2018-2-3 16:26:57	Load(oid)	time:31	total:2	layername:Junction
+2018-2-3 16:26:57	memory release	time:0
+2018-2-3 16:27:51	SDE create	time:390
+2018-2-3 16:27:53	Load(oid)	time:172	total:1	layername:Road
+2018-2-3 16:27:53	memory release	time:0
+2018-2-3 16:27:53	Load(oid)	time:31	total:2	layername:Junction
+2018-2-3 16:27:53	memory release	time:0
+2018-2-3 16:28:36	SDE create	time:390
+2018-2-3 16:28:37	Load(oid)	time:187	total:1	layername:Road
+2018-2-3 16:28:37	memory release	time:0
+2018-2-3 16:28:37	Load(oid)	time:47	total:2	layername:Junction
+2018-2-3 16:28:37	memory release	time:0
+2018-2-3 16:28:49	SDE release	time:0
+2018-2-3 16:28:50	SDE create	time:234
+2018-2-3 16:28:50	SDE release	time:0
+2018-2-3 16:51:28	SDE create	time:343
+2018-2-3 16:51:31	Load(oid)	time:140	total:1	layername:Road
+2018-2-3 16:51:31	memory release	time:0
+2018-2-3 16:51:31	Load(oid)	time:31	total:2	layername:Junction
+2018-2-3 16:51:31	memory release	time:0
+2018-2-3 16:52:13	SDE release	time:15
+2018-2-3 16:52:15	SDE create	time:250
+2018-2-3 16:52:15	Load(oid)	time:172	total:1	layername:Road
+2018-2-3 16:52:15	memory release	time:0
+2018-2-3 16:52:15	Load(oid)	time:31	total:2	layername:Junction
+2018-2-3 16:52:15	memory release	time:0
+2018-2-13 11:33:25	SDE create	time:2574
+2018-2-13 11:36:56	SDE create	time:749
+2018-2-26 18:11:53	SDE create	time:2855
+2018-2-26 18:12:0	Load(oid)	time:110	total:0	layername:Road
+2018-2-26 18:12:0	memory release	time:0
+2018-3-12 18:29:50	SDE create	time:1653
+2018-3-12 18:31:50	Load(oid)	time:920	total:17	layername:Road
+2018-3-12 18:35:5	SDE create	time:577
+2018-3-12 18:35:47	Load(oid)	time:873	total:17	layername:Road
+2018-3-12 18:39:29	SDE create	time:530
+2018-3-12 18:39:37	Load(oid)	time:952	total:17	layername:Road
+2018-3-12 18:40:1	memory release	time:0
+2018-3-12 18:40:3	Load(oid)	time:62	total:20	layername:Junction
+2018-3-12 18:40:3	memory release	time:0
+2018-3-12 18:42:38	SDE create	time:639
+2018-3-12 18:42:44	Load(oid)	time:1030	total:17	layername:Road
+2018-3-12 18:42:44	memory release	time:0
+2018-3-12 18:42:44	Load(oid)	time:93	total:20	layername:Junction
+2018-3-12 18:42:44	memory release	time:0
+2018-3-12 18:44:34	SDE create	time:531
+2018-3-12 18:44:38	Load(oid)	time:1263	total:17	layername:Road
+2018-3-12 18:44:38	memory release	time:0
+2018-3-12 18:44:39	Load(oid)	time:63	total:20	layername:Junction
+2018-3-12 18:44:39	memory release	time:0
+2018-3-12 18:46:20	SDE create	time:608
+2018-3-12 18:46:25	Load(oid)	time:1950	total:17	layername:Road
+2018-3-12 18:46:25	memory release	time:0
+2018-3-12 18:46:25	Load(oid)	time:78	total:20	layername:Junction
+2018-3-12 18:46:25	memory release	time:0
+2018-3-12 18:51:1	SDE create	time:561
+2018-3-12 18:51:5	Load(oid)	time:1014	total:17	layername:Road
+2018-3-12 18:51:5	memory release	time:0
+2018-3-12 18:51:5	Load(oid)	time:110	total:20	layername:Junction
+2018-3-12 18:51:5	memory release	time:0
+2018-3-12 18:52:21	SDE create	time:640
+2018-3-12 18:52:24	Load(oid)	time:967	total:17	layername:Road
+2018-3-12 18:52:24	memory release	time:0
+2018-3-12 18:52:24	Load(oid)	time:93	total:20	layername:Junction
+2018-3-12 18:52:24	memory release	time:0
+2018-3-12 18:54:18	SDE create	time:593
+2018-3-12 18:54:21	Load(oid)	time:967	total:17	layername:Road
+2018-3-12 18:54:21	memory release	time:0
+2018-3-12 18:54:21	Load(oid)	time:62	total:20	layername:Junction
+2018-3-12 18:54:21	memory release	time:0
+2018-3-12 18:59:19	Load(oid)	time:655	total:17	layername:Road
+2018-3-12 18:59:19	memory release	time:0
+2018-3-12 18:59:19	Load(oid)	time:63	total:20	layername:Junction
+2018-3-12 18:59:19	memory release	time:0
+2018-3-12 19:1:52	SDE create	time:608
+2018-3-12 19:1:55	Load(oid)	time:1046	total:17	layername:Road
+2018-3-12 19:1:55	memory release	time:0
+2018-3-12 19:1:55	Load(oid)	time:47	total:20	layername:Junction
+2018-3-12 19:1:55	memory release	time:0
+2018-3-12 19:3:0	SDE create	time:655
+2018-3-12 19:3:5	Load(oid)	time:952	total:17	layername:Road
+2018-3-12 19:3:5	memory release	time:0
+2018-3-12 19:3:5	Load(oid)	time:62	total:20	layername:Junction
+2018-3-12 19:3:5	memory release	time:0
+2018-3-12 19:5:59	SDE create	time:624
+2018-3-12 19:6:5	Load(oid)	time:967	total:17	layername:Road
+2018-3-12 19:6:5	memory release	time:0
+2018-3-12 19:6:5	Load(oid)	time:93	total:20	layername:Junction
+2018-3-12 19:6:5	memory release	time:0
+2018-3-12 19:8:24	SDE release	time:47
+2018-3-12 19:8:25	SDE create	time:374
+2018-3-12 19:8:28	Load(oid)	time:921	total:17	layername:Road
+2018-3-12 19:8:28	memory release	time:0
+2018-3-12 19:8:28	Load(oid)	time:62	total:20	layername:Junction
+2018-3-12 19:8:28	memory release	time:0
+2018-3-13 10:37:57	SDE create	time:1108
+2018-3-13 10:38:6	Load(oid)	time:1528	total:17	layername:Road
+2018-3-13 10:38:6	memory release	time:16
+2018-3-13 10:38:6	Load(oid)	time:78	total:20	layername:Junction
+2018-3-13 10:38:6	memory release	time:0
+2018-3-13 10:40:3	Load(oid)	time:3151	total:17	layername:Road
+2018-3-13 10:40:3	memory release	time:0
+2018-3-13 10:40:3	Load(oid)	time:78	total:20	layername:Junction
+2018-3-13 10:40:3	memory release	time:0
+2018-3-13 10:41:58	Load(oid)	time:11232	total:17	layername:Road
+2018-3-13 10:41:58	memory release	time:0
+2018-3-13 10:41:59	Load(oid)	time:484	total:20	layername:Junction
+2018-3-13 10:41:59	memory release	time:0
+2018-3-13 10:50:27	SDE create	time:624
+2018-3-13 10:50:43	Load(oid)	time:11715	total:17	layername:Road
+2018-3-13 10:50:43	memory release	time:0
+2018-3-13 10:50:43	Load(oid)	time:94	total:20	layername:Junction
+2018-3-13 10:50:59	memory release	time:0
+2018-3-13 10:52:55	Load(oid)	time:811	total:17	layername:Road
+2018-3-13 10:52:55	memory release	time:0
+2018-3-13 10:52:56	Load(oid)	time:63	total:20	layername:Junction
+2018-3-13 10:55:50	SDE create	time:530
+2018-3-13 10:55:55	Load(oid)	time:967	total:17	layername:Road
+2018-3-13 10:56:6	memory release	time:0
+2018-3-13 10:56:6	Load(oid)	time:78	total:20	layername:Junction
+2018-3-13 10:56:19	memory release	time:0
+2018-3-13 10:57:27	Load(oid)	time:624	total:17	layername:Road
+2018-3-13 10:57:27	memory release	time:0
+2018-3-13 10:57:27	Load(oid)	time:62	total:20	layername:Junction
+2018-3-13 11:3:28	SDE create	time:874
+2018-3-13 11:3:41	Load(oid)	time:982	total:17	layername:Road
+2018-3-13 11:3:59	memory release	time:0
+2018-3-13 11:3:59	Load(oid)	time:78	total:20	layername:Junction
+2018-3-13 11:4:3	memory release	time:0
+2018-3-13 11:5:42	Load(oid)	time:640	total:17	layername:Road
+2018-3-13 11:6:7	SDE create	time:624
+2018-3-13 11:6:10	Load(oid)	time:1014	total:17	layername:Road
+2018-3-13 11:6:15	memory release	time:0
+2018-3-13 11:6:15	Load(oid)	time:78	total:20	layername:Junction
+2018-3-13 11:6:19	memory release	time:0
+2018-3-13 11:7:24	Load(oid)	time:765	total:17	layername:Road
+2018-3-13 11:28:57	SDE create	time:561
+2018-3-13 11:29:36	Load(oid)	time:951	total:17	layername:Road
+2018-3-13 11:29:49	memory release	time:0
+2018-3-13 11:29:49	Load(oid)	time:62	total:20	layername:Junction
+2018-3-13 11:29:58	memory release	time:0
+2018-3-13 11:31:1	Load(oid)	time:608	total:17	layername:Road
+2018-3-13 11:31:11	memory release	time:0
+2018-3-13 11:31:11	Load(oid)	time:62	total:20	layername:Junction
+2018-3-13 11:35:44	SDE create	time:592
+2018-3-13 11:35:50	Load(oid)	time:3386	total:17	layername:Road
+2018-3-13 11:35:50	memory release	time:0
+2018-3-13 11:35:50	Load(oid)	time:62	total:20	layername:Junction
+2018-3-13 11:36:12	memory release	time:0
+2018-3-13 11:37:16	Load(oid)	time:624	total:17	layername:Road
+2018-3-13 11:37:40	memory release	time:0
+2018-3-13 11:37:40	Load(oid)	time:62	total:20	layername:Junction
+2018-3-13 11:39:49	memory release	time:0
+2018-3-13 11:39:55	SDE release	time:0
+2018-3-13 11:39:57	SDE create	time:437
+2018-3-13 11:39:57	SDE release	time:0
+2018-3-13 11:43:57	SDE create	time:515
+2018-3-13 11:44:0	Load(oid)	time:983	total:17	layername:Road
+2018-3-13 11:44:0	memory release	time:0
+2018-3-13 11:44:0	Load(oid)	time:62	total:20	layername:Junction
+2018-3-13 11:44:9	memory release	time:0
+2018-3-13 11:45:10	Load(oid)	time:624	total:17	layername:Road
+2018-3-13 11:45:24	memory release	time:0
+2018-3-13 11:45:24	Load(oid)	time:62	total:20	layername:Junction
+2018-3-13 11:47:33	SDE create	time:904
+2018-3-13 11:47:35	Load(oid)	time:889	total:17	layername:Road
+2018-3-13 11:48:2	SDE create	time:561
+2018-3-13 11:48:4	Load(oid)	time:936	total:17	layername:Road
+2018-3-13 11:48:5	memory release	time:0
+2018-3-13 11:48:5	Load(oid)	time:63	total:20	layername:Junction
+2018-3-13 11:48:11	memory release	time:0
+2018-3-13 11:49:15	Load(oid)	time:968	total:17	layername:Road
+2018-3-13 11:49:15	memory release	time:15
+2018-3-13 11:49:15	Load(oid)	time:47	total:20	layername:Junction
+2018-3-13 11:51:0	memory release	time:0
+2018-3-13 11:52:15	Load(oid)	time:1217	total:17	layername:Road
+2018-3-13 11:52:32	memory release	time:0
+2018-3-13 11:52:32	Load(oid)	time:63	total:20	layername:Junction
+2018-3-13 11:52:45	memory release	time:0
+2018-3-13 11:54:11	SDE create	time:639
+2018-3-13 11:54:20	Load(oid)	time:998	total:17	layername:Road
+2018-3-13 11:54:20	memory release	time:0
+2018-3-13 11:54:20	Load(oid)	time:78	total:20	layername:Junction
+2018-3-13 11:54:22	memory release	time:0
+2018-3-13 11:55:47	SDE create	time:656
+2018-3-13 11:55:54	Load(oid)	time:2278	total:17	layername:Road
+2018-3-13 11:55:54	memory release	time:0
+2018-3-13 11:55:54	Load(oid)	time:47	total:20	layername:Junction
+2018-3-13 11:55:56	memory release	time:0
+2018-3-13 11:58:1	SDE create	time:609
+2018-3-13 11:58:7	Load(oid)	time:951	total:17	layername:Road
+2018-3-13 11:58:7	memory release	time:0
+2018-3-13 11:58:8	Load(oid)	time:63	total:20	layername:Junction
+2018-3-13 11:58:8	memory release	time:0
+2018-3-13 13:3:9	SDE create	time:795
+2018-3-13 13:3:14	Load(oid)	time:936	total:17	layername:Road
+2018-3-13 13:3:14	memory release	time:0
+2018-3-13 13:3:14	Load(oid)	time:62	total:20	layername:Junction
+2018-3-13 13:3:14	memory release	time:0
+2018-3-13 13:5:2	Load(oid)	time:624	total:17	layername:Road
+2018-3-13 13:5:2	memory release	time:0
+2018-3-13 13:5:2	Load(oid)	time:47	total:20	layername:Junction
+2018-3-13 13:5:2	memory release	time:0
+2018-3-13 13:5:17	Load(oid)	time:608	total:17	layername:Road
+2018-3-13 13:5:17	memory release	time:0
+2018-3-13 13:5:17	Load(oid)	time:47	total:20	layername:Junction
+2018-3-13 13:5:17	memory release	time:0
+2018-3-13 13:7:38	SDE create	time:624
+2018-3-13 13:7:57	Load(oid)	time:968	total:17	layername:Road
+2018-3-13 13:7:57	memory release	time:0
+2018-3-13 13:7:57	Load(oid)	time:78	total:20	layername:Junction
+2018-3-13 13:7:57	memory release	time:0
+2018-3-13 13:8:31	Load(oid)	time:624	total:17	layername:Road
+2018-3-13 13:8:31	memory release	time:0
+2018-3-13 13:8:31	Load(oid)	time:62	total:20	layername:Junction
+2018-3-13 13:8:31	memory release	time:0
+2018-3-13 13:11:17	SDE create	time:936
+2018-3-13 13:11:20	Load(oid)	time:967	total:17	layername:Road
+2018-3-13 13:11:20	memory release	time:0
+2018-3-13 13:11:20	Load(oid)	time:78	total:20	layername:Junction
+2018-3-13 13:11:20	memory release	time:0
+2018-3-13 13:12:37	SDE create	time:577
+2018-3-13 13:12:41	Load(oid)	time:952	total:17	layername:Road
+2018-3-13 13:12:41	memory release	time:0
+2018-3-13 13:12:41	Load(oid)	time:78	total:20	layername:Junction
+2018-3-13 13:12:41	memory release	time:0
+2018-3-13 13:14:46	SDE create	time:655
+2018-3-13 13:14:50	Load(oid)	time:999	total:17	layername:Road
+2018-3-13 13:14:50	memory release	time:0
+2018-3-13 13:14:50	Load(oid)	time:78	total:20	layername:Junction
+2018-3-13 13:14:50	memory release	time:0
+2018-3-13 13:15:51	SDE create	time:624
+2018-3-13 13:15:55	Load(oid)	time:905	total:17	layername:Road
+2018-3-13 13:15:55	memory release	time:0
+2018-3-13 13:15:55	Load(oid)	time:63	total:20	layername:Junction
+2018-3-13 13:15:55	memory release	time:0
+2018-3-13 13:18:17	SDE create	time:670
+2018-3-13 13:18:21	Load(oid)	time:983	total:17	layername:Road
+2018-3-13 13:18:21	memory release	time:0
+2018-3-13 13:18:21	Load(oid)	time:63	total:20	layername:Junction
+2018-3-13 13:18:21	memory release	time:0
+2018-3-13 13:19:18	Load(oid)	time:2340	total:17	layername:Road
+2018-3-13 13:19:18	memory release	time:0
+2018-3-13 13:19:18	Load(oid)	time:62	total:20	layername:Junction
+2018-3-13 13:19:18	memory release	time:0
+2018-3-13 13:19:56	Load(oid)	time:9079	total:17	layername:Road
+2018-3-13 13:19:56	memory release	time:0
+2018-3-13 13:19:56	Load(oid)	time:62	total:20	layername:Junction
+2018-3-13 13:19:56	memory release	time:0
+2018-3-13 13:21:27	SDE create	time:608
+2018-3-13 13:21:31	Load(oid)	time:936	total:17	layername:Road
+2018-3-13 13:21:31	memory release	time:0
+2018-3-13 13:21:31	Load(oid)	time:78	total:20	layername:Junction
+2018-3-13 13:21:31	memory release	time:0
+2018-3-13 13:21:57	Load(oid)	time:640	total:17	layername:Road
+2018-3-13 13:21:57	memory release	time:0
+2018-3-13 13:21:57	Load(oid)	time:62	total:20	layername:Junction
+2018-3-13 13:21:57	memory release	time:0
+2018-3-14 11:28:8	SDE create	time:1357
+2018-3-14 11:28:42	Load(oid)	time:13401	total:555	layername:Road
+2018-3-14 11:28:43	memory release	time:109
+2018-3-14 11:28:45	Load(oid)	time:2855	total:538	layername:Junction
+2018-3-14 11:28:45	memory release	time:0
+2018-3-14 11:54:22	Load(oid)	time:14211	total:555	layername:Road
+2018-3-14 11:54:22	memory release	time:78
+2018-3-14 11:54:25	Load(oid)	time:2746	total:538	layername:Junction
+2018-3-14 11:54:25	memory release	time:16
+2018-3-14 11:54:57	Load(oid)	time:13759	total:555	layername:Road
+2018-3-14 11:54:57	memory release	time:78
+2018-3-14 11:55:0	Load(oid)	time:2824	total:538	layername:Junction
+2018-3-14 11:55:0	memory release	time:15
+2018-3-14 11:55:33	Load(oid)	time:18938	total:555	layername:Road
+2018-3-14 11:55:33	memory release	time:140
+2018-3-14 11:55:36	Load(oid)	time:3120	total:538	layername:Junction
+2018-3-14 11:55:36	memory release	time:0
+2018-3-14 11:56:7	Load(oid)	time:14102	total:555	layername:Road
+2018-3-14 11:56:8	memory release	time:78
+2018-3-14 11:56:11	Load(oid)	time:2932	total:538	layername:Junction
+2018-3-14 11:56:11	memory release	time:16
+2018-3-14 11:56:42	Load(oid)	time:18408	total:555	layername:Road
+2018-3-14 11:56:42	memory release	time:78
+2018-3-14 11:56:45	Load(oid)	time:2855	total:538	layername:Junction
+2018-3-14 11:56:45	memory release	time:15
+2018-3-14 11:58:29	Load(oid)	time:15163	total:555	layername:Road
+2018-3-14 11:58:29	memory release	time:94
+2018-3-14 11:58:31	Load(oid)	time:2667	total:538	layername:Junction
+2018-3-14 11:58:32	memory release	time:0
+2018-3-14 11:59:31	Load(oid)	time:17597	total:555	layername:Road
+2018-3-14 11:59:32	memory release	time:93
+2018-3-14 11:59:35	Load(oid)	time:2980	total:538	layername:Junction
+2018-3-14 11:59:35	memory release	time:16
+2018-3-14 12:0:9	Load(oid)	time:15303	total:555	layername:Road
+2018-3-14 12:0:9	memory release	time:78
+2018-3-14 12:0:12	Load(oid)	time:2527	total:538	layername:Junction
+2018-3-14 12:0:12	memory release	time:16
+2018-3-14 12:0:52	Load(oid)	time:27347	total:555	layername:Road
+2018-3-14 12:0:52	memory release	time:78
+2018-3-14 12:0:55	Load(oid)	time:2995	total:538	layername:Junction
+2018-3-14 12:0:55	memory release	time:0
+2018-3-14 12:1:26	Load(oid)	time:12527	total:555	layername:Road
+2018-3-14 12:1:26	memory release	time:93
+2018-3-14 12:1:29	Load(oid)	time:2886	total:538	layername:Junction
+2018-3-14 12:1:29	memory release	time:16
+2018-3-14 12:1:59	Load(oid)	time:15632	total:555	layername:Road
+2018-3-14 12:1:59	memory release	time:78
+2018-3-14 12:2:6	Load(oid)	time:6240	total:538	layername:Junction
+2018-3-14 12:2:6	memory release	time:16
+2018-3-14 12:2:39	Load(oid)	time:15709	total:555	layername:Road
+2018-3-14 12:2:40	memory release	time:94
+2018-3-14 12:2:42	Load(oid)	time:2480	total:538	layername:Junction
+2018-3-14 12:2:42	memory release	time:0
+2018-3-14 12:3:9	Load(oid)	time:15226	total:555	layername:Road
+2018-3-14 12:3:9	memory release	time:78
+2018-3-14 12:3:12	Load(oid)	time:2652	total:538	layername:Junction
+2018-3-14 12:3:12	memory release	time:16
+2018-3-14 12:3:40	Load(oid)	time:15959	total:555	layername:Road
+2018-3-14 12:3:40	memory release	time:78
+2018-3-14 12:3:42	Load(oid)	time:2621	total:538	layername:Junction
+2018-3-14 12:3:43	memory release	time:16
+2018-3-14 12:4:20	Load(oid)	time:15694	total:555	layername:Road
+2018-3-14 12:4:20	memory release	time:78
+2018-3-14 12:4:22	Load(oid)	time:2792	total:538	layername:Junction
+2018-3-14 12:4:23	memory release	time:16
+2018-3-14 12:4:59	Load(oid)	time:15163	total:555	layername:Road
+2018-3-14 12:4:59	memory release	time:78
+2018-3-14 12:5:2	Load(oid)	time:2979	total:538	layername:Junction
+2018-3-14 12:5:2	memory release	time:16
+2018-3-14 12:5:30	Load(oid)	time:15678	total:555	layername:Road
+2018-3-14 12:5:30	memory release	time:93
+2018-3-14 12:5:33	Load(oid)	time:3073	total:538	layername:Junction
+2018-3-14 12:5:33	memory release	time:0
+2018-3-14 12:6:10	Load(oid)	time:16084	total:555	layername:Road
+2018-3-14 12:6:10	memory release	time:93
+2018-3-14 12:6:13	Load(oid)	time:2762	total:538	layername:Junction
+2018-3-14 12:6:13	memory release	time:15
+2018-3-14 12:6:51	Load(oid)	time:16458	total:555	layername:Road
+2018-3-14 12:6:51	memory release	time:109
+2018-3-14 12:6:53	Load(oid)	time:2699	total:538	layername:Junction
+2018-3-14 12:6:54	memory release	time:16
+2018-3-14 12:7:30	Load(oid)	time:15896	total:555	layername:Road
+2018-3-14 12:7:30	memory release	time:94
+2018-3-14 12:7:33	Load(oid)	time:2808	total:538	layername:Junction
+2018-3-14 12:7:33	memory release	time:15
+2018-3-14 12:8:10	Load(oid)	time:16333	total:555	layername:Road
+2018-3-14 12:8:11	memory release	time:110
+2018-3-14 12:8:13	Load(oid)	time:2449	total:538	layername:Junction
+2018-3-14 12:8:13	memory release	time:15
+2018-3-14 12:8:47	Load(oid)	time:12777	total:555	layername:Road
+2018-3-14 12:8:47	memory release	time:93
+2018-3-14 12:8:50	Load(oid)	time:2543	total:538	layername:Junction
+2018-3-14 12:8:50	memory release	time:0
+2018-3-14 12:9:20	Load(oid)	time:15835	total:555	layername:Road
+2018-3-14 12:9:20	memory release	time:93
+2018-3-14 12:9:23	Load(oid)	time:2559	total:538	layername:Junction
+2018-3-14 12:9:23	memory release	time:16
+2018-3-14 12:10:5	Load(oid)	time:20420	total:555	layername:Road
+2018-3-14 12:10:5	memory release	time:93
+2018-3-14 12:10:7	Load(oid)	time:2403	total:538	layername:Junction
+2018-3-14 12:10:7	memory release	time:0
+2018-3-14 12:10:38	Load(oid)	time:13494	total:555	layername:Road
+2018-3-14 12:10:38	memory release	time:94
+2018-3-14 12:10:40	Load(oid)	time:2776	total:538	layername:Junction
+2018-3-14 12:10:41	memory release	time:16
+2018-3-14 12:11:12	Load(oid)	time:18158	total:555	layername:Road
+2018-3-14 12:11:13	memory release	time:93
+2018-3-14 12:11:15	Load(oid)	time:2777	total:538	layername:Junction
+2018-3-14 12:11:15	memory release	time:46
+2018-3-14 12:11:50	Load(oid)	time:15975	total:555	layername:Road
+2018-3-14 12:11:50	memory release	time:93
+2018-3-14 12:11:54	Load(oid)	time:3214	total:538	layername:Junction
+2018-3-14 12:11:54	memory release	time:16
+2018-3-14 12:12:35	Load(oid)	time:21060	total:555	layername:Road
+2018-3-14 12:12:35	memory release	time:94
+2018-3-14 12:12:40	Load(oid)	time:4165	total:538	layername:Junction
+2018-3-14 12:12:40	memory release	time:15
+2018-3-14 12:13:11	Load(oid)	time:16676	total:555	layername:Road
+2018-3-14 12:13:11	memory release	time:110
+2018-3-14 12:13:14	Load(oid)	time:3088	total:538	layername:Junction
+2018-3-14 12:13:15	memory release	time:16
+2018-3-14 12:13:48	Load(oid)	time:13946	total:555	layername:Road
+2018-3-14 12:13:49	memory release	time:62
+2018-3-14 12:13:52	Load(oid)	time:3089	total:538	layername:Junction
+2018-3-14 12:13:52	memory release	time:0
+2018-3-14 12:14:17	Load(oid)	time:12948	total:555	layername:Road
+2018-3-14 12:14:17	memory release	time:94
+2018-3-14 12:14:24	Load(oid)	time:7098	total:538	layername:Junction
+2018-3-14 12:14:25	memory release	time:0
+2018-3-14 12:14:58	Load(oid)	time:13712	total:555	layername:Road
+2018-3-14 12:14:58	memory release	time:78
+2018-3-14 12:15:1	Load(oid)	time:2559	total:538	layername:Junction
+2018-3-14 12:15:1	memory release	time:16
+2018-3-14 12:15:29	Load(oid)	time:14571	total:555	layername:Road
+2018-3-14 12:15:29	memory release	time:78
+2018-3-14 12:15:32	Load(oid)	time:2481	total:538	layername:Junction
+2018-3-14 12:15:32	memory release	time:0
+2018-3-14 12:15:59	Load(oid)	time:14711	total:555	layername:Road
+2018-3-14 12:15:59	memory release	time:78
+2018-3-14 12:16:2	Load(oid)	time:2714	total:538	layername:Junction
+2018-3-14 12:16:2	memory release	time:0
+2018-3-14 12:16:32	Load(oid)	time:17238	total:555	layername:Road
+2018-3-14 12:16:32	memory release	time:78
+2018-3-14 12:16:35	Load(oid)	time:3557	total:538	layername:Junction
+2018-3-14 12:16:35	memory release	time:0
+2018-3-14 12:17:9	Load(oid)	time:14836	total:555	layername:Road
+2018-3-14 12:17:9	memory release	time:78
+2018-3-14 12:17:12	Load(oid)	time:3010	total:538	layername:Junction
+2018-3-14 12:17:13	memory release	time:0
+2018-3-14 12:17:41	Load(oid)	time:16146	total:555	layername:Road
+2018-3-14 12:17:41	memory release	time:78
+2018-3-14 12:17:44	Load(oid)	time:2839	total:538	layername:Junction
+2018-3-14 12:17:44	memory release	time:0
+2018-3-14 12:18:20	Load(oid)	time:15304	total:555	layername:Road
+2018-3-14 12:18:20	memory release	time:78
+2018-3-14 12:18:23	Load(oid)	time:2668	total:538	layername:Junction
+2018-3-14 12:18:23	memory release	time:0
+2018-3-14 12:18:52	Load(oid)	time:17425	total:555	layername:Road
+2018-3-14 12:18:52	memory release	time:110
+2018-3-14 12:18:55	Load(oid)	time:2730	total:538	layername:Junction
+2018-3-14 12:18:55	memory release	time:15
+2018-3-14 12:19:30	Load(oid)	time:14992	total:555	layername:Road
+2018-3-14 12:19:30	memory release	time:94
+2018-3-14 12:19:32	Load(oid)	time:2574	total:538	layername:Junction
+2018-3-14 12:19:32	memory release	time:0
+2018-3-14 12:20:1	Load(oid)	time:16146	total:555	layername:Road
+2018-3-14 12:20:1	memory release	time:78
+2018-3-14 12:20:4	Load(oid)	time:2730	total:538	layername:Junction
+2018-3-14 12:20:4	memory release	time:16
+2018-3-14 12:20:41	Load(oid)	time:15975	total:555	layername:Road
+2018-3-14 12:20:41	memory release	time:93
+2018-3-14 12:20:43	Load(oid)	time:2590	total:538	layername:Junction
+2018-3-14 12:20:43	memory release	time:16
+2018-3-14 12:21:21	Load(oid)	time:15803	total:555	layername:Road
+2018-3-14 12:21:21	memory release	time:94
+2018-3-14 12:21:24	Load(oid)	time:2964	total:538	layername:Junction
+2018-3-14 12:21:24	memory release	time:15
+2018-3-14 12:22:2	Load(oid)	time:17316	total:555	layername:Road
+2018-3-14 12:22:2	memory release	time:94
+2018-3-14 12:22:5	Load(oid)	time:2714	total:538	layername:Junction
+2018-3-14 12:22:5	memory release	time:16
+2018-3-14 12:22:43	Load(oid)	time:18252	total:555	layername:Road
+2018-3-14 12:22:43	memory release	time:109
+2018-3-14 12:22:48	Load(oid)	time:4446	total:538	layername:Junction
+2018-3-14 12:22:48	memory release	time:16
+2018-3-14 12:23:18	Load(oid)	time:13353	total:555	layername:Road
+2018-3-14 12:23:18	memory release	time:93
+2018-3-14 12:23:21	Load(oid)	time:2777	total:538	layername:Junction
+2018-3-14 12:23:21	memory release	time:0
+2018-3-14 12:23:50	Load(oid)	time:15476	total:555	layername:Road
+2018-3-14 12:23:50	memory release	time:94
+2018-3-14 12:23:54	Load(oid)	time:3011	total:538	layername:Junction
+2018-3-14 12:23:54	memory release	time:0
+2018-3-14 12:24:32	Load(oid)	time:16333	total:555	layername:Road
+2018-3-14 12:24:32	memory release	time:94
+2018-3-14 12:24:35	Load(oid)	time:3167	total:538	layername:Junction
+2018-3-14 12:24:35	memory release	time:15
+2018-3-14 12:25:10	Load(oid)	time:14727	total:555	layername:Road
+2018-3-14 12:25:10	memory release	time:78
+2018-3-14 12:25:13	Load(oid)	time:2917	total:538	layername:Junction
+2018-3-14 12:25:13	memory release	time:16
+2018-3-14 12:25:41	Load(oid)	time:15585	total:555	layername:Road
+2018-3-14 12:25:41	memory release	time:78
+2018-3-14 12:25:44	Load(oid)	time:2995	total:538	layername:Junction
+2018-3-14 12:25:44	memory release	time:16
+2018-3-14 12:26:19	Load(oid)	time:14601	total:555	layername:Road
+2018-3-14 12:26:20	memory release	time:94
+2018-3-14 12:26:22	Load(oid)	time:2715	total:538	layername:Junction
+2018-3-14 12:26:22	memory release	time:16
+2018-3-14 12:26:52	Load(oid)	time:17347	total:555	layername:Road
+2018-3-14 12:26:52	memory release	time:94
+2018-3-14 12:26:55	Load(oid)	time:2699	total:538	layername:Junction
+2018-3-14 12:26:55	memory release	time:0
+2018-3-14 12:27:31	Load(oid)	time:15226	total:555	layername:Road
+2018-3-14 12:27:31	memory release	time:93
+2018-3-14 12:27:35	Load(oid)	time:3900	total:538	layername:Junction
+2018-3-14 12:27:35	memory release	time:16
+2018-3-14 12:28:10	Load(oid)	time:15273	total:555	layername:Road
+2018-3-14 12:28:11	memory release	time:93
+2018-3-14 12:28:14	Load(oid)	time:3136	total:538	layername:Junction
+2018-3-14 12:28:14	memory release	time:0
+2018-3-14 12:28:56	Load(oid)	time:21013	total:555	layername:Road
+2018-3-14 12:28:56	memory release	time:93
+2018-3-14 12:29:0	Load(oid)	time:3869	total:538	layername:Junction
+2018-3-14 12:29:0	memory release	time:16
+2018-3-14 12:29:32	Load(oid)	time:16551	total:555	layername:Road
+2018-3-14 12:29:32	memory release	time:109
+2018-3-14 12:29:35	Load(oid)	time:3416	total:538	layername:Junction
+2018-3-14 12:29:35	memory release	time:16
+2018-3-14 12:30:11	Load(oid)	time:15709	total:555	layername:Road
+2018-3-14 12:30:11	memory release	time:94
+2018-3-14 12:30:14	Load(oid)	time:2823	total:538	layername:Junction
+2018-3-14 12:30:14	memory release	time:0
+2018-3-14 12:30:55	Load(oid)	time:19312	total:555	layername:Road
+2018-3-14 12:30:55	memory release	time:78
+2018-3-14 12:30:58	Load(oid)	time:2902	total:538	layername:Junction
+2018-3-14 12:30:58	memory release	time:15
+2018-3-14 12:31:32	Load(oid)	time:16193	total:555	layername:Road
+2018-3-14 12:31:32	memory release	time:93
+2018-3-14 12:31:35	Load(oid)	time:3136	total:538	layername:Junction
+2018-3-14 12:31:35	memory release	time:0
+2018-3-14 12:32:8	Load(oid)	time:12793	total:555	layername:Road
+2018-3-14 12:32:8	memory release	time:93
+2018-3-14 12:32:11	Load(oid)	time:2824	total:538	layername:Junction
+2018-3-14 12:32:11	memory release	time:15
+2018-3-14 12:32:47	Load(oid)	time:21388	total:555	layername:Road
+2018-3-14 12:32:47	memory release	time:78
+2018-3-14 12:32:50	Load(oid)	time:2714	total:538	layername:Junction
+2018-3-14 12:32:50	memory release	time:15
+2018-3-14 12:33:18	Load(oid)	time:12449	total:555	layername:Road
+2018-3-14 12:33:18	memory release	time:94
+2018-3-14 12:33:21	Load(oid)	time:2917	total:538	layername:Junction
+2018-3-14 12:33:21	memory release	time:0
+2018-3-14 12:33:52	Load(oid)	time:16271	total:555	layername:Road
+2018-3-14 12:33:52	memory release	time:94
+2018-3-14 12:33:54	Load(oid)	time:2558	total:538	layername:Junction
+2018-3-14 12:33:54	memory release	time:0
+2018-3-14 12:34:29	Load(oid)	time:13743	total:555	layername:Road
+2018-3-14 12:34:29	memory release	time:94
+2018-3-14 12:34:32	Load(oid)	time:2995	total:538	layername:Junction
+2018-3-14 12:34:32	memory release	time:16
+2018-3-14 12:35:1	Load(oid)	time:15225	total:555	layername:Road
+2018-3-14 12:35:1	memory release	time:109
+2018-3-14 12:35:4	Load(oid)	time:3479	total:538	layername:Junction
+2018-3-14 12:35:4	memory release	time:16
+2018-3-14 12:35:41	Load(oid)	time:15273	total:555	layername:Road
+2018-3-14 12:35:41	memory release	time:78
+2018-3-14 12:35:44	Load(oid)	time:2823	total:538	layername:Junction
+2018-3-14 12:35:44	memory release	time:16
+2018-3-14 12:36:20	Load(oid)	time:14773	total:555	layername:Road
+2018-3-14 12:36:20	memory release	time:78
+2018-3-14 12:36:24	Load(oid)	time:3806	total:538	layername:Junction
+2018-3-14 12:36:24	memory release	time:16
+2018-3-14 12:36:52	Load(oid)	time:16458	total:555	layername:Road
+2018-3-14 12:36:52	memory release	time:78
+2018-3-14 12:36:55	Load(oid)	time:2980	total:538	layername:Junction
+2018-3-14 12:36:55	memory release	time:15
+2018-3-14 12:37:31	Load(oid)	time:15320	total:555	layername:Road
+2018-3-14 12:37:31	memory release	time:94
+2018-3-14 12:37:35	Load(oid)	time:3541	total:538	layername:Junction
+2018-3-14 12:37:35	memory release	time:0
+2018-3-14 12:38:15	Load(oid)	time:19032	total:555	layername:Road
+2018-3-14 12:38:15	memory release	time:94
+2018-3-14 12:38:17	Load(oid)	time:2714	total:538	layername:Junction
+2018-3-14 12:38:18	memory release	time:16
+2018-3-14 12:38:50	Load(oid)	time:14133	total:555	layername:Road
+2018-3-14 12:38:50	memory release	time:110
+2018-3-14 12:38:52	Load(oid)	time:2465	total:538	layername:Junction
+2018-3-14 12:38:52	memory release	time:15
+2018-3-14 12:39:21	Load(oid)	time:15537	total:555	layername:Road
+2018-3-14 12:39:21	memory release	time:94
+2018-3-14 12:39:24	Load(oid)	time:3058	total:538	layername:Junction
+2018-3-14 12:39:25	memory release	time:0
+2018-3-14 12:40:3	Load(oid)	time:16989	total:555	layername:Road
+2018-3-14 12:40:3	memory release	time:93
+2018-3-14 12:40:6	Load(oid)	time:2793	total:538	layername:Junction
+2018-3-14 12:40:6	memory release	time:16
+2018-3-14 12:40:43	Load(oid)	time:16910	total:555	layername:Road
+2018-3-14 12:40:43	memory release	time:94
+2018-3-14 12:40:46	Load(oid)	time:2933	total:538	layername:Junction
+2018-3-14 12:40:46	memory release	time:15
+2018-3-14 12:41:27	Load(oid)	time:21419	total:555	layername:Road
+2018-3-14 12:41:27	memory release	time:110
+2018-3-14 12:41:30	Load(oid)	time:2574	total:538	layername:Junction
+2018-3-14 12:41:30	memory release	time:15
+2018-3-14 12:41:58	Load(oid)	time:12449	total:555	layername:Road
+2018-3-14 12:41:58	memory release	time:110
+2018-3-14 12:42:1	Load(oid)	time:2808	total:538	layername:Junction
+2018-3-14 12:42:1	memory release	time:15
+2018-3-14 12:42:32	Load(oid)	time:15678	total:555	layername:Road
+2018-3-14 12:42:32	memory release	time:94
+2018-3-14 12:42:35	Load(oid)	time:3510	total:538	layername:Junction
+2018-3-14 12:42:35	memory release	time:15
+2018-3-14 12:43:15	Load(oid)	time:19048	total:555	layername:Road
+2018-3-14 12:43:15	memory release	time:93
+2018-3-14 12:43:18	Load(oid)	time:2855	total:538	layername:Junction
+2018-3-14 12:43:18	memory release	time:15
+2018-3-14 12:43:53	Load(oid)	time:16832	total:555	layername:Road
+2018-3-14 12:43:53	memory release	time:94
+2018-3-14 12:43:56	Load(oid)	time:2901	total:538	layername:Junction
+2018-3-14 12:43:56	memory release	time:0
+2018-3-14 12:44:28	Load(oid)	time:12371	total:555	layername:Road
+2018-3-14 12:44:28	memory release	time:94
+2018-3-14 12:44:32	Load(oid)	time:3042	total:538	layername:Junction
+2018-3-14 12:44:32	memory release	time:0
+2018-3-14 12:45:0	Load(oid)	time:13681	total:555	layername:Road
+2018-3-14 12:45:0	memory release	time:78
+2018-3-14 12:45:3	Load(oid)	time:3026	total:538	layername:Junction
+2018-3-14 12:45:3	memory release	time:0
+2018-3-14 12:45:31	Load(oid)	time:14726	total:555	layername:Road
+2018-3-14 12:45:31	memory release	time:78
+2018-3-14 12:45:34	Load(oid)	time:2698	total:538	layername:Junction
+2018-3-14 12:45:34	memory release	time:15
+2018-3-14 12:46:3	Load(oid)	time:17206	total:555	layername:Road
+2018-3-14 12:46:3	memory release	time:78
+2018-3-14 12:46:6	Load(oid)	time:2542	total:538	layername:Junction
+2018-3-14 12:46:6	memory release	time:16
+2018-3-14 12:46:40	Load(oid)	time:14415	total:555	layername:Road
+2018-3-14 12:46:40	memory release	time:78
+2018-3-14 12:46:43	Load(oid)	time:2839	total:538	layername:Junction
+2018-3-14 12:46:44	memory release	time:31
+2018-3-14 12:47:9	Load(oid)	time:12480	total:555	layername:Road
+2018-3-14 12:47:9	memory release	time:93
+2018-3-14 12:47:12	Load(oid)	time:2809	total:538	layername:Junction
+2018-3-14 12:47:12	memory release	time:15
+2018-3-14 12:47:43	Load(oid)	time:16692	total:555	layername:Road
+2018-3-14 12:47:43	memory release	time:78
+2018-3-14 12:47:45	Load(oid)	time:2496	total:538	layername:Junction
+2018-3-14 12:47:46	memory release	time:0
+2018-3-14 12:48:19	Load(oid)	time:12542	total:555	layername:Road
+2018-3-14 12:48:19	memory release	time:94
+2018-3-14 12:48:22	Load(oid)	time:2933	total:538	layername:Junction
+2018-3-14 12:48:22	memory release	time:0
+2018-3-14 12:48:53	Load(oid)	time:17098	total:555	layername:Road
+2018-3-14 12:48:53	memory release	time:78
+2018-3-14 12:48:56	Load(oid)	time:2839	total:538	layername:Junction
+2018-3-14 12:48:56	memory release	time:0
+2018-3-14 12:49:28	Load(oid)	time:12402	total:555	layername:Road
+2018-3-14 12:49:28	memory release	time:109
+2018-3-14 12:49:31	Load(oid)	time:2839	total:538	layername:Junction
+2018-3-14 12:49:31	memory release	time:0
+2018-3-14 12:50:1	Load(oid)	time:14821	total:555	layername:Road
+2018-3-14 12:50:1	memory release	time:93
+2018-3-14 12:50:4	Load(oid)	time:2543	total:538	layername:Junction
+2018-3-14 12:50:4	memory release	time:16
+2018-3-14 12:50:35	Load(oid)	time:19297	total:555	layername:Road
+2018-3-14 12:50:36	memory release	time:94
+2018-3-14 12:50:38	Load(oid)	time:2761	total:538	layername:Junction
+2018-3-14 12:50:38	memory release	time:0
+2018-3-14 12:51:12	Load(oid)	time:15678	total:555	layername:Road
+2018-3-14 12:51:12	memory release	time:94
+2018-3-14 12:51:14	Load(oid)	time:2480	total:538	layername:Junction
+2018-3-14 12:51:15	memory release	time:16
+2018-3-14 12:51:53	Load(oid)	time:17082	total:555	layername:Road
+2018-3-14 12:51:53	memory release	time:93
+2018-3-14 12:51:56	Load(oid)	time:3042	total:538	layername:Junction
+2018-3-14 12:51:57	memory release	time:0
+2018-3-14 12:52:32	Load(oid)	time:15662	total:555	layername:Road
+2018-3-14 12:52:32	memory release	time:94
+2018-3-14 12:52:37	Load(oid)	time:5210	total:538	layername:Junction
+2018-3-14 12:52:37	memory release	time:15
+2018-3-14 12:53:12	Load(oid)	time:15537	total:555	layername:Road
+2018-3-14 12:53:12	memory release	time:94
+2018-3-14 12:53:15	Load(oid)	time:2823	total:538	layername:Junction
+2018-3-14 12:53:15	memory release	time:0
+2018-3-14 12:53:52	Load(oid)	time:15927	total:555	layername:Road
+2018-3-14 12:53:52	memory release	time:78
+2018-3-14 12:53:55	Load(oid)	time:2839	total:538	layername:Junction
+2018-3-14 12:53:55	memory release	time:0
+2018-3-14 12:54:29	Load(oid)	time:12449	total:555	layername:Road
+2018-3-14 12:54:29	memory release	time:94
+2018-3-14 12:54:32	Load(oid)	time:2932	total:538	layername:Junction
+2018-3-14 12:54:32	memory release	time:16
+2018-3-14 12:55:1	Load(oid)	time:14821	total:555	layername:Road
+2018-3-14 12:55:1	memory release	time:93
+2018-3-14 12:55:4	Load(oid)	time:2933	total:538	layername:Junction
+2018-3-14 12:55:4	memory release	time:15
+2018-3-14 12:55:42	Load(oid)	time:15881	total:555	layername:Road
+2018-3-14 12:55:43	memory release	time:93
+2018-3-14 12:55:45	Load(oid)	time:2793	total:538	layername:Junction
+2018-3-14 12:55:45	memory release	time:0
+2018-3-14 12:56:19	Load(oid)	time:12745	total:555	layername:Road
+2018-3-14 12:56:19	memory release	time:93
+2018-3-14 12:56:22	Load(oid)	time:2746	total:538	layername:Junction
+2018-3-14 12:56:22	memory release	time:15
+2018-3-14 12:56:52	Load(oid)	time:15600	total:555	layername:Road
+2018-3-14 12:56:53	memory release	time:78
+2018-3-14 12:56:55	Load(oid)	time:2871	total:538	layername:Junction
+2018-3-14 12:56:56	memory release	time:0
+2018-3-14 12:57:35	Load(oid)	time:18034	total:555	layername:Road
+2018-3-14 12:57:35	memory release	time:94
+2018-3-14 12:57:39	Load(oid)	time:4118	total:538	layername:Junction
+2018-3-14 12:57:39	memory release	time:16
+2018-3-14 12:58:13	Load(oid)	time:16037	total:555	layername:Road
+2018-3-14 12:58:13	memory release	time:93
+2018-3-14 12:58:16	Load(oid)	time:3370	total:538	layername:Junction
+2018-3-14 12:58:16	memory release	time:15
+2018-3-14 12:58:49	Load(oid)	time:12464	total:555	layername:Road
+2018-3-14 12:58:49	memory release	time:94
+2018-3-14 12:58:52	Load(oid)	time:2870	total:538	layername:Junction
+2018-3-14 12:58:52	memory release	time:15
+2018-3-14 12:59:25	Load(oid)	time:18112	total:555	layername:Road
+2018-3-14 12:59:25	memory release	time:78
+2018-3-14 12:59:28	Load(oid)	time:2714	total:538	layername:Junction
+2018-3-14 12:59:28	memory release	time:0
+2018-3-14 13:0:0	Load(oid)	time:13510	total:555	layername:Road
+2018-3-14 13:0:0	memory release	time:109
+2018-3-14 13:0:4	Load(oid)	time:3432	total:538	layername:Junction
+2018-3-14 13:0:4	memory release	time:16
+2018-3-14 13:0:35	Load(oid)	time:17768	total:555	layername:Road
+2018-3-14 13:0:35	memory release	time:93
+2018-3-14 13:0:40	Load(oid)	time:5803	total:538	layername:Junction
+2018-3-14 13:0:41	memory release	time:0
+2018-3-14 13:1:13	Load(oid)	time:16130	total:555	layername:Road
+2018-3-14 13:1:13	memory release	time:93
+2018-3-14 13:1:16	Load(oid)	time:2637	total:538	layername:Junction
+2018-3-14 13:1:16	memory release	time:0
+2018-3-14 13:1:53	Load(oid)	time:15491	total:555	layername:Road
+2018-3-14 13:1:53	memory release	time:94
+2018-3-14 13:1:56	Load(oid)	time:2901	total:538	layername:Junction
+2018-3-14 13:1:56	memory release	time:16
+2018-3-16 10:43:16	SDE create	time:1186
+2018-3-16 10:44:13	Load(oid)	time:19328	total:554	layername:Road
+2018-3-16 10:44:13	memory release	time:93
+2018-3-16 10:44:15	Load(oid)	time:2793	total:536	layername:Junction
+2018-3-16 10:44:16	memory release	time:0
+2018-3-21 11:47:8	SDE create	time:4103
+2018-3-21 11:48:49	SDE create	time:468
+2018-3-21 11:52:9	Load(oid)	time:670	total:10	layername:Road
+2018-3-21 11:54:29	SDE create	time:405
+2018-3-21 11:54:42	Load(oid)	time:250	total:10	layername:Road
+2018-3-21 11:55:15	SDE create	time:421
+2018-3-21 11:55:34	Load(oid)	time:12792	total:759	layername:Road
+2018-3-21 11:58:53	memory release	time:297
+2018-3-21 11:58:58	Load(oid)	time:4570	total:860	layername:Junction
+2018-3-21 12:9:49	memory release	time:16
+2018-3-21 12:11:50	SDE create	time:421
+2018-3-21 12:12:38	Load(oid)	time:12855	total:759	layername:Road
+2018-3-21 12:12:47	memory release	time:171
+2018-3-21 12:12:51	Load(oid)	time:3136	total:860	layername:Junction
+2018-3-21 12:12:55	memory release	time:16
+2018-3-21 13:19:46	SDE create	time:718
+2018-3-21 13:20:5	Load(oid)	time:13556	total:759	layername:Road
+2018-3-21 13:20:5	memory release	time:156
+2018-3-21 13:20:10	Load(oid)	time:4711	total:860	layername:Junction
+2018-3-21 13:20:11	memory release	time:15
+2018-3-21 13:23:25	SDE create	time:452
+2018-3-21 13:23:40	Load(oid)	time:12480	total:759	layername:Road
+2018-3-21 13:23:40	memory release	time:0
+2018-3-21 13:23:42	Load(oid)	time:2340	total:860	layername:Junction
+2018-3-21 13:23:42	memory release	time:0
+2018-3-21 13:24:17	Load(oid)	time:13775	total:759	layername:Road
+2018-3-21 13:24:17	memory release	time:0
+2018-3-21 13:24:19	Load(oid)	time:2715	total:860	layername:Junction
+2018-3-21 13:24:19	memory release	time:16
+2018-3-21 13:24:48	Load(oid)	time:13509	total:759	layername:Road
+2018-3-21 13:24:48	memory release	time:15
+2018-3-21 13:24:50	Load(oid)	time:2294	total:860	layername:Junction
+2018-3-21 13:24:50	memory release	time:15
+2018-3-21 13:25:16	Load(oid)	time:12574	total:759	layername:Road
+2018-3-21 13:25:16	memory release	time:16
+2018-3-21 13:25:18	Load(oid)	time:1888	total:860	layername:Junction
+2018-3-21 13:25:18	memory release	time:0
+2018-3-21 13:25:48	Load(oid)	time:13447	total:759	layername:Road
+2018-3-21 13:25:48	memory release	time:15
+2018-3-21 13:25:50	Load(oid)	time:2059	total:860	layername:Junction
+2018-3-21 13:25:50	memory release	time:16
+2018-3-21 13:26:17	Load(oid)	time:13292	total:759	layername:Road
+2018-3-21 13:26:17	memory release	time:16
+2018-3-21 13:26:21	Load(oid)	time:3588	total:860	layername:Junction
+2018-3-21 13:26:21	memory release	time:16
+2018-3-21 13:26:46	Load(oid)	time:12979	total:759	layername:Road
+2018-3-21 13:26:46	memory release	time:15
+2018-3-21 13:26:49	Load(oid)	time:2294	total:860	layername:Junction
+2018-3-21 13:26:49	memory release	time:0
+2018-3-21 13:27:15	Load(oid)	time:12044	total:759	layername:Road
+2018-3-21 13:27:15	memory release	time:16
+2018-3-21 13:27:17	Load(oid)	time:2231	total:860	layername:Junction
+2018-3-21 13:27:17	memory release	time:16
+2018-3-21 13:27:46	Load(oid)	time:13073	total:759	layername:Road
+2018-3-21 13:27:46	memory release	time:16
+2018-3-21 13:27:51	Load(oid)	time:4804	total:860	layername:Junction
+2018-3-21 13:27:51	memory release	time:0
+2018-3-21 13:28:16	Load(oid)	time:12527	total:759	layername:Road
+2018-3-21 13:28:16	memory release	time:15
+2018-3-21 13:28:18	Load(oid)	time:2356	total:860	layername:Junction
+2018-3-21 13:28:18	memory release	time:0
+2018-3-21 13:28:47	Load(oid)	time:13479	total:759	layername:Road
+2018-3-21 13:28:47	memory release	time:16
+2018-3-21 13:28:49	Load(oid)	time:2324	total:860	layername:Junction
+2018-3-21 13:28:49	memory release	time:0
+2018-3-21 13:29:19	Load(oid)	time:13946	total:759	layername:Road
+2018-3-21 13:29:19	memory release	time:16
+2018-3-21 13:29:21	Load(oid)	time:1981	total:860	layername:Junction
+2018-3-21 13:29:21	memory release	time:15
+2018-3-21 13:29:45	Load(oid)	time:12074	total:759	layername:Road
+2018-3-21 13:29:45	memory release	time:0
+2018-3-21 13:29:47	Load(oid)	time:1934	total:860	layername:Junction
+2018-3-21 13:29:47	memory release	time:0
+2018-3-21 13:30:16	Load(oid)	time:13213	total:759	layername:Road
+2018-3-21 13:30:16	memory release	time:15
+2018-3-21 13:30:18	Load(oid)	time:1997	total:860	layername:Junction
+2018-3-21 13:30:18	memory release	time:0
+2018-3-21 13:30:46	Load(oid)	time:12340	total:759	layername:Road
+2018-3-21 13:30:46	memory release	time:16
+2018-3-21 13:30:48	Load(oid)	time:1919	total:860	layername:Junction
+2018-3-21 13:30:48	memory release	time:0
+2018-3-21 13:31:15	Load(oid)	time:12183	total:759	layername:Road
+2018-3-21 13:31:15	memory release	time:16
+2018-3-21 13:31:17	Load(oid)	time:1934	total:860	layername:Junction
+2018-3-21 13:31:17	memory release	time:15
+2018-3-21 13:31:47	Load(oid)	time:13104	total:759	layername:Road
+2018-3-21 13:31:47	memory release	time:16
+2018-3-21 13:31:49	Load(oid)	time:1934	total:860	layername:Junction
+2018-3-21 13:31:49	memory release	time:0
+2018-3-21 13:32:16	Load(oid)	time:12370	total:759	layername:Road
+2018-3-21 13:32:16	memory release	time:15
+2018-3-21 13:32:18	Load(oid)	time:1919	total:860	layername:Junction
+2018-3-21 13:32:18	memory release	time:0
+2018-3-21 13:32:46	Load(oid)	time:12464	total:759	layername:Road
+2018-3-21 13:32:46	memory release	time:15
+2018-3-21 13:32:50	Load(oid)	time:4712	total:860	layername:Junction
+2018-3-21 13:32:51	memory release	time:0
+2018-3-21 13:33:15	Load(oid)	time:12090	total:759	layername:Road
+2018-3-21 13:33:15	memory release	time:0
+2018-3-21 13:33:17	Load(oid)	time:1903	total:860	layername:Junction
+2018-3-21 13:33:17	memory release	time:0
+2018-3-21 13:33:46	Load(oid)	time:13041	total:759	layername:Road
+2018-3-21 13:33:46	memory release	time:15
+2018-3-21 13:33:48	Load(oid)	time:1966	total:860	layername:Junction
+2018-3-21 13:33:48	memory release	time:15
+2018-3-21 13:34:16	Load(oid)	time:12729	total:759	layername:Road
+2018-3-21 13:34:16	memory release	time:16
+2018-3-21 13:34:18	Load(oid)	time:2262	total:860	layername:Junction
+2018-3-21 13:34:18	memory release	time:0
+2018-3-21 13:34:50	Load(oid)	time:15663	total:759	layername:Road
+2018-3-21 13:34:50	memory release	time:16
+2018-3-21 13:34:52	Load(oid)	time:1919	total:860	layername:Junction
+2018-3-21 13:34:52	memory release	time:0
+2018-3-21 13:35:17	Load(oid)	time:12043	total:759	layername:Road
+2018-3-21 13:35:17	memory release	time:15
+2018-3-21 13:35:19	Load(oid)	time:1888	total:860	layername:Junction
+2018-3-21 13:35:19	memory release	time:0
+2018-3-21 13:35:47	Load(oid)	time:13166	total:759	layername:Road
+2018-3-21 13:35:47	memory release	time:16
+2018-3-21 13:35:49	Load(oid)	time:1934	total:860	layername:Junction
+2018-3-21 13:35:49	memory release	time:0
+2018-3-21 13:36:16	Load(oid)	time:12792	total:759	layername:Road
+2018-3-21 13:36:16	memory release	time:0
+2018-3-21 13:36:18	Load(oid)	time:1950	total:860	layername:Junction
+2018-3-21 13:36:18	memory release	time:0
+2018-3-21 13:36:46	Load(oid)	time:12075	total:759	layername:Road
+2018-3-21 13:36:46	memory release	time:0
+2018-3-21 13:36:49	Load(oid)	time:3042	total:860	layername:Junction
+2018-3-21 13:36:49	memory release	time:16
+2018-3-21 13:37:16	Load(oid)	time:12449	total:759	layername:Road
+2018-3-21 13:37:16	memory release	time:16
+2018-3-21 13:37:18	Load(oid)	time:1934	total:860	layername:Junction
+2018-3-21 13:37:18	memory release	time:0
+2018-3-21 13:37:46	Load(oid)	time:12776	total:759	layername:Road
+2018-3-21 13:37:47	memory release	time:15
+2018-3-21 13:37:48	Load(oid)	time:1950	total:860	layername:Junction
+2018-3-21 13:37:48	memory release	time:0
+2018-3-21 13:38:16	Load(oid)	time:12667	total:759	layername:Road
+2018-3-21 13:38:16	memory release	time:16
+2018-3-21 13:38:18	Load(oid)	time:1950	total:860	layername:Junction
+2018-3-21 13:38:18	memory release	time:16
+2018-3-21 13:38:49	Load(oid)	time:13759	total:759	layername:Road
+2018-3-21 13:38:49	memory release	time:15
+2018-3-21 13:38:52	Load(oid)	time:3027	total:860	layername:Junction
+2018-3-21 13:38:52	memory release	time:16
+2018-3-21 13:39:16	Load(oid)	time:12480	total:759	layername:Road
+2018-3-21 13:39:16	memory release	time:15
+2018-3-21 13:39:18	Load(oid)	time:1904	total:860	layername:Junction
+2018-3-21 13:39:18	memory release	time:0
+2018-3-21 13:39:48	Load(oid)	time:13291	total:759	layername:Road
+2018-3-21 13:39:48	memory release	time:15
+2018-3-21 13:39:51	Load(oid)	time:2996	total:860	layername:Junction
+2018-3-21 13:39:51	memory release	time:0
+2018-3-21 13:40:18	Load(oid)	time:13167	total:759	layername:Road
+2018-3-21 13:40:18	memory release	time:16
+2018-3-21 13:40:20	Load(oid)	time:2340	total:860	layername:Junction
+2018-3-21 13:40:20	memory release	time:0
+2018-3-21 13:40:46	Load(oid)	time:12199	total:759	layername:Road
+2018-3-21 13:40:46	memory release	time:15
+2018-3-21 13:40:48	Load(oid)	time:1935	total:860	layername:Junction
+2018-3-21 13:40:48	memory release	time:0
+2018-3-21 13:41:16	Load(oid)	time:11965	total:759	layername:Road
+2018-3-21 13:41:16	memory release	time:16
+2018-3-21 13:41:18	Load(oid)	time:1903	total:860	layername:Junction
+2018-3-21 13:41:18	memory release	time:0
+2018-3-21 13:41:46	Load(oid)	time:11965	total:759	layername:Road
+2018-3-21 13:41:46	memory release	time:0
+2018-3-21 13:41:48	Load(oid)	time:1857	total:860	layername:Junction
+2018-3-21 13:41:48	memory release	time:0
+2018-3-21 13:42:16	Load(oid)	time:12105	total:759	layername:Road
+2018-3-21 13:42:16	memory release	time:15
+2018-3-21 13:42:18	Load(oid)	time:1919	total:860	layername:Junction
+2018-3-21 13:42:18	memory release	time:0
+2018-3-21 13:42:46	Load(oid)	time:12012	total:759	layername:Road
+2018-3-21 13:42:46	memory release	time:15
+2018-3-21 13:42:48	Load(oid)	time:1904	total:860	layername:Junction
+2018-3-21 13:42:48	memory release	time:0
+2018-3-21 13:43:17	Load(oid)	time:12730	total:759	layername:Road
+2018-3-21 13:43:17	memory release	time:16
+2018-3-21 13:43:19	Load(oid)	time:1918	total:860	layername:Junction
+2018-3-21 13:43:19	memory release	time:0
+2018-3-21 13:43:47	Load(oid)	time:12465	total:759	layername:Road
+2018-3-21 13:43:47	memory release	time:16
+2018-3-21 13:43:49	Load(oid)	time:1966	total:860	layername:Junction
+2018-3-21 13:43:49	memory release	time:0
+2018-3-21 13:44:16	Load(oid)	time:12121	total:759	layername:Road
+2018-3-21 13:44:16	memory release	time:0
+2018-3-21 13:44:18	Load(oid)	time:1904	total:860	layername:Junction
+2018-3-21 13:44:18	memory release	time:0
+2018-3-21 13:44:46	Load(oid)	time:12417	total:759	layername:Road
+2018-3-21 13:44:46	memory release	time:15
+2018-3-21 13:44:49	Load(oid)	time:2621	total:860	layername:Junction
+2018-3-21 13:44:49	memory release	time:15
+2018-3-21 13:45:20	Load(oid)	time:12464	total:759	layername:Road
+2018-3-21 13:45:20	memory release	time:16
+2018-3-21 13:45:23	Load(oid)	time:3010	total:860	layername:Junction
+2018-3-21 13:45:23	memory release	time:0
+2018-3-21 13:45:56	Load(oid)	time:12121	total:759	layername:Road
+2018-3-21 13:45:56	memory release	time:15
+2018-3-21 13:45:58	Load(oid)	time:1888	total:860	layername:Junction
+2018-3-21 13:45:58	memory release	time:0
+2018-3-21 13:46:29	Load(oid)	time:13759	total:759	layername:Road
+2018-3-21 13:46:29	memory release	time:16
+2018-3-21 13:46:31	Load(oid)	time:1918	total:860	layername:Junction
+2018-3-21 13:46:31	memory release	time:16
+2018-3-21 13:46:57	Load(oid)	time:12387	total:759	layername:Road
+2018-3-21 13:46:57	memory release	time:15
+2018-3-21 13:46:59	Load(oid)	time:2278	total:860	layername:Junction
+2018-3-21 13:46:59	memory release	time:16
+2018-3-21 13:47:27	Load(oid)	time:13104	total:759	layername:Road
+2018-3-21 13:47:27	memory release	time:15
+2018-3-21 13:47:29	Load(oid)	time:2184	total:860	layername:Junction
+2018-3-21 13:47:29	memory release	time:0
+2018-3-21 13:47:58	Load(oid)	time:12964	total:759	layername:Road
+2018-3-21 13:47:58	memory release	time:15
+2018-3-21 13:48:3	Load(oid)	time:5070	total:860	layername:Junction
+2018-3-21 13:48:3	memory release	time:0
+2018-3-21 13:48:41	Load(oid)	time:24430	total:759	layername:Road
+2018-3-21 13:48:41	memory release	time:16
+2018-3-21 13:48:43	Load(oid)	time:1887	total:860	layername:Junction
+2018-3-21 13:48:43	memory release	time:0
+2018-3-21 13:49:7	Load(oid)	time:12699	total:759	layername:Road
+2018-3-21 13:49:7	memory release	time:16
+2018-3-21 13:49:10	Load(oid)	time:3556	total:860	layername:Junction
+2018-3-21 13:49:10	memory release	time:16
+2018-3-21 13:49:38	Load(oid)	time:13868	total:759	layername:Road
+2018-3-21 13:49:38	memory release	time:16
+2018-3-21 13:49:41	Load(oid)	time:2620	total:860	layername:Junction
+2018-3-21 13:49:41	memory release	time:0
+2018-3-21 13:50:7	Load(oid)	time:12527	total:759	layername:Road
+2018-3-21 13:50:7	memory release	time:15
+2018-3-21 13:50:9	Load(oid)	time:1935	total:860	layername:Junction
+2018-3-21 13:50:9	memory release	time:0
+2018-3-21 13:50:37	Load(oid)	time:12371	total:759	layername:Road
+2018-3-21 13:50:37	memory release	time:15
+2018-3-21 13:50:39	Load(oid)	time:2028	total:860	layername:Junction
+2018-3-21 13:50:39	memory release	time:15
+2018-3-21 13:51:7	Load(oid)	time:12979	total:759	layername:Road
+2018-3-21 13:51:7	memory release	time:15
+2018-3-21 13:51:9	Load(oid)	time:1966	total:860	layername:Junction
+2018-3-21 13:51:9	memory release	time:15
+2018-3-21 13:51:37	Load(oid)	time:12730	total:759	layername:Road
+2018-3-21 13:51:37	memory release	time:15
+2018-3-21 13:51:39	Load(oid)	time:2044	total:860	layername:Junction
+2018-3-21 13:51:39	memory release	time:0
+2018-3-21 13:52:6	Load(oid)	time:11997	total:759	layername:Road
+2018-3-21 13:52:6	memory release	time:16
+2018-3-21 13:52:8	Load(oid)	time:1887	total:860	layername:Junction
+2018-3-21 13:52:8	memory release	time:16
+2018-3-21 13:52:36	Load(oid)	time:12059	total:759	layername:Road
+2018-3-21 13:52:36	memory release	time:16
+2018-3-21 13:52:38	Load(oid)	time:1856	total:860	layername:Junction
+2018-3-21 13:52:38	memory release	time:0
+2018-3-21 13:53:7	Load(oid)	time:12339	total:759	layername:Road
+2018-3-21 13:53:7	memory release	time:15
+2018-3-21 13:53:9	Load(oid)	time:1904	total:860	layername:Junction
+2018-3-21 13:53:9	memory release	time:0
+2018-3-21 13:53:36	Load(oid)	time:11934	total:759	layername:Road
+2018-3-21 13:53:36	memory release	time:16
+2018-3-21 13:53:38	Load(oid)	time:1887	total:860	layername:Junction
+2018-3-21 13:53:38	memory release	time:0
+2018-3-21 13:54:6	Load(oid)	time:12075	total:759	layername:Road
+2018-3-21 13:54:6	memory release	time:16
+2018-3-21 13:54:9	Load(oid)	time:2012	total:860	layername:Junction
+2018-3-21 13:54:9	memory release	time:0
+2018-3-21 13:54:37	Load(oid)	time:12293	total:759	layername:Road
+2018-3-21 13:54:37	memory release	time:16
+2018-3-21 13:54:39	Load(oid)	time:1934	total:860	layername:Junction
+2018-3-21 13:54:39	memory release	time:0
+2018-3-21 13:55:7	Load(oid)	time:12808	total:759	layername:Road
+2018-3-21 13:55:7	memory release	time:16
+2018-3-21 13:55:10	Load(oid)	time:2932	total:860	layername:Junction
+2018-3-21 13:55:10	memory release	time:0
+2018-3-21 13:55:37	Load(oid)	time:12683	total:759	layername:Road
+2018-3-21 13:55:37	memory release	time:16
+2018-3-21 13:55:39	Load(oid)	time:1934	total:860	layername:Junction
+2018-3-21 13:55:39	memory release	time:16
+2018-3-21 13:56:7	Load(oid)	time:12106	total:759	layername:Road
+2018-3-21 13:56:7	memory release	time:16
+2018-3-21 13:56:9	Load(oid)	time:1888	total:860	layername:Junction
+2018-3-21 13:56:9	memory release	time:0
+2018-3-21 13:56:37	Load(oid)	time:12215	total:759	layername:Road
+2018-3-21 13:56:37	memory release	time:15
+2018-3-21 13:56:39	Load(oid)	time:1903	total:860	layername:Junction
+2018-3-21 13:56:39	memory release	time:0
+2018-3-21 13:57:6	Load(oid)	time:11950	total:759	layername:Road
+2018-3-21 13:57:6	memory release	time:16
+2018-3-21 13:57:8	Load(oid)	time:1903	total:860	layername:Junction
+2018-3-21 13:57:8	memory release	time:0
+2018-3-21 13:57:36	Load(oid)	time:11997	total:759	layername:Road
+2018-3-21 13:57:37	memory release	time:16
+2018-3-21 13:57:38	Load(oid)	time:1887	total:860	layername:Junction
+2018-3-21 13:57:38	memory release	time:0
+2018-3-21 13:58:6	Load(oid)	time:11966	total:759	layername:Road
+2018-3-21 13:58:7	memory release	time:15
+2018-3-21 13:58:8	Load(oid)	time:1872	total:860	layername:Junction
+2018-3-21 13:58:8	memory release	time:0
+2018-3-21 13:58:37	Load(oid)	time:11919	total:759	layername:Road
+2018-3-21 13:58:37	memory release	time:0
+2018-3-21 13:58:38	Load(oid)	time:1888	total:860	layername:Junction
+2018-3-21 13:58:38	memory release	time:16
+2018-3-21 13:59:7	Load(oid)	time:12043	total:759	layername:Road
+2018-3-21 13:59:7	memory release	time:15
+2018-3-21 13:59:9	Load(oid)	time:1872	total:860	layername:Junction
+2018-3-21 13:59:9	memory release	time:15
+2018-3-21 13:59:38	Load(oid)	time:12714	total:759	layername:Road
+2018-3-21 13:59:38	memory release	time:15
+2018-3-21 13:59:40	Load(oid)	time:2590	total:860	layername:Junction
+2018-3-21 13:59:40	memory release	time:15
+2018-3-21 14:0:8	Load(oid)	time:12527	total:759	layername:Road
+2018-3-21 14:0:8	memory release	time:15
+2018-3-21 14:0:10	Load(oid)	time:1950	total:860	layername:Junction
+2018-3-21 14:0:10	memory release	time:0
+2018-3-21 14:0:38	Load(oid)	time:13370	total:759	layername:Road
+2018-3-21 14:0:38	memory release	time:16
+2018-3-21 14:0:42	Load(oid)	time:3900	total:860	layername:Junction
+2018-3-21 14:0:42	memory release	time:0
+2018-3-21 14:1:10	Load(oid)	time:12761	total:759	layername:Road
+2018-3-21 14:1:10	memory release	time:15
+2018-3-21 14:1:13	Load(oid)	time:2262	total:860	layername:Junction
+2018-3-21 14:1:13	memory release	time:0
+2018-3-21 14:1:41	Load(oid)	time:15289	total:759	layername:Road
+2018-3-21 14:1:41	memory release	time:15
+2018-3-21 14:1:43	Load(oid)	time:2418	total:860	layername:Junction
+2018-3-21 14:1:43	memory release	time:16
+2018-3-21 14:2:17	Load(oid)	time:12464	total:759	layername:Road
+2018-3-21 14:2:17	memory release	time:16
+2018-3-21 14:2:19	Load(oid)	time:1918	total:860	layername:Junction
+2018-3-21 14:2:19	memory release	time:0
+2018-3-21 14:2:47	Load(oid)	time:12043	total:759	layername:Road
+2018-3-21 14:2:47	memory release	time:0
+2018-3-21 14:2:49	Load(oid)	time:1872	total:860	layername:Junction
+2018-3-21 14:2:49	memory release	time:15
+2018-3-21 14:3:17	Load(oid)	time:12075	total:759	layername:Road
+2018-3-21 14:3:17	memory release	time:16
+2018-3-21 14:3:19	Load(oid)	time:1872	total:860	layername:Junction
+2018-3-21 14:3:19	memory release	time:0
+2018-3-21 14:3:47	Load(oid)	time:12105	total:759	layername:Road
+2018-3-21 14:3:47	memory release	time:15
+2018-3-21 14:3:49	Load(oid)	time:1966	total:860	layername:Junction
+2018-3-21 14:3:49	memory release	time:16
+2018-3-21 14:4:18	Load(oid)	time:13166	total:759	layername:Road
+2018-3-21 14:4:18	memory release	time:16
+2018-3-21 14:4:20	Load(oid)	time:1996	total:860	layername:Junction
+2018-3-21 14:4:21	memory release	time:16
+2018-3-21 14:4:48	Load(oid)	time:12558	total:759	layername:Road
+2018-3-21 14:4:48	memory release	time:15
+2018-3-21 14:4:50	Load(oid)	time:1950	total:860	layername:Junction
+2018-3-21 14:4:50	memory release	time:0
+2018-3-21 14:5:19	Load(oid)	time:13478	total:759	layername:Road
+2018-3-21 14:5:19	memory release	time:15
+2018-3-21 14:5:21	Load(oid)	time:1950	total:860	layername:Junction
+2018-3-21 14:5:21	memory release	time:0
+2018-3-21 14:5:47	Load(oid)	time:11965	total:759	layername:Road
+2018-3-21 14:5:47	memory release	time:0
+2018-3-21 14:5:49	Load(oid)	time:1918	total:860	layername:Junction
+2018-3-21 14:5:49	memory release	time:0
+2018-3-21 14:6:17	Load(oid)	time:11966	total:759	layername:Road
+2018-3-21 14:6:17	memory release	time:16
+2018-3-21 14:6:19	Load(oid)	time:1919	total:860	layername:Junction
+2018-3-21 14:6:19	memory release	time:0
+2018-3-21 14:6:49	Load(oid)	time:13822	total:759	layername:Road
+2018-3-21 14:6:49	memory release	time:16
+2018-3-21 14:6:51	Load(oid)	time:1888	total:860	layername:Junction
+2018-3-21 14:6:51	memory release	time:0
+2018-3-21 14:7:17	Load(oid)	time:11996	total:759	layername:Road
+2018-3-21 14:7:17	memory release	time:16
+2018-3-21 14:7:20	Load(oid)	time:3229	total:860	layername:Junction
+2018-3-21 14:7:20	memory release	time:0
+2018-3-21 14:7:48	Load(oid)	time:12605	total:759	layername:Road
+2018-3-21 14:7:48	memory release	time:16
+2018-3-21 14:7:50	Load(oid)	time:2075	total:860	layername:Junction
+2018-3-21 14:7:50	memory release	time:0
+2018-3-21 14:8:17	Load(oid)	time:12059	total:759	layername:Road
+2018-3-21 14:8:17	memory release	time:15
+2018-3-21 14:8:19	Load(oid)	time:1904	total:860	layername:Junction
+2018-3-21 14:8:19	memory release	time:0
+2018-3-21 14:8:47	Load(oid)	time:12012	total:759	layername:Road
+2018-3-21 14:8:47	memory release	time:15
+2018-3-21 14:8:49	Load(oid)	time:1904	total:860	layername:Junction
+2018-3-21 14:8:49	memory release	time:0
+2018-3-21 14:9:17	Load(oid)	time:12215	total:759	layername:Road
+2018-3-21 14:9:17	memory release	time:15
+2018-3-21 14:9:20	Load(oid)	time:2309	total:860	layername:Junction
+2018-3-21 14:9:20	memory release	time:0
+2018-3-21 14:9:49	Load(oid)	time:13635	total:759	layername:Road
+2018-3-21 14:9:49	memory release	time:16
+2018-3-21 14:9:51	Load(oid)	time:1934	total:860	layername:Junction
+2018-3-21 14:9:51	memory release	time:16
+2018-3-21 14:10:19	Load(oid)	time:12886	total:759	layername:Road
+2018-3-21 14:10:19	memory release	time:15
+2018-3-21 14:10:21	Load(oid)	time:1888	total:860	layername:Junction
+2018-3-21 14:10:21	memory release	time:16
+2018-3-21 14:10:47	Load(oid)	time:11980	total:759	layername:Road
+2018-3-21 14:10:47	memory release	time:16
+2018-3-21 14:10:49	Load(oid)	time:1903	total:860	layername:Junction
+2018-3-21 14:10:49	memory release	time:15
+2018-3-21 14:11:18	Load(oid)	time:12745	total:759	layername:Road
+2018-3-21 14:11:18	memory release	time:16
+2018-3-21 14:11:22	Load(oid)	time:3541	total:860	layername:Junction
+2018-3-21 14:11:22	memory release	time:0
+2018-3-21 14:11:49	Load(oid)	time:13837	total:759	layername:Road
+2018-3-21 14:11:49	memory release	time:16
+2018-3-21 14:11:52	Load(oid)	time:2964	total:860	layername:Junction
+2018-3-21 14:11:52	memory release	time:0
+2018-3-21 14:12:19	Load(oid)	time:12995	total:759	layername:Road
+2018-3-21 14:12:19	memory release	time:16
+2018-3-21 14:12:21	Load(oid)	time:2527	total:860	layername:Junction
+2018-3-21 14:12:21	memory release	time:16
+2018-3-21 14:12:52	Load(oid)	time:15412	total:759	layername:Road
+2018-3-21 14:12:52	memory release	time:16
+2018-3-21 14:12:57	Load(oid)	time:4617	total:860	layername:Junction
+2018-3-21 14:12:57	memory release	time:0
+2018-3-21 14:13:29	Load(oid)	time:12496	total:759	layername:Road
+2018-3-21 14:13:29	memory release	time:16
+2018-3-21 14:13:32	Load(oid)	time:3229	total:860	layername:Junction
+2018-3-21 14:13:32	memory release	time:0
+2018-3-21 14:14:1	Load(oid)	time:14477	total:759	layername:Road
+2018-3-21 14:14:1	memory release	time:16
+2018-3-21 14:14:5	Load(oid)	time:3510	total:860	layername:Junction
+2018-3-21 14:14:5	memory release	time:0
+2018-3-21 14:14:40	Load(oid)	time:14477	total:759	layername:Road
+2018-3-21 14:14:40	memory release	time:16
+2018-3-21 14:14:43	Load(oid)	time:2543	total:860	layername:Junction
+2018-3-21 14:14:43	memory release	time:0
+2018-3-21 14:15:10	Load(oid)	time:13744	total:759	layername:Road
+2018-3-21 14:15:10	memory release	time:16
+2018-3-21 14:15:13	Load(oid)	time:2761	total:860	layername:Junction
+2018-3-21 14:15:13	memory release	time:0
+2018-3-21 14:15:48	Load(oid)	time:20749	total:759	layername:Road
+2018-3-21 14:15:48	memory release	time:16
+2018-3-21 14:15:51	Load(oid)	time:3307	total:860	layername:Junction
+2018-3-21 14:15:51	memory release	time:15
+2018-3-21 14:16:22	Load(oid)	time:13775	total:759	layername:Road
+2018-3-21 14:16:22	memory release	time:16
+2018-3-21 14:16:26	Load(oid)	time:3307	total:860	layername:Junction
+2018-3-21 14:16:26	memory release	time:0
+2018-3-21 14:17:5	Load(oid)	time:17425	total:759	layername:Road
+2018-3-21 14:17:5	memory release	time:0
+2018-3-21 14:17:8	Load(oid)	time:2871	total:860	layername:Junction
+2018-3-21 14:17:8	memory release	time:0
+2018-3-21 14:17:40	Load(oid)	time:13322	total:759	layername:Road
+2018-3-21 14:17:40	memory release	time:0
+2018-3-21 14:17:43	Load(oid)	time:2184	total:860	layername:Junction
+2018-3-21 14:17:43	memory release	time:0
+2018-3-21 14:18:9	Load(oid)	time:13479	total:759	layername:Road
+2018-3-21 14:18:9	memory release	time:15
+2018-3-21 14:18:12	Load(oid)	time:2231	total:860	layername:Junction
+2018-3-21 14:18:12	memory release	time:0
+2018-3-21 14:18:39	Load(oid)	time:12090	total:759	layername:Road
+2018-3-21 14:18:39	memory release	time:15
+2018-3-21 14:18:41	Load(oid)	time:1904	total:860	layername:Junction
+2018-3-21 14:18:41	memory release	time:16
+2018-3-21 14:19:9	Load(oid)	time:13479	total:759	layername:Road
+2018-3-21 14:19:9	memory release	time:16
+2018-3-21 14:19:12	Load(oid)	time:2558	total:860	layername:Junction
+2018-3-21 14:19:12	memory release	time:15
+2018-3-21 14:19:39	Load(oid)	time:12729	total:759	layername:Road
+2018-3-21 14:19:39	memory release	time:16
+2018-3-21 14:19:42	Load(oid)	time:2652	total:860	layername:Junction
+2018-3-21 14:19:42	memory release	time:16
+2018-3-21 14:20:11	Load(oid)	time:14493	total:759	layername:Road
+2018-3-21 14:20:11	memory release	time:16
+2018-3-21 14:20:36	Load(oid)	time:25256	total:860	layername:Junction
+2018-3-21 14:20:36	memory release	time:0
+2018-3-21 14:21:12	Load(oid)	time:14680	total:759	layername:Road
+2018-3-21 14:21:12	memory release	time:16
+2018-3-21 14:21:14	Load(oid)	time:2309	total:860	layername:Junction
+2018-3-21 14:21:14	memory release	time:0
+2018-3-21 14:21:54	Load(oid)	time:15148	total:759	layername:Road
+2018-3-21 14:21:54	memory release	time:16
+2018-3-21 14:21:57	Load(oid)	time:3292	total:860	layername:Junction
+2018-3-21 14:21:57	memory release	time:0
+2018-3-21 14:22:33	Load(oid)	time:13494	total:759	layername:Road
+2018-3-21 14:22:33	memory release	time:0
+2018-3-21 14:22:36	Load(oid)	time:3261	total:860	layername:Junction
+2018-3-21 14:22:36	memory release	time:0
+2018-3-21 14:23:11	Load(oid)	time:13993	total:759	layername:Road
+2018-3-21 14:23:12	memory release	time:15
+2018-3-21 14:23:14	Load(oid)	time:2028	total:860	layername:Junction
+2018-3-21 14:23:14	memory release	time:0
+2018-3-21 14:23:44	Load(oid)	time:16192	total:759	layername:Road
+2018-3-21 14:23:44	memory release	time:15
+2018-3-21 14:23:47	Load(oid)	time:2995	total:860	layername:Junction
+2018-3-21 14:23:47	memory release	time:16
+2018-3-21 14:24:22	Load(oid)	time:14430	total:759	layername:Road
+2018-3-21 14:24:22	memory release	time:15
+2018-3-21 14:24:28	Load(oid)	time:5991	total:860	layername:Junction
+2018-3-21 14:24:28	memory release	time:16
+2018-3-21 14:25:4	Load(oid)	time:15944	total:759	layername:Road
+2018-3-21 14:25:4	memory release	time:16
+2018-3-21 14:25:8	Load(oid)	time:4243	total:860	layername:Junction
+2018-3-21 14:25:8	memory release	time:0
+2018-3-21 14:25:45	Load(oid)	time:15584	total:759	layername:Road
+2018-3-21 14:25:45	memory release	time:16
+2018-3-21 14:25:49	Load(oid)	time:3572	total:860	layername:Junction
+2018-3-21 14:25:49	memory release	time:16
+2018-3-21 14:26:23	Load(oid)	time:16224	total:759	layername:Road
+2018-3-21 14:26:23	memory release	time:16
+2018-3-21 14:26:28	Load(oid)	time:5429	total:860	layername:Junction
+2018-3-21 14:26:28	memory release	time:0
+2018-3-21 14:27:1	Load(oid)	time:13167	total:759	layername:Road
+2018-3-21 14:27:1	memory release	time:15
+2018-3-21 14:27:3	Load(oid)	time:1857	total:860	layername:Junction
+2018-3-21 14:27:3	memory release	time:0
+2018-3-21 14:27:30	Load(oid)	time:13666	total:759	layername:Road
+2018-3-21 14:27:30	memory release	time:16
+2018-3-21 14:27:32	Load(oid)	time:2262	total:860	layername:Junction
+2018-3-21 14:27:33	memory release	time:0
+2018-3-21 14:27:58	Load(oid)	time:12012	total:759	layername:Road
+2018-3-21 14:27:58	memory release	time:16
+2018-3-21 14:28:0	Load(oid)	time:1872	total:860	layername:Junction
+2018-3-21 14:28:0	memory release	time:16
+2018-3-21 14:28:29	Load(oid)	time:12652	total:759	layername:Road
+2018-3-21 14:28:29	memory release	time:0
+2018-3-21 14:28:31	Load(oid)	time:1919	total:860	layername:Junction
+2018-3-21 14:28:31	memory release	time:0
+2018-3-21 14:28:58	Load(oid)	time:12074	total:759	layername:Road
+2018-3-21 14:28:58	memory release	time:16
+2018-3-21 14:29:2	Load(oid)	time:3291	total:860	layername:Junction
+2018-3-21 14:29:2	memory release	time:0
+2018-3-21 14:29:34	Load(oid)	time:16021	total:759	layername:Road
+2018-3-21 14:29:34	memory release	time:0
+2018-3-21 14:29:37	Load(oid)	time:3541	total:860	layername:Junction
+2018-3-21 14:29:37	memory release	time:16
+2018-3-21 14:30:9	Load(oid)	time:12449	total:759	layername:Road
+2018-3-21 14:30:9	memory release	time:16
+2018-3-21 14:30:11	Load(oid)	time:2262	total:860	layername:Junction
+2018-3-21 14:30:11	memory release	time:0
+2018-3-21 14:30:41	Load(oid)	time:13447	total:759	layername:Road
+2018-3-21 14:30:41	memory release	time:15
+2018-3-21 14:30:45	Load(oid)	time:4384	total:860	layername:Junction
+2018-3-21 14:30:45	memory release	time:0
+2018-3-21 14:31:12	Load(oid)	time:14197	total:759	layername:Road
+2018-3-21 14:31:12	memory release	time:16
+2018-3-21 14:31:14	Load(oid)	time:2605	total:860	layername:Junction
+2018-3-21 14:31:14	memory release	time:0
+2018-3-21 14:31:40	Load(oid)	time:13385	total:759	layername:Road
+2018-3-21 14:31:40	memory release	time:15
+2018-3-21 14:31:45	Load(oid)	time:4899	total:860	layername:Junction
+2018-3-21 14:31:45	memory release	time:0
+2018-3-21 14:32:11	Load(oid)	time:14867	total:759	layername:Road
+2018-3-21 14:32:11	memory release	time:16
+2018-3-21 14:32:13	Load(oid)	time:2308	total:860	layername:Junction
+2018-3-21 14:32:14	memory release	time:0
+2018-3-21 14:32:41	Load(oid)	time:14368	total:759	layername:Road
+2018-3-21 14:32:41	memory release	time:16
+2018-3-21 14:32:43	Load(oid)	time:1997	total:860	layername:Junction
+2018-3-21 14:32:43	memory release	time:0
+2018-3-21 14:39:29	Load(oid)	time:391859	total:759	layername:Road
+2018-3-21 14:39:29	memory release	time:15
+2018-3-21 14:39:32	Load(oid)	time:3027	total:860	layername:Junction
+2018-3-21 14:39:32	memory release	time:0
+2018-3-21 14:40:5	Load(oid)	time:15506	total:759	layername:Road
+2018-3-21 14:40:5	memory release	time:16
+2018-3-21 14:40:8	Load(oid)	time:3073	total:860	layername:Junction
+2018-3-21 14:40:8	memory release	time:15
+2018-3-21 14:45:18	Load(oid)	time:13884	total:759	layername:Road
+2018-3-21 14:45:18	memory release	time:0
+2018-3-21 14:45:22	Load(oid)	time:3760	total:860	layername:Junction
+2018-3-21 14:45:22	memory release	time:15
+2018-3-21 14:45:52	Load(oid)	time:13478	total:759	layername:Road
+2018-3-21 14:45:52	memory release	time:15
+2018-3-21 14:45:55	Load(oid)	time:3214	total:860	layername:Junction
+2018-3-21 14:45:55	memory release	time:0
+2018-3-21 14:50:47	Load(oid)	time:14306	total:759	layername:Road
+2018-3-21 14:50:47	memory release	time:16
+2018-3-21 14:50:50	Load(oid)	time:2699	total:860	layername:Junction
+2018-3-21 14:50:50	memory release	time:0
+2018-3-21 14:51:25	Load(oid)	time:13697	total:759	layername:Road
+2018-3-21 14:51:25	memory release	time:16
+2018-3-21 14:51:28	Load(oid)	time:2948	total:860	layername:Junction
+2018-3-21 14:51:28	memory release	time:0
+2018-3-21 14:52:2	Load(oid)	time:13728	total:759	layername:Road
+2018-3-21 14:52:2	memory release	time:0
+2018-3-21 14:52:6	Load(oid)	time:3604	total:860	layername:Junction
+2018-3-21 14:52:6	memory release	time:0
+2018-3-21 14:52:33	Load(oid)	time:14555	total:759	layername:Road
+2018-3-21 14:52:34	memory release	time:15
+2018-3-21 14:52:37	Load(oid)	time:3932	total:860	layername:Junction
+2018-3-21 14:52:37	memory release	time:0
+2018-3-21 14:54:46	Load(oid)	time:106517	total:759	layername:Road
+2018-3-21 14:54:46	memory release	time:16
+2018-3-21 14:54:48	Load(oid)	time:1903	total:860	layername:Junction
+2018-3-21 14:54:48	memory release	time:0
+2018-3-21 14:55:21	Load(oid)	time:13479	total:759	layername:Road
+2018-3-21 14:55:21	memory release	time:15
+2018-3-21 14:55:23	Load(oid)	time:1982	total:860	layername:Junction
+2018-3-21 14:55:23	memory release	time:0
+2018-3-21 14:55:50	Load(oid)	time:12465	total:759	layername:Road
+2018-3-21 14:55:50	memory release	time:16
+2018-3-21 14:55:52	Load(oid)	time:2278	total:860	layername:Junction
+2018-3-21 14:55:53	memory release	time:0
+2018-3-21 14:58:35	Load(oid)	time:145783	total:759	layername:Road
+2018-3-21 14:58:35	memory release	time:15
+2018-3-21 14:58:38	Load(oid)	time:3542	total:860	layername:Junction
+2018-3-21 14:58:38	memory release	time:0
+2018-3-21 14:59:13	Load(oid)	time:14602	total:759	layername:Road
+2018-3-21 14:59:13	memory release	time:15
+2018-3-21 14:59:16	Load(oid)	time:3604	total:860	layername:Junction
+2018-3-21 14:59:16	memory release	time:0
+2018-3-21 14:59:52	Load(oid)	time:13900	total:759	layername:Road
+2018-3-21 14:59:52	memory release	time:15
+2018-3-21 14:59:55	Load(oid)	time:2684	total:860	layername:Junction
+2018-3-21 14:59:55	memory release	time:0
+2018-3-21 15:0:26	Load(oid)	time:17020	total:759	layername:Road
+2018-3-21 15:0:26	memory release	time:16
+2018-3-21 15:0:28	Load(oid)	time:2371	total:860	layername:Junction
+2018-3-21 15:0:28	memory release	time:0
+2018-3-21 15:1:0	Load(oid)	time:12059	total:759	layername:Road
+2018-3-21 15:1:0	memory release	time:15
+2018-3-21 15:1:2	Load(oid)	time:1982	total:860	layername:Junction
+2018-3-21 15:1:2	memory release	time:0
+2018-3-21 15:1:30	Load(oid)	time:12324	total:759	layername:Road
+2018-3-21 15:1:30	memory release	time:16
+2018-3-21 15:1:33	Load(oid)	time:2246	total:860	layername:Junction
+2018-3-21 15:1:33	memory release	time:15
+2018-3-21 15:2:0	Load(oid)	time:12090	total:759	layername:Road
+2018-3-21 15:2:0	memory release	time:15
+2018-3-21 15:2:2	Load(oid)	time:1919	total:860	layername:Junction
+2018-3-21 15:2:2	memory release	time:15
+2018-3-21 15:2:30	Load(oid)	time:12043	total:759	layername:Road
+2018-3-21 15:2:30	memory release	time:0
+2018-3-21 15:2:32	Load(oid)	time:1934	total:860	layername:Junction
+2018-3-21 15:2:32	memory release	time:0
+2018-3-21 15:3:0	Load(oid)	time:11935	total:759	layername:Road
+2018-3-21 15:3:0	memory release	time:0
+2018-3-21 15:3:2	Load(oid)	time:1887	total:860	layername:Junction
+2018-3-21 15:3:2	memory release	time:16
+2018-3-21 15:3:30	Load(oid)	time:12090	total:759	layername:Road
+2018-3-21 15:3:30	memory release	time:15
+2018-3-21 15:3:32	Load(oid)	time:1857	total:860	layername:Junction
+2018-3-21 15:3:32	memory release	time:0
+2018-3-21 15:4:3	Load(oid)	time:15133	total:759	layername:Road
+2018-3-21 15:4:3	memory release	time:16
+2018-3-21 15:4:6	Load(oid)	time:2730	total:860	layername:Junction
+2018-3-21 15:4:6	memory release	time:16
+2018-3-21 15:4:31	Load(oid)	time:12745	total:759	layername:Road
+2018-3-21 15:4:31	memory release	time:0
+2018-3-21 15:4:33	Load(oid)	time:1919	total:860	layername:Junction
+2018-3-21 15:4:33	memory release	time:0
+2018-3-21 15:9:14	Load(oid)	time:259383	total:759	layername:Road
+2018-3-21 15:9:14	memory release	time:15
+2018-3-21 15:9:17	Load(oid)	time:2637	total:860	layername:Junction
+2018-3-21 15:9:17	memory release	time:0
+2018-3-21 15:9:43	Load(oid)	time:12683	total:759	layername:Road
+2018-3-21 15:9:43	memory release	time:15
+2018-3-21 15:9:45	Load(oid)	time:2340	total:860	layername:Junction
+2018-3-21 15:9:45	memory release	time:0
+2018-3-21 15:10:15	Load(oid)	time:16115	total:759	layername:Road
+2018-3-21 15:10:15	memory release	time:15
+2018-3-21 15:10:20	Load(oid)	time:4462	total:860	layername:Junction
+2018-3-21 15:10:20	memory release	time:0
+2018-3-21 15:10:53	Load(oid)	time:13681	total:759	layername:Road
+2018-3-21 15:10:53	memory release	time:16
+2018-3-21 15:10:56	Load(oid)	time:2589	total:860	layername:Junction
+2018-3-21 15:10:56	memory release	time:0
+2018-3-21 15:11:21	Load(oid)	time:12402	total:759	layername:Road
+2018-3-21 15:11:21	memory release	time:16
+2018-3-21 15:11:23	Load(oid)	time:1872	total:860	layername:Junction
+2018-3-21 15:11:23	memory release	time:0
+2018-3-21 15:11:52	Load(oid)	time:13541	total:759	layername:Road
+2018-3-21 15:11:52	memory release	time:16
+2018-3-21 15:11:55	Load(oid)	time:2574	total:860	layername:Junction
+2018-3-21 15:11:55	memory release	time:0
+2018-3-21 15:12:23	Load(oid)	time:14367	total:759	layername:Road
+2018-3-21 15:12:23	memory release	time:0
+2018-3-21 15:12:27	Load(oid)	time:3260	total:860	layername:Junction
+2018-3-21 15:12:27	memory release	time:0
+2018-3-21 15:12:55	Load(oid)	time:13947	total:759	layername:Road
+2018-3-21 15:12:55	memory release	time:16
+2018-3-21 15:12:57	Load(oid)	time:2215	total:860	layername:Junction
+2018-3-21 15:12:57	memory release	time:0
+2018-3-21 15:13:24	Load(oid)	time:14118	total:759	layername:Road
+2018-3-21 15:13:24	memory release	time:15
+2018-3-21 15:13:27	Load(oid)	time:2637	total:860	layername:Junction
+2018-3-21 15:13:27	memory release	time:0
+2018-3-21 15:13:51	Load(oid)	time:12793	total:759	layername:Road
+2018-3-21 15:13:51	memory release	time:0
+2018-3-21 15:13:55	Load(oid)	time:3837	total:860	layername:Junction
+2018-3-21 15:13:55	memory release	time:0
+2018-3-21 15:14:25	Load(oid)	time:14570	total:759	layername:Road
+2018-3-21 15:14:25	memory release	time:15
+2018-3-21 15:14:29	Load(oid)	time:3838	total:860	layername:Junction
+2018-3-21 15:14:29	memory release	time:0
+2018-3-21 15:15:2	Load(oid)	time:13587	total:759	layername:Road
+2018-3-21 15:15:2	memory release	time:16
+2018-3-21 15:15:5	Load(oid)	time:2324	total:860	layername:Junction
+2018-3-21 15:15:5	memory release	time:0
+2018-3-21 15:15:31	Load(oid)	time:12761	total:759	layername:Road
+2018-3-21 15:15:31	memory release	time:32
+2018-3-21 15:15:34	Load(oid)	time:2293	total:860	layername:Junction
+2018-3-21 15:15:34	memory release	time:0
+2018-3-21 15:16:3	Load(oid)	time:13385	total:759	layername:Road
+2018-3-21 15:16:3	memory release	time:15
+2018-3-21 15:16:6	Load(oid)	time:2918	total:860	layername:Junction
+2018-3-21 15:16:6	memory release	time:16
+2018-3-21 15:16:32	Load(oid)	time:13276	total:759	layername:Road
+2018-3-21 15:16:32	memory release	time:16
+2018-3-21 15:16:34	Load(oid)	time:1934	total:860	layername:Junction
+2018-3-21 15:16:34	memory release	time:0
+2018-3-21 15:17:2	Load(oid)	time:13541	total:759	layername:Road
+2018-3-21 15:17:2	memory release	time:16
+2018-3-21 15:17:5	Load(oid)	time:2356	total:860	layername:Junction
+2018-3-21 15:17:5	memory release	time:16
+2018-3-21 15:19:37	Load(oid)	time:126891	total:759	layername:Road
+2018-3-21 15:19:37	memory release	time:16
+2018-3-21 15:19:40	Load(oid)	time:2605	total:860	layername:Junction
+2018-3-21 15:19:40	memory release	time:16
+2018-3-21 15:20:13	Load(oid)	time:13759	total:759	layername:Road
+2018-3-21 15:20:13	memory release	time:15
+2018-3-21 15:20:17	Load(oid)	time:4680	total:860	layername:Junction
+2018-3-21 15:20:17	memory release	time:0
+2018-3-21 15:20:53	Load(oid)	time:13323	total:759	layername:Road
+2018-3-21 15:20:53	memory release	time:16
+2018-3-21 15:20:56	Load(oid)	time:3010	total:860	layername:Junction
+2018-3-21 15:20:57	memory release	time:0
+2018-3-21 15:21:29	Load(oid)	time:15974	total:759	layername:Road
+2018-3-21 15:21:29	memory release	time:15
+2018-3-21 15:21:32	Load(oid)	time:3339	total:866	layername:Junction
+2018-3-21 15:21:32	memory release	time:0
+2018-3-21 15:22:2	Load(oid)	time:13182	total:759	layername:Road
+2018-3-21 15:22:2	memory release	time:15
+2018-3-21 15:22:5	Load(oid)	time:2637	total:866	layername:Junction
+2018-3-21 15:22:5	memory release	time:0
+2018-3-21 15:22:32	Load(oid)	time:12807	total:759	layername:Road
+2018-3-21 15:22:32	memory release	time:16
+2018-3-21 15:22:35	Load(oid)	time:2667	total:866	layername:Junction
+2018-3-21 15:22:35	memory release	time:0
+2018-3-21 15:23:4	Load(oid)	time:14664	total:759	layername:Road
+2018-3-21 15:23:4	memory release	time:15
+2018-3-21 15:30:11	Load(oid)	time:427287	total:866	layername:Junction
+2018-3-21 15:30:11	memory release	time:0
+2018-3-21 15:30:41	Load(oid)	time:11996	total:759	layername:Road
+2018-3-21 15:30:41	memory release	time:16
+2018-3-21 15:30:43	Load(oid)	time:1919	total:866	layername:Junction
+2018-3-21 15:30:43	memory release	time:0
+2018-3-21 15:31:11	Load(oid)	time:12027	total:759	layername:Road
+2018-3-21 15:31:12	memory release	time:16
+2018-3-21 15:31:13	Load(oid)	time:1872	total:866	layername:Junction
+2018-3-21 15:31:13	memory release	time:0
+2018-3-21 15:31:51	Load(oid)	time:21996	total:759	layername:Road
+2018-3-21 15:31:51	memory release	time:15
+2018-3-21 15:31:53	Load(oid)	time:1919	total:866	layername:Junction
+2018-3-21 15:31:53	memory release	time:0
+2018-3-21 15:32:22	Load(oid)	time:12964	total:759	layername:Road
+2018-3-21 15:32:22	memory release	time:16
+2018-3-21 15:32:24	Load(oid)	time:1887	total:866	layername:Junction
+2018-3-21 15:32:24	memory release	time:0
+2018-3-21 15:32:51	Load(oid)	time:12106	total:759	layername:Road
+2018-3-21 15:32:51	memory release	time:16
+2018-3-21 15:32:54	Load(oid)	time:2106	total:866	layername:Junction
+2018-3-21 15:32:54	memory release	time:16
+2018-3-21 15:33:21	Load(oid)	time:11965	total:759	layername:Road
+2018-3-21 15:33:21	memory release	time:15
+2018-3-21 15:33:23	Load(oid)	time:1857	total:866	layername:Junction
+2018-3-21 15:33:23	memory release	time:0
+2018-3-21 15:33:52	Load(oid)	time:12121	total:759	layername:Road
+2018-3-21 15:33:52	memory release	time:15
+2018-3-21 15:33:54	Load(oid)	time:2637	total:866	layername:Junction
+2018-3-21 15:33:54	memory release	time:0
+2018-3-21 15:34:22	Load(oid)	time:12355	total:759	layername:Road
+2018-3-21 15:34:22	memory release	time:16
+2018-3-21 15:34:24	Load(oid)	time:2278	total:866	layername:Junction
+2018-3-21 15:34:24	memory release	time:0
+2018-3-21 15:34:52	Load(oid)	time:12137	total:759	layername:Road
+2018-3-21 15:34:52	memory release	time:16
+2018-3-21 15:34:54	Load(oid)	time:1919	total:866	layername:Junction
+2018-3-21 15:34:54	memory release	time:16
+2018-3-21 15:35:22	Load(oid)	time:12152	total:759	layername:Road
+2018-3-21 15:35:22	memory release	time:16
+2018-3-21 15:35:24	Load(oid)	time:1919	total:866	layername:Junction
+2018-3-21 15:35:24	memory release	time:0
+2018-3-21 15:35:51	Load(oid)	time:11980	total:759	layername:Road
+2018-3-21 15:35:51	memory release	time:16
+2018-3-21 15:35:53	Load(oid)	time:1934	total:866	layername:Junction
+2018-3-21 15:35:53	memory release	time:0
+2018-3-21 15:36:22	Load(oid)	time:12106	total:759	layername:Road
+2018-3-21 15:36:22	memory release	time:15
+2018-3-21 15:36:24	Load(oid)	time:2262	total:866	layername:Junction
+2018-3-21 15:36:24	memory release	time:0
+2018-3-21 15:36:52	Load(oid)	time:12153	total:759	layername:Road
+2018-3-21 15:36:52	memory release	time:15
+2018-3-21 15:36:54	Load(oid)	time:1935	total:866	layername:Junction
+2018-3-21 15:36:54	memory release	time:0
+2018-3-21 15:39:24	Load(oid)	time:12480	total:759	layername:Road
+2018-3-21 15:39:24	memory release	time:15
+2018-3-21 15:39:28	Load(oid)	time:3292	total:866	layername:Junction
+2018-3-21 15:39:28	memory release	time:0
+2018-3-21 15:39:52	Load(oid)	time:12480	total:759	layername:Road
+2018-3-21 15:39:52	memory release	time:15
+2018-3-21 15:39:54	Load(oid)	time:1903	total:866	layername:Junction
+2018-3-21 15:39:54	memory release	time:0
+2018-3-21 15:40:22	Load(oid)	time:12074	total:759	layername:Road
+2018-3-21 15:40:22	memory release	time:16
+2018-3-21 15:40:24	Load(oid)	time:1918	total:866	layername:Junction
+2018-3-21 15:40:24	memory release	time:16
+2018-3-21 15:40:52	Load(oid)	time:12043	total:759	layername:Road
+2018-3-21 15:40:52	memory release	time:15
+2018-3-21 15:40:54	Load(oid)	time:1888	total:866	layername:Junction
+2018-3-21 15:40:54	memory release	time:0
+2018-3-21 15:41:23	Load(oid)	time:12995	total:759	layername:Road
+2018-3-21 15:41:23	memory release	time:15
+2018-3-21 15:41:25	Load(oid)	time:1966	total:866	layername:Junction
+2018-3-21 15:41:25	memory release	time:0
+2018-3-21 15:41:52	Load(oid)	time:12527	total:759	layername:Road
+2018-3-21 15:41:52	memory release	time:16
+2018-3-21 15:41:55	Load(oid)	time:2230	total:866	layername:Junction
+2018-3-21 15:41:55	memory release	time:0
+2018-3-21 15:48:6	Load(oid)	time:356166	total:759	layername:Road
+2018-3-21 15:48:6	memory release	time:0
+2018-3-21 15:48:8	Load(oid)	time:2028	total:866	layername:Junction
+2018-3-21 15:48:8	memory release	time:0
+2018-3-21 15:50:39	Load(oid)	time:109513	total:759	layername:Road
+2018-3-21 15:50:39	memory release	time:16
+2018-3-21 15:50:41	Load(oid)	time:1872	total:866	layername:Junction
+2018-3-21 15:50:41	memory release	time:0
+2018-3-21 15:51:12	Load(oid)	time:12168	total:759	layername:Road
+2018-3-21 15:51:12	memory release	time:15
+2018-3-21 15:51:14	Load(oid)	time:1888	total:866	layername:Junction
+2018-3-21 15:51:14	memory release	time:0
+2018-3-21 15:51:42	Load(oid)	time:11997	total:759	layername:Road
+2018-3-21 15:51:42	memory release	time:15
+2018-3-21 15:51:44	Load(oid)	time:1966	total:866	layername:Junction
+2018-3-21 15:51:44	memory release	time:0
+2018-3-21 15:52:12	Load(oid)	time:12027	total:759	layername:Road
+2018-3-21 15:52:12	memory release	time:16
+2018-3-21 15:52:14	Load(oid)	time:1919	total:866	layername:Junction
+2018-3-21 15:52:14	memory release	time:0
+2018-3-21 15:52:43	Load(oid)	time:12495	total:759	layername:Road
+2018-3-21 15:52:43	memory release	time:16
+2018-3-21 15:52:45	Load(oid)	time:2340	total:866	layername:Junction
+2018-3-21 15:52:45	memory release	time:0
+2018-3-21 15:53:16	Load(oid)	time:15725	total:759	layername:Road
+2018-3-21 15:53:16	memory release	time:16
+2018-3-21 15:53:18	Load(oid)	time:2059	total:866	layername:Junction
+2018-3-21 15:53:18	memory release	time:0
+2018-3-21 15:53:44	Load(oid)	time:13214	total:759	layername:Road
+2018-3-21 15:53:44	memory release	time:16
+2018-3-21 15:53:46	Load(oid)	time:2605	total:866	layername:Junction
+2018-3-21 15:53:46	memory release	time:0
+2018-3-21 15:54:14	Load(oid)	time:12933	total:759	layername:Road
+2018-3-21 15:54:14	memory release	time:16
+2018-3-21 15:54:17	Load(oid)	time:3042	total:866	layername:Junction
+2018-3-21 15:54:17	memory release	time:0
+2018-3-21 15:58:53	Load(oid)	time:261645	total:759	layername:Road
+2018-3-21 15:58:53	memory release	time:0
+2018-3-21 15:58:55	Load(oid)	time:1919	total:866	layername:Junction
+2018-3-21 15:58:55	memory release	time:0
+2018-3-21 15:59:23	Load(oid)	time:12121	total:759	layername:Road
+2018-3-21 15:59:23	memory release	time:16
+2018-3-21 15:59:25	Load(oid)	time:2278	total:866	layername:Junction
+2018-3-21 15:59:25	memory release	time:0
+2018-3-21 15:59:54	Load(oid)	time:12761	total:759	layername:Road
+2018-3-21 15:59:54	memory release	time:16
+2018-3-21 15:59:56	Load(oid)	time:2324	total:866	layername:Junction
+2018-3-21 15:59:56	memory release	time:15
+2018-3-21 16:0:23	Load(oid)	time:12074	total:759	layername:Road
+2018-3-21 16:0:23	memory release	time:16
+2018-3-21 16:0:25	Load(oid)	time:1919	total:866	layername:Junction
+2018-3-21 16:0:25	memory release	time:0
+2018-3-21 16:0:53	Load(oid)	time:12074	total:759	layername:Road
+2018-3-21 16:0:53	memory release	time:15
+2018-3-21 16:0:55	Load(oid)	time:1919	total:866	layername:Junction
+2018-3-21 16:0:55	memory release	time:0
+2018-3-21 16:1:27	Load(oid)	time:14492	total:759	layername:Road
+2018-3-21 16:1:28	memory release	time:15
+2018-3-21 16:1:30	Load(oid)	time:2028	total:866	layername:Junction
+2018-3-21 16:1:30	memory release	time:0
+2018-3-21 16:2:3	Load(oid)	time:12075	total:759	layername:Road
+2018-3-21 16:2:3	memory release	time:16
+2018-3-21 16:2:5	Load(oid)	time:2309	total:866	layername:Junction
+2018-3-21 16:2:6	memory release	time:16
+2018-3-21 16:2:33	Load(oid)	time:12090	total:759	layername:Road
+2018-3-21 16:2:33	memory release	time:16
+2018-3-21 16:2:35	Load(oid)	time:1903	total:866	layername:Junction
+2018-3-21 16:2:35	memory release	time:16
+2018-3-21 16:3:3	Load(oid)	time:12074	total:759	layername:Road
+2018-3-21 16:3:3	memory release	time:15
+2018-3-21 16:3:5	Load(oid)	time:1950	total:866	layername:Junction
+2018-3-21 16:3:5	memory release	time:0
+2018-3-21 16:3:35	Load(oid)	time:13260	total:759	layername:Road
+2018-3-21 16:3:35	memory release	time:15
+2018-3-21 16:3:37	Load(oid)	time:2652	total:866	layername:Junction
+2018-3-21 16:3:37	memory release	time:0
+2018-3-21 16:4:4	Load(oid)	time:12870	total:759	layername:Road
+2018-3-21 16:4:4	memory release	time:15
+2018-3-21 16:4:6	Load(oid)	time:2262	total:866	layername:Junction
+2018-3-21 16:4:6	memory release	time:0
+2018-3-21 16:4:34	Load(oid)	time:12963	total:759	layername:Road
+2018-3-21 16:4:34	memory release	time:16
+2018-3-21 16:4:38	Load(oid)	time:4227	total:866	layername:Junction
+2018-3-21 16:4:38	memory release	time:0
+2018-3-21 16:5:3	Load(oid)	time:12074	total:759	layername:Road
+2018-3-21 16:5:3	memory release	time:15
+2018-3-21 16:5:5	Load(oid)	time:1935	total:866	layername:Junction
+2018-3-21 16:5:5	memory release	time:16
+2018-3-21 16:5:33	Load(oid)	time:12059	total:759	layername:Road
+2018-3-21 16:5:33	memory release	time:15
+2018-3-21 16:5:35	Load(oid)	time:1950	total:866	layername:Junction
+2018-3-21 16:5:35	memory release	time:16
+2018-3-21 16:6:3	Load(oid)	time:12059	total:759	layername:Road
+2018-3-21 16:6:3	memory release	time:16
+2018-3-21 16:6:5	Load(oid)	time:2309	total:866	layername:Junction
+2018-3-21 16:6:5	memory release	time:0
+2018-3-21 16:6:33	Load(oid)	time:12012	total:759	layername:Road
+2018-3-21 16:6:33	memory release	time:15
+2018-3-21 16:6:35	Load(oid)	time:1919	total:866	layername:Junction
+2018-3-21 16:6:35	memory release	time:0
+2018-3-21 16:7:3	Load(oid)	time:11934	total:759	layername:Road
+2018-3-21 16:7:3	memory release	time:0
+2018-3-21 16:7:5	Load(oid)	time:1935	total:866	layername:Junction
+2018-3-21 16:7:5	memory release	time:16
+2018-3-21 16:7:33	Load(oid)	time:12043	total:759	layername:Road
+2018-3-21 16:7:33	memory release	time:16
+2018-3-21 16:7:35	Load(oid)	time:1919	total:866	layername:Junction
+2018-3-21 16:7:35	memory release	time:0
+2018-3-21 16:8:3	Load(oid)	time:12152	total:759	layername:Road
+2018-3-21 16:8:3	memory release	time:16
+2018-3-21 16:8:5	Load(oid)	time:1918	total:866	layername:Junction
+2018-3-21 16:8:5	memory release	time:0
+2018-3-21 16:8:33	Load(oid)	time:12184	total:759	layername:Road
+2018-3-21 16:8:33	memory release	time:15
+2018-3-21 16:8:35	Load(oid)	time:2013	total:866	layername:Junction
+2018-3-21 16:8:35	memory release	time:16
+2018-3-21 16:9:43	Load(oid)	time:31949	total:759	layername:Road
+2018-3-21 16:9:43	memory release	time:15
+2018-3-21 16:9:45	Load(oid)	time:1982	total:866	layername:Junction
+2018-3-21 16:9:45	memory release	time:0
+2018-3-21 16:10:13	Load(oid)	time:12122	total:759	layername:Road
+2018-3-21 16:10:13	memory release	time:16
+2018-3-21 16:10:15	Load(oid)	time:1950	total:866	layername:Junction
+2018-3-21 16:10:15	memory release	time:0
+2018-3-21 16:10:43	Load(oid)	time:12121	total:759	layername:Road
+2018-3-21 16:10:43	memory release	time:15
+2018-3-21 16:10:45	Load(oid)	time:1935	total:866	layername:Junction
+2018-3-21 16:10:45	memory release	time:16
+2018-3-21 16:11:13	Load(oid)	time:12121	total:759	layername:Road
+2018-3-21 16:11:13	memory release	time:15
+2018-3-21 16:11:15	Load(oid)	time:1903	total:866	layername:Junction
+2018-3-21 16:11:15	memory release	time:0
+2018-3-21 16:14:13	Load(oid)	time:138248	total:759	layername:Road
+2018-3-21 16:14:13	memory release	time:16
+2018-3-21 16:14:15	Load(oid)	time:1872	total:866	layername:Junction
+2018-3-21 16:14:15	memory release	time:0
+2018-3-21 16:14:44	Load(oid)	time:12886	total:759	layername:Road
+2018-3-21 16:14:44	memory release	time:0
+2018-3-21 16:14:48	Load(oid)	time:3260	total:866	layername:Junction
+2018-3-21 16:14:48	memory release	time:0
+2018-3-21 16:15:16	Load(oid)	time:13775	total:759	layername:Road
+2018-3-21 16:15:16	memory release	time:0
+2018-3-21 16:15:19	Load(oid)	time:2917	total:866	layername:Junction
+2018-3-21 16:15:19	memory release	time:0
+2018-3-21 16:15:46	Load(oid)	time:14024	total:759	layername:Road
+2018-3-21 16:15:46	memory release	time:16
+2018-3-21 16:15:48	Load(oid)	time:1934	total:866	layername:Junction
+2018-3-21 16:15:48	memory release	time:15
+2018-3-21 16:16:14	Load(oid)	time:12074	total:759	layername:Road
+2018-3-21 16:16:14	memory release	time:16
+2018-3-21 16:16:16	Load(oid)	time:1872	total:866	layername:Junction
+2018-3-21 16:16:16	memory release	time:0
+2018-3-21 16:16:44	Load(oid)	time:12043	total:759	layername:Road
+2018-3-21 16:16:44	memory release	time:15
+2018-3-21 16:16:46	Load(oid)	time:1935	total:866	layername:Junction
+2018-3-21 16:16:46	memory release	time:0
+2018-3-21 16:17:15	Load(oid)	time:13463	total:759	layername:Road
+2018-3-21 16:17:15	memory release	time:16
+2018-3-21 16:17:17	Load(oid)	time:1918	total:866	layername:Junction
+2018-3-21 16:17:17	memory release	time:0
+2018-3-21 16:17:45	Load(oid)	time:13245	total:759	layername:Road
+2018-3-21 16:17:45	memory release	time:16
+2018-3-21 16:17:47	Load(oid)	time:1934	total:866	layername:Junction
+2018-3-21 16:17:47	memory release	time:16
+2018-3-21 16:18:14	Load(oid)	time:12403	total:759	layername:Road
+2018-3-21 16:18:14	memory release	time:16
+2018-3-21 16:18:16	Load(oid)	time:1919	total:866	layername:Junction
+2018-3-21 16:18:16	memory release	time:0
+2018-3-21 16:18:45	Load(oid)	time:13525	total:759	layername:Road
+2018-3-21 16:18:45	memory release	time:15
+2018-3-21 16:18:47	Load(oid)	time:1982	total:866	layername:Junction
+2018-3-21 16:18:47	memory release	time:0
+2018-3-21 16:19:14	Load(oid)	time:12184	total:759	layername:Road
+2018-3-21 16:19:14	memory release	time:0
+2018-3-21 16:19:16	Load(oid)	time:2340	total:866	layername:Junction
+2018-3-21 16:19:16	memory release	time:16
+2018-3-21 16:19:45	Load(oid)	time:12558	total:759	layername:Road
+2018-3-21 16:19:45	memory release	time:16
+2018-3-21 16:19:47	Load(oid)	time:1934	total:866	layername:Junction
+2018-3-21 16:19:47	memory release	time:15
+2018-3-21 16:20:15	Load(oid)	time:12854	total:759	layername:Road
+2018-3-21 16:20:15	memory release	time:16
+2018-3-21 16:20:17	Load(oid)	time:1934	total:866	layername:Junction
+2018-3-21 16:20:17	memory release	time:0
+2018-3-21 16:20:44	Load(oid)	time:12137	total:759	layername:Road
+2018-3-21 16:20:44	memory release	time:15
+2018-3-21 16:20:46	Load(oid)	time:1950	total:866	layername:Junction
+2018-3-21 16:20:46	memory release	time:16
+2018-3-21 16:21:29	Load(oid)	time:26894	total:759	layername:Road
+2018-3-21 16:21:29	memory release	time:16
+2018-3-21 16:21:46	Load(oid)	time:17425	total:866	layername:Junction
+2018-3-21 16:21:46	memory release	time:0
+2018-3-21 16:22:14	Load(oid)	time:12199	total:759	layername:Road
+2018-3-21 16:22:14	memory release	time:15
+2018-3-21 16:22:16	Load(oid)	time:1872	total:866	layername:Junction
+2018-3-21 16:22:16	memory release	time:0
+2018-3-21 16:22:44	Load(oid)	time:12261	total:759	layername:Road
+2018-3-21 16:22:44	memory release	time:16
+2018-3-21 16:22:46	Load(oid)	time:1950	total:866	layername:Junction
+2018-3-21 16:22:46	memory release	time:0
+2018-3-21 16:23:14	Load(oid)	time:12434	total:759	layername:Road
+2018-3-21 16:23:15	memory release	time:16
+2018-3-21 16:23:16	Load(oid)	time:1950	total:866	layername:Junction
+2018-3-21 16:23:17	memory release	time:0
+2018-3-21 16:23:44	Load(oid)	time:12121	total:759	layername:Road
+2018-3-21 16:23:44	memory release	time:16
+2018-3-21 16:23:46	Load(oid)	time:1918	total:866	layername:Junction
+2018-3-21 16:23:46	memory release	time:0
+2018-3-21 16:24:15	Load(oid)	time:12823	total:759	layername:Road
+2018-3-21 16:24:15	memory release	time:15
+2018-3-21 16:24:17	Load(oid)	time:2013	total:866	layername:Junction
+2018-3-21 16:24:17	memory release	time:0
+2018-3-21 16:24:44	Load(oid)	time:11996	total:759	layername:Road
+2018-3-21 16:24:44	memory release	time:0
+2018-3-21 16:24:46	Load(oid)	time:1934	total:866	layername:Junction
+2018-3-21 16:24:46	memory release	time:0
+2018-3-21 16:25:15	Load(oid)	time:12153	total:759	layername:Road
+2018-3-21 16:25:15	memory release	time:16
+2018-3-21 16:25:17	Load(oid)	time:2293	total:866	layername:Junction
+2018-3-21 16:25:17	memory release	time:15
+2018-3-21 16:25:44	Load(oid)	time:12074	total:759	layername:Road
+2018-3-21 16:25:44	memory release	time:16
+2018-3-21 16:25:46	Load(oid)	time:1966	total:866	layername:Junction
+2018-3-21 16:25:46	memory release	time:0
+2018-3-21 16:26:15	Load(oid)	time:12855	total:759	layername:Road
+2018-3-21 16:26:16	memory release	time:16
+2018-3-21 16:26:18	Load(oid)	time:2308	total:866	layername:Junction
+2018-3-21 16:26:18	memory release	time:0
+2018-3-21 16:34:36	Load(oid)	time:71106	total:759	layername:Road
+2018-3-21 16:34:36	memory release	time:16
+2018-3-21 16:34:38	Load(oid)	time:1997	total:866	layername:Junction
+2018-3-21 16:34:38	memory release	time:16
+2018-3-22 10:8:42	SDE create	time:1482
+2018-3-22 10:14:3	Load(oid)	time:259897	total:9714	layername:Road
+2018-3-22 10:14:21	memory release	time:16334
+2018-3-22 10:18:31	Load(oid)	time:250008	total:9741	layername:Road
+2018-3-22 10:18:52	memory release	time:20951
+2018-3-22 10:20:8	Load(oid)	time:75848	total:1484	layername:Road
+2018-3-22 10:20:8	memory release	time:63
+2018-3-22 10:21:32	Load(oid)	time:83679	total:9832	layername:Junction
+2018-3-22 10:21:33	memory release	time:156
+2018-3-22 10:22:48	Load(oid)	time:75286	total:7707	layername:Junction
+2018-3-22 10:22:48	memory release	time:94
+2018-3-27 10:32:13	SDE create	time:1794
+2018-3-27 10:37:58	Load(oid)	time:31700	total:87	layername:Road
+2018-3-27 10:37:58	memory release	time:15
+2018-3-27 10:37:59	Load(oid)	time:1311	total:89	layername:Junction
+2018-3-27 10:37:59	memory release	time:0
+2018-3-27 10:38:40	Load(oid)	time:18970	total:87	layername:Road
+2018-3-27 10:38:40	memory release	time:0
+2018-3-27 10:38:41	Load(oid)	time:1248	total:89	layername:Junction
+2018-3-27 10:38:41	memory release	time:0
+2018-3-27 10:40:57	Load(oid)	time:115472	total:87	layername:Road
+2018-3-27 10:40:57	memory release	time:0
+2018-3-27 10:40:59	Load(oid)	time:1810	total:89	layername:Junction
+2018-3-27 10:40:59	memory release	time:15
+2018-3-27 10:41:23	Load(oid)	time:11107	total:87	layername:Road
+2018-3-27 10:41:23	memory release	time:0
+2018-3-27 10:41:24	Load(oid)	time:889	total:89	layername:Junction
+2018-3-27 10:41:24	memory release	time:0
+2018-3-27 10:42:0	Load(oid)	time:18065	total:87	layername:Road
+2018-3-27 10:42:0	memory release	time:0
+2018-3-27 10:42:1	Load(oid)	time:406	total:89	layername:Junction
+2018-3-27 10:42:1	memory release	time:0
+2018-3-27 10:42:42	Load(oid)	time:19609	total:87	layername:Road
+2018-3-27 10:42:42	memory release	time:16
+2018-3-27 10:42:44	Load(oid)	time:1279	total:89	layername:Junction
+2018-3-27 10:42:44	memory release	time:0
+2018-3-27 10:44:28	Load(oid)	time:85660	total:87	layername:Road
+2018-3-27 10:44:28	memory release	time:0
+2018-3-27 10:44:29	Load(oid)	time:936	total:89	layername:Junction
+2018-3-27 10:44:29	memory release	time:0
+2018-3-27 10:45:10	Load(oid)	time:27956	total:87	layername:Road
+2018-3-27 10:45:10	memory release	time:15
+2018-3-27 10:45:14	Load(oid)	time:3978	total:89	layername:Junction
+2018-3-27 10:45:14	memory release	time:0
+2018-3-27 10:45:56	Load(oid)	time:25038	total:87	layername:Road
+2018-3-27 10:45:56	memory release	time:0
+2018-3-27 10:45:58	Load(oid)	time:1778	total:89	layername:Junction
+2018-3-27 10:45:58	memory release	time:0
+2018-3-27 10:46:29	Load(oid)	time:16910	total:87	layername:Road
+2018-3-27 10:46:29	memory release	time:0
+2018-3-27 10:46:29	Load(oid)	time:327	total:89	layername:Junction
+2018-3-27 10:46:29	memory release	time:0
+2018-3-27 10:46:53	Load(oid)	time:11607	total:87	layername:Road
+2018-3-27 10:46:53	memory release	time:0
+2018-3-27 10:46:53	Load(oid)	time:421	total:89	layername:Junction
+2018-3-27 10:46:53	memory release	time:0
+2018-3-27 10:47:20	Load(oid)	time:8674	total:87	layername:Road
+2018-3-27 10:47:21	memory release	time:0
+2018-3-27 10:47:21	Load(oid)	time:780	total:89	layername:Junction
+2018-3-27 10:47:21	memory release	time:0
+2018-3-27 10:47:49	Load(oid)	time:7442	total:87	layername:Road
+2018-3-27 10:47:49	memory release	time:0
+2018-3-27 10:47:49	Load(oid)	time:343	total:89	layername:Junction
+2018-3-27 10:47:49	memory release	time:0
+2018-3-27 10:48:13	Load(oid)	time:11310	total:87	layername:Road
+2018-3-27 10:48:13	memory release	time:0
+2018-3-27 10:48:13	Load(oid)	time:452	total:89	layername:Junction
+2018-3-27 10:48:13	memory release	time:0
+2018-3-27 10:48:42	Load(oid)	time:10967	total:87	layername:Road
+2018-3-27 10:48:42	memory release	time:0
+2018-3-27 10:48:43	Load(oid)	time:484	total:89	layername:Junction
+2018-3-27 10:48:43	memory release	time:0
+2018-3-27 10:49:14	Load(oid)	time:12574	total:87	layername:Road
+2018-3-27 10:49:14	memory release	time:0
+2018-3-27 10:49:15	Load(oid)	time:1124	total:89	layername:Junction
+2018-3-27 10:49:15	memory release	time:15
+2018-3-27 10:49:47	Load(oid)	time:15741	total:87	layername:Road
+2018-3-27 10:49:47	memory release	time:15
+2018-3-27 10:49:49	Load(oid)	time:1763	total:89	layername:Junction
+2018-3-27 10:49:49	memory release	time:0
+2018-3-27 10:50:55	Load(oid)	time:53212	total:87	layername:Road
+2018-3-27 10:50:55	memory release	time:0
+2018-3-27 10:50:56	Load(oid)	time:858	total:89	layername:Junction
+2018-3-27 10:50:56	memory release	time:0
+2018-3-27 10:51:25	Load(oid)	time:12870	total:87	layername:Road
+2018-3-27 10:51:25	memory release	time:0
+2018-3-27 10:51:25	Load(oid)	time:483	total:89	layername:Junction
+2018-3-27 10:51:25	memory release	time:0
+2018-3-27 10:51:50	Load(oid)	time:8221	total:87	layername:Road
+2018-3-27 10:51:50	memory release	time:0
+2018-3-27 10:51:50	Load(oid)	time:359	total:89	layername:Junction
+2018-3-27 10:51:50	memory release	time:0
+2018-3-27 10:52:12	Load(oid)	time:10421	total:87	layername:Road
+2018-3-27 10:52:12	memory release	time:15
+2018-3-27 10:52:12	Load(oid)	time:281	total:89	layername:Junction
+2018-3-27 10:52:12	memory release	time:0
+2018-3-27 10:52:51	Load(oid)	time:18408	total:87	layername:Road
+2018-3-27 10:52:51	memory release	time:16
+2018-3-27 10:52:51	Load(oid)	time:530	total:89	layername:Junction
+2018-3-27 10:52:51	memory release	time:0
+2018-3-27 10:53:20	Load(oid)	time:7987	total:87	layername:Road
+2018-3-27 10:53:20	memory release	time:0
+2018-3-27 10:53:21	Load(oid)	time:515	total:89	layername:Junction
+2018-3-27 10:53:21	memory release	time:15
+2018-3-27 10:53:54	Load(oid)	time:12667	total:87	layername:Road
+2018-3-27 10:53:54	memory release	time:0
+2018-3-27 10:53:56	Load(oid)	time:1482	total:89	layername:Junction
+2018-3-27 10:53:56	memory release	time:0
+2018-3-27 10:54:20	Load(oid)	time:8611	total:87	layername:Road
+2018-3-27 10:54:20	memory release	time:0
+2018-3-27 10:54:21	Load(oid)	time:328	total:89	layername:Junction
+2018-3-27 10:54:21	memory release	time:0
+2018-3-27 10:54:52	Load(oid)	time:10233	total:87	layername:Road
+2018-3-27 10:54:52	memory release	time:0
+2018-3-27 10:54:53	Load(oid)	time:780	total:89	layername:Junction
+2018-3-27 10:54:53	memory release	time:0
+2018-3-27 10:55:20	Load(oid)	time:7769	total:87	layername:Road
+2018-3-27 10:55:20	memory release	time:16
+2018-3-27 10:55:21	Load(oid)	time:889	total:89	layername:Junction
+2018-3-27 10:55:21	memory release	time:0
+2018-3-27 10:55:51	Load(oid)	time:8768	total:87	layername:Road
+2018-3-27 10:55:51	memory release	time:15
+2018-3-27 10:55:52	Load(oid)	time:1576	total:89	layername:Junction
+2018-3-27 10:55:52	memory release	time:0
+2018-3-27 10:56:18	Load(oid)	time:6006	total:87	layername:Road
+2018-3-27 10:56:18	memory release	time:0
+2018-3-27 10:56:18	Load(oid)	time:343	total:89	layername:Junction
+2018-3-27 10:56:18	memory release	time:0
+2018-3-27 10:56:45	Load(oid)	time:12730	total:87	layername:Road
+2018-3-27 10:56:45	memory release	time:0
+2018-3-27 10:56:45	Load(oid)	time:453	total:89	layername:Junction
+2018-3-27 10:56:45	memory release	time:0
+2018-3-27 10:57:10	Load(oid)	time:7722	total:87	layername:Road
+2018-3-27 10:57:10	memory release	time:0
+2018-3-27 10:57:11	Load(oid)	time:983	total:89	layername:Junction
+2018-3-27 10:57:11	memory release	time:0
+2018-3-27 10:57:40	Load(oid)	time:8533	total:87	layername:Road
+2018-3-27 10:57:40	memory release	time:16
+2018-3-27 10:57:41	Load(oid)	time:436	total:89	layername:Junction
+2018-3-27 10:57:41	memory release	time:0
+2018-3-27 10:58:20	Load(oid)	time:18268	total:87	layername:Road
+2018-3-27 10:58:20	memory release	time:0
+2018-3-27 10:58:21	Load(oid)	time:437	total:89	layername:Junction
+2018-3-27 10:58:21	memory release	time:0
+2018-3-27 10:58:55	Load(oid)	time:13369	total:87	layername:Road
+2018-3-27 10:58:55	memory release	time:0
+2018-3-27 10:58:56	Load(oid)	time:749	total:89	layername:Junction
+2018-3-27 10:58:56	memory release	time:0
+2018-3-27 10:59:21	Load(oid)	time:8829	total:87	layername:Road
+2018-3-27 10:59:21	memory release	time:0
+2018-3-27 10:59:22	Load(oid)	time:1217	total:89	layername:Junction
+2018-3-27 10:59:22	memory release	time:0
+2018-3-27 10:59:52	Load(oid)	time:10062	total:87	layername:Road
+2018-3-27 10:59:52	memory release	time:0
+2018-3-27 10:59:53	Load(oid)	time:749	total:89	layername:Junction
+2018-3-27 10:59:53	memory release	time:0
+2018-3-27 11:0:21	Load(oid)	time:8564	total:87	layername:Road
+2018-3-27 11:0:21	memory release	time:0
+2018-3-27 11:0:21	Load(oid)	time:327	total:89	layername:Junction
+2018-3-27 11:0:21	memory release	time:0
+2018-3-27 11:0:40	Load(oid)	time:8331	total:87	layername:Road
+2018-3-27 11:0:40	memory release	time:0
+2018-3-27 11:0:41	Load(oid)	time:843	total:89	layername:Junction
+2018-3-27 11:0:41	memory release	time:0
+2018-3-27 11:1:3	Load(oid)	time:11325	total:87	layername:Road
+2018-3-27 11:1:3	memory release	time:16
+2018-3-27 11:1:4	Load(oid)	time:936	total:89	layername:Junction
+2018-3-27 11:1:4	memory release	time:0
+2018-3-27 11:1:32	Load(oid)	time:9750	total:87	layername:Road
+2018-3-27 11:1:32	memory release	time:16
+2018-3-27 11:1:32	Load(oid)	time:358	total:89	layername:Junction
+2018-3-27 11:1:32	memory release	time:0
+2018-3-27 11:1:59	Load(oid)	time:6427	total:87	layername:Road
+2018-3-27 11:1:59	memory release	time:0
+2018-3-27 11:1:59	Load(oid)	time:515	total:89	layername:Junction
+2018-3-27 11:1:59	memory release	time:0
+2018-3-27 11:2:17	Load(oid)	time:4430	total:87	layername:Road
+2018-3-27 11:2:17	memory release	time:16
+2018-3-27 11:2:17	Load(oid)	time:249	total:89	layername:Junction
+2018-3-27 11:2:17	memory release	time:0
+2018-3-27 11:2:36	Load(oid)	time:4009	total:87	layername:Road
+2018-3-27 11:2:36	memory release	time:0
+2018-3-27 11:2:36	Load(oid)	time:249	total:89	layername:Junction
+2018-3-27 11:2:36	memory release	time:0
+2018-3-27 11:2:56	Load(oid)	time:4087	total:87	layername:Road
+2018-3-27 11:2:56	memory release	time:16
+2018-3-27 11:2:57	Load(oid)	time:281	total:89	layername:Junction
+2018-3-27 11:2:57	memory release	time:0
+2018-3-27 11:3:16	Load(oid)	time:4118	total:87	layername:Road
+2018-3-27 11:3:16	memory release	time:0
+2018-3-27 11:3:17	Load(oid)	time:312	total:89	layername:Junction
+2018-3-27 11:3:17	memory release	time:0
+2018-3-27 11:3:36	Load(oid)	time:4009	total:87	layername:Road
+2018-3-27 11:3:36	memory release	time:0
+2018-3-27 11:3:37	Load(oid)	time:281	total:89	layername:Junction
+2018-3-27 11:3:37	memory release	time:0
+2018-3-27 11:3:57	Load(oid)	time:4072	total:87	layername:Road
+2018-3-27 11:3:57	memory release	time:16
+2018-3-27 11:3:57	Load(oid)	time:280	total:89	layername:Junction
+2018-3-27 11:3:57	memory release	time:0
+2018-3-27 11:4:16	Load(oid)	time:3946	total:87	layername:Road
+2018-3-27 11:4:16	memory release	time:16
+2018-3-27 11:4:17	Load(oid)	time:281	total:89	layername:Junction
+2018-3-27 11:4:17	memory release	time:0
+2018-3-27 11:4:36	Load(oid)	time:3932	total:87	layername:Road
+2018-3-27 11:4:36	memory release	time:0
+2018-3-27 11:4:36	Load(oid)	time:297	total:89	layername:Junction
+2018-3-27 11:4:36	memory release	time:0
+2018-3-27 11:4:57	Load(oid)	time:4524	total:87	layername:Road
+2018-3-27 11:4:57	memory release	time:0
+2018-3-27 11:4:57	Load(oid)	time:312	total:89	layername:Junction
+2018-3-27 11:4:57	memory release	time:0
+2018-3-27 11:5:16	Load(oid)	time:4243	total:87	layername:Road
+2018-3-27 11:5:16	memory release	time:0
+2018-3-27 11:5:17	Load(oid)	time:249	total:89	layername:Junction
+2018-3-27 11:5:17	memory release	time:0
+2018-3-27 11:5:36	Load(oid)	time:4103	total:87	layername:Road
+2018-3-27 11:5:36	memory release	time:0
+2018-3-27 11:5:37	Load(oid)	time:296	total:89	layername:Junction
+2018-3-27 11:5:37	memory release	time:0
+2018-3-27 11:5:56	Load(oid)	time:4025	total:87	layername:Road
+2018-3-27 11:5:57	memory release	time:15
+2018-3-27 11:5:57	Load(oid)	time:344	total:89	layername:Junction
+2018-3-27 11:5:57	memory release	time:0
+2018-3-27 11:6:17	Load(oid)	time:4025	total:87	layername:Road
+2018-3-27 11:6:17	memory release	time:0
+2018-3-27 11:6:17	Load(oid)	time:297	total:89	layername:Junction
+2018-3-27 11:6:17	memory release	time:0
+2018-3-27 11:6:37	Load(oid)	time:3994	total:87	layername:Road
+2018-3-27 11:6:37	memory release	time:0
+2018-3-27 11:6:38	Load(oid)	time:281	total:89	layername:Junction
+2018-3-27 11:6:38	memory release	time:0
+2018-3-27 11:6:56	Load(oid)	time:4025	total:87	layername:Road
+2018-3-27 11:6:56	memory release	time:0
+2018-3-27 11:6:57	Load(oid)	time:327	total:89	layername:Junction
+2018-3-27 11:6:57	memory release	time:0
+2018-3-27 11:7:18	Load(oid)	time:3915	total:87	layername:Road
+2018-3-27 11:7:18	memory release	time:0
+2018-3-27 11:7:19	Load(oid)	time:281	total:89	layername:Junction
+2018-3-27 11:7:19	memory release	time:0
+2018-3-27 11:7:36	Load(oid)	time:3978	total:87	layername:Road
+2018-3-27 11:7:36	memory release	time:0
+2018-3-27 11:7:37	Load(oid)	time:312	total:89	layername:Junction
+2018-3-27 11:7:37	memory release	time:0
+2018-3-27 11:7:56	Load(oid)	time:3884	total:87	layername:Road
+2018-3-27 11:7:56	memory release	time:0
+2018-3-27 11:7:57	Load(oid)	time:296	total:89	layername:Junction
+2018-3-27 11:7:57	memory release	time:0
+2018-3-27 11:8:16	Load(oid)	time:4103	total:87	layername:Road
+2018-3-27 11:8:17	memory release	time:0
+2018-3-27 11:8:17	Load(oid)	time:327	total:89	layername:Junction
+2018-3-27 11:8:17	memory release	time:0
+2018-3-27 11:8:36	Load(oid)	time:3947	total:87	layername:Road
+2018-3-27 11:8:36	memory release	time:15
+2018-3-27 11:8:37	Load(oid)	time:281	total:89	layername:Junction
+2018-3-27 11:8:37	memory release	time:0
+2018-3-27 11:8:56	Load(oid)	time:3962	total:87	layername:Road
+2018-3-27 11:8:56	memory release	time:0
+2018-3-27 11:8:57	Load(oid)	time:296	total:89	layername:Junction
+2018-3-27 11:8:57	memory release	time:0
+2018-3-27 11:9:16	Load(oid)	time:3963	total:87	layername:Road
+2018-3-27 11:9:16	memory release	time:15
+2018-3-27 11:9:17	Load(oid)	time:281	total:89	layername:Junction
+2018-3-27 11:9:17	memory release	time:0
+2018-3-27 11:9:36	Load(oid)	time:3962	total:87	layername:Road
+2018-3-27 11:9:36	memory release	time:16
+2018-3-27 11:9:37	Load(oid)	time:312	total:89	layername:Junction
+2018-3-27 11:9:37	memory release	time:0
+2018-3-27 11:9:56	Load(oid)	time:3978	total:87	layername:Road
+2018-3-27 11:9:56	memory release	time:0
+2018-3-27 11:9:57	Load(oid)	time:266	total:89	layername:Junction
+2018-3-27 11:9:57	memory release	time:0
+2018-3-27 11:10:16	Load(oid)	time:3993	total:87	layername:Road
+2018-3-27 11:10:16	memory release	time:16
+2018-3-27 11:10:17	Load(oid)	time:281	total:89	layername:Junction
+2018-3-27 11:10:17	memory release	time:0
+2018-3-27 11:10:36	Load(oid)	time:3947	total:87	layername:Road
+2018-3-27 11:10:36	memory release	time:0
+2018-3-27 11:10:37	Load(oid)	time:281	total:89	layername:Junction
+2018-3-27 11:10:37	memory release	time:0
+2018-3-27 11:10:57	Load(oid)	time:4306	total:87	layername:Road
+2018-3-27 11:10:57	memory release	time:0
+2018-3-27 11:10:57	Load(oid)	time:328	total:89	layername:Junction
+2018-3-27 11:10:57	memory release	time:0
+2018-3-27 11:11:17	Load(oid)	time:3963	total:87	layername:Road
+2018-3-27 11:11:17	memory release	time:0
+2018-3-27 11:11:17	Load(oid)	time:281	total:89	layername:Junction
+2018-3-27 11:11:17	memory release	time:0
+2018-3-27 11:11:37	Load(oid)	time:4524	total:87	layername:Road
+2018-3-27 11:11:37	memory release	time:15
+2018-3-27 11:11:37	Load(oid)	time:297	total:89	layername:Junction
+2018-3-27 11:11:37	memory release	time:0
+2018-3-27 11:11:57	Load(oid)	time:4181	total:87	layername:Road
+2018-3-27 11:11:57	memory release	time:0
+2018-3-27 11:11:57	Load(oid)	time:312	total:89	layername:Junction
+2018-3-27 11:11:57	memory release	time:16
+2018-3-27 11:12:18	Load(oid)	time:4009	total:87	layername:Road
+2018-3-27 11:12:18	memory release	time:0
+2018-3-27 11:12:19	Load(oid)	time:281	total:89	layername:Junction
+2018-3-27 11:12:19	memory release	time:0
+2018-3-27 11:12:37	Load(oid)	time:3946	total:87	layername:Road
+2018-3-27 11:12:37	memory release	time:0
+2018-3-27 11:12:37	Load(oid)	time:281	total:89	layername:Junction
+2018-3-27 11:12:37	memory release	time:0
+2018-3-27 11:12:57	Load(oid)	time:4025	total:87	layername:Road
+2018-3-27 11:12:57	memory release	time:0
+2018-3-27 11:12:57	Load(oid)	time:250	total:89	layername:Junction
+2018-3-27 11:12:57	memory release	time:0
+2018-3-27 11:13:17	Load(oid)	time:4025	total:87	layername:Road
+2018-3-27 11:13:17	memory release	time:0
+2018-3-27 11:13:18	Load(oid)	time:250	total:89	layername:Junction
+2018-3-27 11:13:18	memory release	time:0
+2018-3-27 11:13:37	Load(oid)	time:4056	total:87	layername:Road
+2018-3-27 11:13:37	memory release	time:15
+2018-3-27 11:13:37	Load(oid)	time:328	total:89	layername:Junction
+2018-3-27 11:13:37	memory release	time:0
+2018-3-27 11:13:57	Load(oid)	time:4150	total:87	layername:Road
+2018-3-27 11:13:57	memory release	time:0
+2018-3-27 11:13:57	Load(oid)	time:281	total:89	layername:Junction
+2018-3-27 11:13:57	memory release	time:0
+2018-3-27 11:14:17	Load(oid)	time:3884	total:87	layername:Road
+2018-3-27 11:14:17	memory release	time:0
+2018-3-27 11:14:17	Load(oid)	time:280	total:89	layername:Junction
+2018-3-27 11:14:17	memory release	time:0
+2018-3-27 11:14:37	Load(oid)	time:3931	total:87	layername:Road
+2018-3-27 11:14:37	memory release	time:0
+2018-3-27 11:14:37	Load(oid)	time:297	total:89	layername:Junction
+2018-3-27 11:14:37	memory release	time:15
+2018-3-27 11:14:57	Load(oid)	time:3978	total:87	layername:Road
+2018-3-27 11:14:57	memory release	time:0
+2018-3-27 11:14:58	Load(oid)	time:343	total:89	layername:Junction
+2018-3-27 11:14:58	memory release	time:0
+2018-3-27 11:15:17	Load(oid)	time:4446	total:87	layername:Road
+2018-3-27 11:15:17	memory release	time:0
+2018-3-27 11:15:18	Load(oid)	time:327	total:89	layername:Junction
+2018-3-27 11:15:18	memory release	time:15
+2018-3-27 11:15:37	Load(oid)	time:4477	total:87	layername:Road
+2018-3-27 11:15:37	memory release	time:16
+2018-3-27 11:15:38	Load(oid)	time:374	total:89	layername:Junction
+2018-3-27 11:15:38	memory release	time:0
+2018-3-27 11:15:57	Load(oid)	time:4009	total:87	layername:Road
+2018-3-27 11:15:57	memory release	time:0
+2018-3-27 11:15:57	Load(oid)	time:281	total:89	layername:Junction
+2018-3-27 11:15:57	memory release	time:0
+2018-3-27 11:16:17	Load(oid)	time:4508	total:87	layername:Road
+2018-3-27 11:16:17	memory release	time:0
+2018-3-27 11:16:18	Load(oid)	time:280	total:89	layername:Junction
+2018-3-27 11:16:18	memory release	time:0
+2018-3-27 11:16:37	Load(oid)	time:3962	total:87	layername:Road
+2018-3-27 11:16:37	memory release	time:0
+2018-3-27 11:16:37	Load(oid)	time:265	total:89	layername:Junction
+2018-3-27 11:16:37	memory release	time:0
+2018-3-27 11:16:57	Load(oid)	time:3915	total:87	layername:Road
+2018-3-27 11:16:57	memory release	time:16
+2018-3-27 11:16:57	Load(oid)	time:281	total:89	layername:Junction
+2018-3-27 11:16:57	memory release	time:0
+2018-3-28 15:13:59	SDE create	time:2060
+2018-3-28 15:14:35	SDE create	time:671
+2018-3-28 15:21:33	Load(oid)	time:453	total:1	layername:Road
+2018-3-28 15:21:33	memory release	time:15
+2018-3-28 15:21:33	Load(oid)	time:63	total:2	layername:Junction
+2018-3-28 15:21:33	memory release	time:0
+2018-3-28 15:51:29	SDE create	time:546
+2018-3-28 16:52:17	SDE create	time:624
+2018-3-28 16:53:12	SDE create	time:889
+2018-3-28 16:53:43	SDE create	time:686
+2018-3-28 17:0:6	SDE create	time:640
+2018-3-28 17:2:7	SDE create	time:702
+2018-3-28 17:3:38	Load(oid)	time:640	total:1	layername:Road
+2018-3-28 17:3:38	memory release	time:0
+2018-3-28 17:3:39	Load(oid)	time:94	total:2	layername:Junction
+2018-3-28 17:3:39	memory release	time:0
+2018-5-8 14:28:4	SDE create	time:1529
+2018-5-8 14:30:12	Load(oid)	time:10327	total:232	layername:Road
+2018-5-8 14:30:21	memory release	time:125
+2018-5-8 14:30:22	Load(oid)	time:561	total:202	layername:Junction
+2018-5-8 14:30:22	memory release	time:0

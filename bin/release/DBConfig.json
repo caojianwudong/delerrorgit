@@ -1,0 +1,47 @@
+{
+    "Conns": [
+        {
+            "ConnID": 1,
+            "ConnUrl": "192.168.0.237:5433@poi3_19",
+            "ConnUser": "postgres",
+            "ConnPassword": 123456
+        },
+        {
+            "ConnID": 2,
+            "ConnUrl": "192.168.0.237:5432@empdb",
+            "ConnUser": "root",
+            "ConnPassword": 123456
+        },
+
+		{
+			"ConnID": 4,
+            "ConnUrl": "111.203.245.106:5432@empdata",
+            "ConnUser": "root",
+            "ConnPassword": "a123456"
+		},
+		
+		{
+            "ConnID": 6,
+            "ConnUrl": "111.203.245.106:5432@pepro",
+            "ConnUser": "root",
+            "ConnPassword": "a123456"
+        }
+    ],
+    "Layers": [
+        {
+            "LayerName": "POI",
+            "DataSource": 1,
+            "ReferSource": 2,
+            "IDSource": 2
+        },
+		{
+            "LayerName": "Road",
+            "DataSource": 6,
+            "ReferSource": 4,
+            "IDSource": 4
+        },
+    ],
+    "DefaultDataSourceConn": 6,
+    "DefaultReferSourceConn": 4,
+    "DefaultIDSourceConn": 4
+}

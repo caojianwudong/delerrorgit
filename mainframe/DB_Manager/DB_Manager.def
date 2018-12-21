@@ -1,0 +1,7 @@
+; DB_Manager.def : Declares the module parameters for the DLL.
+
+LIBRARY      "DB_Manager"
+DESCRIPTION  'DB_Manager Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here

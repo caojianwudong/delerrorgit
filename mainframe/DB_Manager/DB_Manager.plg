@@ -1,0 +1,123 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DB_Manager - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"..\..\..\..\00object\Release\DB_Manager_new/DB_Manager.res" /d "NDEBUG" /d "_AFXDLL" "F:\Tools\postgres_tools\338 UpdateBlockState_postgres\01CODE\mainframe\DB_Manager\DB_Manager.rc"" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP2783.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "..\..\include\pq" /I "..\..\include\mysql" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fp"..\..\..\..\00object\Release\DB_Manager_new/DB_Manager.pch" /Yu"stdafx.h" /Fo"..\..\..\..\00object\Release\DB_Manager_new/" /Fd"..\..\..\..\00object\Release\DB_Manager_new/" /FD /c 
+"F:\Tools\postgres_tools\338 UpdateBlockState_postgres\01CODE\mainframe\DB_Manager\CDB_Manager.cpp"
+"F:\Tools\postgres_tools\338 UpdateBlockState_postgres\01CODE\mainframe\DB_Manager\DB_Manager.cpp"
+"F:\Tools\postgres_tools\338 UpdateBlockState_postgres\01CODE\mainframe\DB_Manager\DB_ResultSet.cpp"
+"F:\Tools\postgres_tools\338 UpdateBlockState_postgres\01CODE\mainframe\DB_Manager\DBConnection.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP2783.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP2784.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "..\..\include\pq" /I "..\..\include\mysql" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fp"..\..\..\..\00object\Release\DB_Manager_new/DB_Manager.pch" /Yc"stdafx.h" /Fo"..\..\..\..\00object\Release\DB_Manager_new/" /Fd"..\..\..\..\00object\Release\DB_Manager_new/" /FD /c 
+"F:\Tools\postgres_tools\338 UpdateBlockState_postgres\01CODE\mainframe\DB_Manager\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP2784.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP2785.tmp" with contents
+[
+..\..\lib\libpq.lib ..\..\lib\libmysql.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"..\..\..\..\00object\Release\DB_Manager_new/DB_Manager.pdb" /machine:I386 /def:".\DB_Manager.def" /out:"..\..\bin\release\DB_Manager.dll" /implib:"..\..\..\..\00object\Release\DB_Manager_new/DB_Manager.lib" 
+"\Tools\postgres_tools\00object\Release\DB_Manager_new\CDB_Manager.obj"
+"\Tools\postgres_tools\00object\Release\DB_Manager_new\DB_Manager.obj"
+"\Tools\postgres_tools\00object\Release\DB_Manager_new\DB_ResultSet.obj"
+"\Tools\postgres_tools\00object\Release\DB_Manager_new\DBConnection.obj"
+"\Tools\postgres_tools\00object\Release\DB_Manager_new\StdAfx.obj"
+"\Tools\postgres_tools\00object\Release\DB_Manager_new\DB_Manager.res"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP2785.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+CDB_Manager.cpp
+Generating Code...
+Compiling...
+DB_Manager.cpp
+Generating Code...
+Compiling...
+DB_ResultSet.cpp
+Generating Code...
+Compiling...
+DBConnection.cpp
+Generating Code...
+Linking...
+   Creating library ..\..\..\..\00object\Release\DB_Manager_new/DB_Manager.lib and object ..\..\..\..\00object\Release\DB_Manager_new/DB_Manager.exp
+
+
+
+<h3>Results</h3>
+DB_Manager.dll - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: DB_Manager - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"..\..\..\..\00object\Debug\DB_Manager_new/DB_Manager.res" /d "_DEBUG" /d "_AFXDLL" "F:\Tools\postgres_tools\338 UpdateBlockState_postgres\01CODE\mainframe\DB_Manager\DB_Manager.rc"" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP2D21.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\..\include\pq" /I "..\..\include\mysql" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fp"..\..\..\..\00object\Debug\DB_Manager_new/DB_Manager.pch" /Yu"stdafx.h" /Fo"..\..\..\..\00object\Debug\DB_Manager_new/" /Fd"..\..\..\..\00object\Debug\DB_Manager_new/" /FD /GZ /c 
+"F:\Tools\postgres_tools\338 UpdateBlockState_postgres\01CODE\mainframe\DB_Manager\CDB_Manager.cpp"
+"F:\Tools\postgres_tools\338 UpdateBlockState_postgres\01CODE\mainframe\DB_Manager\DB_Manager.cpp"
+"F:\Tools\postgres_tools\338 UpdateBlockState_postgres\01CODE\mainframe\DB_Manager\DB_ResultSet.cpp"
+"F:\Tools\postgres_tools\338 UpdateBlockState_postgres\01CODE\mainframe\DB_Manager\DBConnection.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP2D21.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP2D22.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\..\include\pq" /I "..\..\include\mysql" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fp"..\..\..\..\00object\Debug\DB_Manager_new/DB_Manager.pch" /Yc"stdafx.h" /Fo"..\..\..\..\00object\Debug\DB_Manager_new/" /Fd"..\..\..\..\00object\Debug\DB_Manager_new/" /FD /GZ /c 
+"F:\Tools\postgres_tools\338 UpdateBlockState_postgres\01CODE\mainframe\DB_Manager\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP2D22.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP2D23.tmp" with contents
+[
+..\..\lib\libpq.lib ..\..\lib\libmysql.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"..\..\..\..\00object\Debug\DB_Manager_new/DB_Manager.pdb" /debug /machine:I386 /def:".\DB_Manager.def" /out:"..\..\bin\Debug\DB_Manager.dll" /implib:"..\..\..\..\00object\Debug\DB_Manager_new/DB_Manager.lib" /pdbtype:sept 
+"\Tools\postgres_tools\00object\Debug\DB_Manager_new\CDB_Manager.obj"
+"\Tools\postgres_tools\00object\Debug\DB_Manager_new\DB_Manager.obj"
+"\Tools\postgres_tools\00object\Debug\DB_Manager_new\DB_ResultSet.obj"
+"\Tools\postgres_tools\00object\Debug\DB_Manager_new\DBConnection.obj"
+"\Tools\postgres_tools\00object\Debug\DB_Manager_new\StdAfx.obj"
+"\Tools\postgres_tools\00object\Debug\DB_Manager_new\DB_Manager.res"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP2D23.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+CDB_Manager.cpp
+Generating Code...
+Compiling...
+DB_Manager.cpp
+Generating Code...
+Compiling...
+DB_ResultSet.cpp
+Generating Code...
+Compiling...
+DBConnection.cpp
+Generating Code...
+Linking...
+   Creating library ..\..\..\..\00object\Debug\DB_Manager_new/DB_Manager.lib and object ..\..\..\..\00object\Debug\DB_Manager_new/DB_Manager.exp
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP3168.bat" with contents
+[
+@echo off
+copy ..\..\..\..\00object\Debug\DB_Manager_new\DB_Manager.lib  ..\..\lib
+]
+Creating command line "C:\Users\ADMINI~1\AppData\Local\Temp\RSP3168.bat"
+
+已复制         1 个文件。
+
+
+
+<h3>Results</h3>
+DB_Manager.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

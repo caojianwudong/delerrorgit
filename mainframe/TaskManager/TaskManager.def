@@ -1,0 +1,7 @@
+; TaskManager.def : Declares the module parameters for the DLL.
+
+LIBRARY      "TaskManager"
+DESCRIPTION  'TaskManager Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
